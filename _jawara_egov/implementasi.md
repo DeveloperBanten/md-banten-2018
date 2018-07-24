@@ -43,7 +43,7 @@ Adapun menu pada aplikasi JAWARA e-Gov adalah sebagai berikut:
 Pada bagian ini akan dijelaskan mengenai tata cara memasukan data hibah masuk sebagai data sumber melalui alamat situs yang telah disediakan.
 #### 2.2.1 Cara membuka situs
 Untuk memulai akses terhadap aplikasi Ehibah-Bansos ini:
-1.	Bukalah aplikasi E-Bansos melalui web browser dengan alamat url sebagai berikut : http://dev2018.bantenprov.go.id
+1.	Bukalah aplikasi Jawara e-Gov melalui web browser dengan alamat url sebagai berikut : http://dev2018.bantenprov.go.id
 2.	Kemudian tekan Enter pada tombol keyboard atau klik tombol GO pada browser.
 3.	Akan muncul tampilan halaman depan aplikasi E-Bansos sebagai berikut:
 
