@@ -31,11 +31,11 @@ Dokumen User Manual Apliksai JAWARA e-Gov ini dibuat untuk tujuan sebagai beriku
 ### 2.1 Struktur menu
 Adapun menu pada aplikasi JAWARA e-Gov adalah sebagai berikut:
 1. Menu Dashboard
-•	Provil Provinsi
-•	Provil Pemerintah
-•	Layanan Informasi
-•	Informasi Pembangunan Daerah
-•	Press Realease
+- Provil Provinsi
+- Provil Pemerintah
+- Layanan Informasi
+- Informasi Pembangunan Daerah
+- Press Realease
 2. Aplikasi Layanan Publik
 3. Aplikasi Tata Kelola Pemerintah
 
