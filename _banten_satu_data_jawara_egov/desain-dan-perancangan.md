@@ -6,10 +6,6 @@ toc: true
 comments: true
 ---
 
-## DAFTAR ISI
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 ## Abstrak
 
 Seiring dengan perkembangan zaman, saat ini kita telah memasuki era dimana informasi sangat penting untuk masyarakat. Demi membantu masyarakat dalam mencari segala informasi pemerintahan yang terdapat pada pemerintahan Provinsi Banten sehingga dibutuhkannya sebuah wadah bagi masyarakat dalam mencari informasi khususnya dalam ruang lingkup Provinsi Banten. 
