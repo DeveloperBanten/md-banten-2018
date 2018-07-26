@@ -4,16 +4,15 @@ title: "Integrasi dan Pengujian"
 date: 2018-05-16 16:25:06 +0700
 toc: true
 comments: true
-cat: Jawara E-Gov
 ---
 
 ## DAFTAR ISI
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## Integrasi dan Pengujian JAWARA e-Gov
+## Integrasi dan Pengujian Banten Satu Data JAWARA e-Gov
 
-JAWARA e-Gov adalah sebuah aplikasi sistem informasi Provinsi Banten yang berbasis android yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi dan pelayanan yang tersedia pada Pemerintahan Provinsi Banten.
+Banten Satu Data JAWARA e-Gov adalah sebuah aplikasi sistem informasi Provinsi Banten yang berbasis android yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi dan pelayanan yang tersedia pada Pemerintahan Provinsi Banten.
 
 ## 1. Integrasi JAWARA e-Gov
 Integrasi aplikasi dilakukan dengan:
