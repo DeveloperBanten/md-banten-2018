@@ -7,10 +7,6 @@ comments: true
 cat: Jawara E-Gov
 ---
 
-## DAFTAR ISI
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 ## Abstrak
 
 Pada akhir meledaknya bisnis dot-com pada tahun 1990-an, banyak pemerintah yang berkomitmen membuat situs portal sebagai layanan informasi bagi warganegara mereka. Di Amerika Serikat, portal utamanya adalah FirsGov.gov, di Inggris portal utama layanan informasi bagi warganegara adalah directgov dan busineslink.gov.uk untuk layanan informasi bisnis. Beberapa penelitian yang bersifat internasional dilakukan untuk mengukur kemampuan transaksional portal-portal ini, yang paling menyolok adalah penelitian yang diselenggarakan oleh Accenture. Website pemerintah daerah merupakan merupakan strategi *e-goverment* dengan sasaran agar maysarakat dapat dengan mudah memperoleh akses informasi. Untuk mencapai sasaran tersebut maka semua informasi perlu dikumpulkan dalam satu wadah portal web yang dapat dengan mudah diakses oleh masyarakat. dengan adanya web portal pemerintah ini dapat memudahkan masyarakat dalam mencari informasi tentang keadaan Pemerintah Banten dan tentang Provinsi Banten.
@@ -29,25 +25,25 @@ Pembuatan website bagi pemerintah daerah di Indonesia merupakan implementasi dar
 
 Pemerintahan yang baik harus memiliki sebuah wadah informasi yang dapat menjadi prasarana bagi masyarakat untuk mengetahui kegiatan kepemerintahan maupun info yang meliputi Profil Pemerintah, Profil Provinsi dan informasi-informasi lainnya yang dapat dibuka untuk umum yang nantinya akan terhubung langsung  terhubung dengan website yang ada.
 
-Saat ini belum terdapat portal yang menampung informasi yang ada di Banten sehingga jika mnasyarakat ingin mencari suatu informasi ia harus mencari website terkait dengan informasi yang dicari, sehingga agak merepotkan bagi masyarakat. Dengan adanya **JAWARA E-gov** ini diharapkan dapat membantu masyarakat dalam mencari informasi yang terdapat didalam pemerintahan Provinsi Banten.
+Saat ini belum terdapat portal yang menampung informasi yang ada di Banten sehingga jika mnasyarakat ingin mencari suatu informasi ia harus mencari website terkait dengan informasi yang dicari, sehingga agak merepotkan bagi masyarakat. Dengan adanya Portal **JAWARA E-gov** ini diharapkan dapat membantu masyarakat dalam mencari informasi yang terdapat didalam pemerintahan Provinsi Banten.
 
 ### 1.2 Tujuan
 
 Tujuan dari perancangan portal web ini adalah sebagai berikut:
 
-    1. Mempermudah masyarakat dalam mencari informasi
-    2. Untuk satu pintu bagi semua apliaksi OPD yang terdapat dipemerintahan Banten
+ 1. Mempermudah masyarakat dalam mencari informasi
+ 2. Untuk satu pintu bagi semua apliaksi OPD yang terdapat dipemerintahan Banten
 
 ### 1.3 Karakteristik Produk
 
-    1. dapat menyajikan informasi mengenai pemerintahan Provinsi Banten
-    2. Dikembangkan menggunakan *framework* atau biasa dikenal dengan berbasis web
-    3. *User Friendly* (menggunakan *interface* / antarmuka yang mudah digunakan oleh *user*
+ 1. dapat menyajikan informasi mengenai pemerintahan Provinsi Banten
+ 2. Dikembangkan menggunakan *framework* atau biasa dikenal dengan berbasis web
+ 3. *User Friendly* (menggunakan *interface* / antarmuka yang mudah digunakan oleh *user*
 
 ### 1.4 Keluaran yang diinginkan
 
-    1. Tersedianya situs portal pemerintah Provonsi Banten (JAWARA E-gov) bagi sistem informasi/aplikasi/website
-    2. Tersedianya dokumentasi API yang digunakan
+ 1. Tersedianya situs portal pemerintah Provonsi Banten (JAWARA E-gov) bagi sistem informasi/aplikasi/website
+ 2. Tersedianya dokumentasi API yang digunakan
 
 ## 2. METODE PENELITIAN
 
@@ -75,13 +71,13 @@ Tim pengembang aplikasi akan melakukan analisis jika diperlukan dapat dilakukan 
 
 ### 2.4 Ruang Lingkup Sistem Informasi / Aplikasi
 
-    1. Menyediakan situs portal pemerintah sebagai wadah bagi masyarakat dalam mencari informasi.
-    2. Menyediakan situs portal pemerintah sebagai wadah untuk semua informasi aplikasi yang terdapat di setiap dinas / OPD dilingkungan pemerintah provinsi Banten
+ 1. Menyediakan situs portal pemerintah sebagai wadah bagi masyarakat dalam mencari informasi.
+ 2. Menyediakan situs portal pemerintah sebagai wadah untuk semua informasi aplikasi yang terdapat di setiap dinas / OPD dilingkungan pemerintah provinsi Banten
 
 ### 2.5 Waktu dan Jadwal Pelaksanaan dan Lokasi Kegiatan
 
-    1. Waktu Pelaksanaan kegiatan : 4 bulan sejak dikeluarkan SPK sampai dengan Pemakaian
-    2. Lokasi Kegiatan : Kantor OPD terkait dan Dinas Komunikasi Informasi Statistika dan Persandian Pemerintah Provinsi Banten
+ 1. Waktu Pelaksanaan kegiatan : 4 bulan sejak dikeluarkan SPK sampai dengan Pemakaian
+ 2. Lokasi Kegiatan : Kantor OPD terkait dan Dinas Komunikasi Informasi Statistika dan Persandian Pemerintah Provinsi Banten
 
 ## 3. Hasil dan Pembahasan
 
