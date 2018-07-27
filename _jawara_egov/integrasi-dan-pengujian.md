@@ -11,11 +11,11 @@ cat: Jawara E-Gov
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-# Integrasi dan Pengujian JAWARA e-Gov
+## Integrasi dan Pengujian Portal JAWARA e-Gov
 
-JAWARA e-Gov adalah sebuah aplikasi sistem informasi portal pemerintahan Provinsi Banten yang berbasis website dan android yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi Pemerintahan Provinsi Banten.
+Portal JAWARA e-Gov adalah sebuah aplikasi sistem informasi portal pemerintahan Provinsi Banten yang berbasis website yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi Pemerintahan Provinsi Banten.
 
-## 1. Integrasi JAWARA e-Gov
+## 1. Integrasi Portal JAWARA e-Gov
 Integrasi aplikasi dilakukan dengan:
 1. melalui antar muka aplikasi atau melalui method
 2. *focus method level*
@@ -24,67 +24,46 @@ Integrasi aplikasi dilakukan dengan:
 *Application Programming Interface*
 mekanisme terdefinisi dibuat untuk berhubungan dengan sumber daya seperti server aplikasi, *middleware*, dan basis data.
 
-Dibawah ini adalah pengintegrasian yang terdapat didalam JAWARA e-Gov:
+Dibawah ini adalah pengintegrasian yang terdapat didalam Portal JAWARA e-Gov:
 
-### 1.1 Integrasi Menu Controller
-
-#### 1.1.1 Protected Function Banner
+### 1.1 Protected Function Banner
 [![Banner](../images/jawara-egov/integrasi-dan-pengujian/mecr_protected-function_banner.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.2 Public Function Content
+### 1.2 Public Function Content
 [![Content](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_content.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.3 Public Function Index
+### 1.3 Public Function Index
 [![Index](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_index.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.4 Public Function Menu
+### 1.4 Public Function Menu
 [![Menu](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_menu.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.5 Public Function Pemerintahan
+### 1.5 Public Function Pemerintahan
 [![Pemerintahan](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_pemerintah.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.6 Public Function Slide Utama
+### 1.6 Public Function Slide Utama
 [![Slide Utama](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_slide-utama.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.7 Public Function Submenu
+### 1.7 Public Function Submenu
 [![Submenu](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_submenu.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.8 Public Function Test
+### 1.8 Public Function Test
 [![Test](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_test.png)](dev2018.bantenprov.go.id)
 
-#### 1.1.9 Public Function Umum
+### 1.9 Public Function Umum
 [![Umum](../images/jawara-egov/integrasi-dan-pengujian/mecr_public-function_umum.png)](dev2018.bantenprov.go.id)
 
 Pada Integrasi **Menu Controller** semua response baik *Success Response* maupun *Error Response* hasilnya akan ditampilkan dalam bentuk Json. 
 
-
-### 1.2 Integrasi Mobile Controller
-
-#### 1.2.1 Public Function Content
-[![Content](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_content.png)](dev2018.bantenprov.go.id)
-
-#### 1.2.2 Public Function Index
-[![Index](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_index.png)](dev2018.bantenprov.go.id)
-
-#### 1.2.3 Public Function Menu
-[![Menu](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_menu.png)](dev2018.bantenprov.go.id)
-
-#### 1.2.4 Public Function Submenu
-[![Submenu](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_submenu.png)](dev2018.bantenprov.go.id)
-
-Pada Integrasi **Mobile Controller** semua response baik *Success Response* maupun *Error Response* hasilnya akan ditampilkan dalam bentuk Json. 
-
-## 2. Pengujian JAWARA e-Gov
+## 2. Pengujian Portal JAWARA e-Gov
 
 Pada pengujian ini akan menggunakan User Acceptance Test (UAT).
 
-Dibawah ini adalah pengujian yang dilakukan didalam aplikasi JAWARA e-Gov:
-
-### 2.1 Pengujian Website
-
 Pada pengujian website ini akan menguji yang terdapat di dalam **superadmin** dan yang terdapat untuk **user publik**.
 
-#### 2.1.1 Login Superadmin
+### 2.1 Superadmin
+
+#### 2.1.1 Login
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -93,7 +72,7 @@ Pada pengujian website ini akan menguji yang terdapat di dalam **superadmin** da
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Login Superadmin** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 
-#### 2.1.2 Dashboard (Superadmin)
+#### 2.1.2 Dashboard
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -101,7 +80,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Login Super
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard Superadmin** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.3 Submenu Banners (Superadmin)
+#### 2.1.3 Submenu Banners
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -109,7 +88,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard S
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Banners** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/general/banners , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.4 Create Banner (Superadmin)
+#### 2.1.4 Create Banner
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -117,7 +96,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Ban
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Banner** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/general/banners/create , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.5 Banner Order (Superadmin)
+#### 2.1.5 Banner Order
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -125,7 +104,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Bann
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Banner Order** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/general/banners/order , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.6 Menu Pages (Superadmin)
+#### 2.1.6 Menu Pages
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -133,7 +112,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Banner Orde
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Menu Pages** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/pages , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.7 Create Page (Superadmin)
+#### 2.1.7 Create Page
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -141,7 +120,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Menu Pages*
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Pages** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/pages/create , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.8 Pages General order (Superadmin)
+#### 2.1.8 Pages General order
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -149,7 +128,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Page
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Pages General Order** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/pages/order, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.9 Submenu Albums (Superadmin)
+#### 2.1.9 Submenu Albums
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -157,7 +136,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Pages Gener
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Albums** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/photos/albums, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.10 Create Albums (Superadmin)
+#### 2.1.10 Create Albums
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -165,7 +144,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Alb
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Albums** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/photos/albums/create, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.11 Submenu Category Links (Superadmin)
+#### 2.1.11 Submenu Category Links
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -173,7 +152,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Albu
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Category Links** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/link/categories, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.12 Create Category Links (Superadmin)
+#### 2.1.12 Create Category Links
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -181,7 +160,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Cat
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Category Links** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/link/categories/create, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.13 Submenu Links (Superadmin)
+#### 2.1.13 Submenu Links
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -189,7 +168,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Cate
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Links** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/link/links, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.14 Create Links (Superadmin)
+#### 2.1.14 Create Links
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -197,7 +176,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Lin
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Links** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/link/links/create, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.15 Link Header Order (Superadmin)
+#### 2.1.15 Link Header Order
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -205,7 +184,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Link
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Link Header Order** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/link/links/order/header, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.16 Submenu Category News and Events (Superadmin)
+#### 2.1.16 Submenu Category News and Events
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -213,7 +192,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Link Header
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Category News and Events** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/news-and-events/categories, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.17 Create Category News and Events (Superadmin)
+#### 2.1.17 Create Category News and Events
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -221,7 +200,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu Cat
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Category News and Events** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/news-and-events/categories/create, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.18 Submenu News and Events (Superadmin)
+#### 2.1.18 Submenu News and Events
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -229,7 +208,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create Cate
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu News and Events** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/news-and-events/news, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.19 Create News and Events (Superadmin)
+#### 2.1.19 Create News and Events
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -237,7 +216,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Submenu New
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create News and Events** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/news-and-events/news/create, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.20 Create News and Events (Superadmin)
+#### 2.1.20 Create News and Events
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -245,7 +224,9 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create News
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create News and Events** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/admin/news-and-events/news/create, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.21 Dashboard (User Publik)
+### 2.2 *User*
+
+#### 2.2.1 Dashboard
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -253,7 +234,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Create News
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.22 Profil Provinsi (User Publik)
+#### 2.2.2 Profil Provinsi
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -261,7 +242,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard**
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Profil Provinsi** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/profil-provinsi, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.23 Profil Pemerintah (User Publik)
+#### 2.2.3 Profil Pemerintah
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -269,7 +250,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Profil Prov
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Profil Pemerintah** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/profil-pemerintah, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.24 Layanan Informasi (User Publik)
+#### 2.2.4 Layanan Informasi
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -277,7 +258,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Profil Peme
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Informasi** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/pages/pelayanan-informasi, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.25 Informasi Pembangunan Daerah (User Publik)
+#### 2.2.5 Informasi Pembangunan Daerah
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
@@ -285,52 +266,10 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Inf
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Informasi Pembangunan Daerah** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/informasi-pembangunan-daerah, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.1.26 Press Release (User Publik)
+#### 2.2.6 Press Release
 
 | Akses       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
 | Press Release | [![lihat Category](../images/jawara-egov/pengembangan/press-release.png)](../images/jawara-egov/pengembangan/press-release.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Press Release** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka link url http://dev2018.bantenprov.go.id/pressrealease, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-### 2.2 Pengujian Android
-
-#### 2.2.1 Loading JAWARA e-Gov
-
-| Akses       | URL/ Image                               | Ada  | Tidak |
-| --------------- | ---------------------------------------- | ---- | ----- |
-| Loading JAWARA e-Gov | [![lihat Category](../images/jawara-egov/pengembangan/loading.jpeg)](../images/jawara-egov/pengembangan/loading.jpeg) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Loading JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-#### 2.2.2 Dashboard JAWARA e-Gov
-
-| Akses       | URL/ Image                               | Ada  | Tidak |
-| --------------- | ---------------------------------------- | ---- | ----- |
-| Dashboard JAWARA e-Gov | [![lihat Category](../images/jawara-egov/pengembangan/dahboard3.jpeg)](../images/jawara-egov/pengembangan/dahboard3.jpeg) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-#### 2.2.3 Aplikasi Pemerintah
-
-| Akses       | URL/ Image                               | Ada  | Tidak |
-| --------------- | ---------------------------------------- | ---- | ----- |
-| Aplikasi Pemerintah | [![lihat Category](../images/jawara-egov/pengembangan/aplikasi-pemerintah1.jpeg)](../images/jawara-egov/pengembangan/aplikasi-pemerintah1.jpeg) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Pemerintah** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-#### 2.2.4 Aplikasi Publik
-
-| Akses       | URL/ Image                               | Ada  | Tidak |
-| --------------- | ---------------------------------------- | ---- | ----- |
-| Apliaksi Publik | [![lihat Category](../images/jawara-egov/pengembangan/aplikasi-publik1.jpeg)](../images/jawara-egov/pengembangan/aplikasi-publik1.jpeg) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Publik** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-#### 2.2.5 Jelajah Banten
-
-| Akses       | URL/ Image                               | Ada  | Tidak |
-| --------------- | ---------------------------------------- | ---- | ----- |
-| Jelajah Banten | [![lihat Category](../images/jawara-egov/pengembangan/jelajah-banten.jpeg)](../images/jawara-egov/pengembangan/jelajah-banten.jpeg) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Jelajah Banten** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
