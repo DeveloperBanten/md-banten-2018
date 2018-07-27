@@ -11,41 +11,47 @@ cat: Jawara E-Gov
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## JAWARA e-Gov
+## Portal JAWARA e-Gov
 
-JAWARA e-Gov adalah sebuah aplikasi sistem informasi portal pemerintahan Provinsi Banten yang berbasis website dan android yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi Pemerintahan Provinsi Banten.
+Portal JAWARA e-Gov adalah sebuah aplikasi sistem informasi portal pemerintahan Provinsi Banten yang berbasis website yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi Pemerintahan Provinsi Banten.
 
 Berikut ini adalah tampilan-tampilan yang terdapat di aplikasi JAWARA e-Gov:
 
 ## 1. Pendahuluan
 ### 1.1 Tujuan pembuatan implementasi
-Dokumen User Manual Apliksai JAWARA e-Gov ini dibuat untuk tujuan sebagai berikut:
-1. Menggambarkan dan menjelaskan penggunaan aplikasi JAWARA e-Gov.
-2. Sebagai panduan konfigurasi dan penggunaan aplikasi JAWARA e-Gov.
+Dokumen User Manual Apliksai Portal JAWARA e-Gov ini dibuat untuk tujuan sebagai berikut:
+1. Menggambarkan dan menjelaskan penggunaan aplikasi Portal JAWARA e-Gov.
+2. Sebagai panduan konfigurasi dan penggunaan aplikasi Portal JAWARA e-Gov.
 
 ### 1.2 Deskripsi umum sistem
-1.  Deskripsi Umum Aplikasi JAWARA e-Gov adalah aplikasi yang berbasis web yang akan dipakai oleh setiap golongan masyarakat dan pihak terkait untuk memudahkan mencari informasi dari setiap OPD.
+1.  Deskripsi Umum Aplikasi Portal JAWARA e-Gov adalah aplikasi yang berbasis web yang akan dipakai oleh setiap golongan masyarakat dan pihak terkait untuk memudahkan mencari informasi dari setiap OPD.
 2. Deskripsi Umum Kebutuhan Aplikasi yang Akan Diimplementasikan meliputi semua informasi yang bersifat teknis dan menjadi acuan dalam pengembangan apliksi.
 
 ## 2. Menu dan cara penggunaan
 ### 2.1 Struktur menu
-Adapun menu pada aplikasi JAWARA e-Gov adalah sebagai berikut:
-1. Menu Dashboard
-- Provil Provinsi
-- Provil Pemerintah
-- Layanan Informasi
-- Informasi Pembangunan Daerah
-- Press Realease
-2. Aplikasi Layanan Publik
-3. Aplikasi Tata Kelola Pemerintah
+Adapun menu pada aplikasi Portal JAWARA e-Gov adalah sebagai berikut:
+
+ 1. Menu Superadmin
+ - Dashboard
+ - General
+ - Pages
+ - Gallery
+ - Link
+
+ 2. Menu User
+ - Provil Provinsi
+ - Provil Pemerintah
+ - Layanan Informasi
+ - Informasi Pembangunan Daerah
+ - Press Realease
 
 ### 2.2 Penggunaan
-Pada bagian ini akan dijelaskan mengenai tata cara memasukan data hibah masuk sebagai data sumber melalui alamat situs yang telah disediakan.
+Pada bagian ini akan dijelaskan mengenai tata cara mengakses alikasi Portal JAWARA e-Gov melalui alamat situs yang telah disediakan.
 #### 2.2.1 Cara membuka situs
-Untuk memulai akses terhadap aplikasi Ehibah-Bansos ini:
-1.	Bukalah aplikasi Jawara e-Gov melalui web browser dengan alamat url sebagai berikut : http://dev2018.bantenprov.go.id
+Untuk memulai akses terhadap aplikasi Portal JAWARA e-Gov ini:
+1.	Bukalah aplikasi Portal Jawara e-Gov melalui web browser dengan alamat url sebagai berikut : http://dev2018.bantenprov.go.id
 2.	Kemudian tekan Enter pada tombol keyboard atau klik tombol GO pada browser.
-3.	Akan muncul tampilan halaman depan aplikasi E-Bansos sebagai berikut:
+3.	Akan muncul tampilan halaman depan aplikasi Portal Jawara e-Gov sebagai berikut:
 
 ## 3. Tampilan Website
 ### 3.1 Tampilan Super Admin
@@ -54,7 +60,7 @@ Untuk memulai akses kedalah JAWARA e-Gov superadmin dapat mengklik link url beri
 [![lihat Login Superadmin](../images/jawara-egov/implementasi/login-super-admin.png)](../images/jawara-egov/implementasi/login-super-admin.png)
 
 #### 3.1.1 Tampilan Login Super Admin
-Setelah membuka link url diatas maka akan timbul Page Sign In. Terdapat 2 ﬁeld yang harus diisi yaitu email dan passwor untuk melakukan sign In kedalam aplikasi JAWARA e-Gov.
+Setelah membuka link url diatas maka akan timbul Page Sign In. Terdapat 2 ﬁeld yang harus diisi yaitu email dan password untuk melakukan sign In kedalam aplikasi JAWARA e-Gov.
 
 #### 3.1.2 Tampilan Dashboard Super Admin
 [![dashboard Superadmin](../images/jawara-egov/implementasi/dashboard-sa.png)](../images/jawara-egov/implementasi/dashboard-sa.png)
@@ -131,7 +137,7 @@ Pada Tampilan ini terdapat beberapa submenu yaitu Proﬁl Banten, Sejarah Banten
 
 Pada Tampilan ini terdapat beberapa submenu yaitu Proﬁl Gubernur, Proﬁl Wakil Gubernur, Daftar Nama Pegawai dan ILPPD.
 
-### 4.4 Tampilan Layanan Infprmasi
+### 4.4 Tampilan Layanan Informasi
 [![layanan informasi](../images/jawara-egov/implementasi/layanan-informasi.png)](../images/jawara-egov/implementasi/layanan-informasi.png)
 
 Pada Tampilan ini terdapat beberapa submenu yaitu PPID, Dasar Hukum dan Pelayanan.
@@ -145,23 +151,3 @@ Pada Tampilan ini terdapat beberapa submenu yaitu Transparansi Pengelolaan Angga
 [![press realease](../images/jawara-egov/implementasi/press-realease.png)](../images/jawara-egov/implementasi/press-realease.png)
 
 Pada Tampilan ini terdapat beberapa submenu yaitu Gallery, News and Events dan Kontak.
-
-## 5. Tampilan Android
-### 5.1 Tampilan Dashboard Jawara e-Gov
-[![dashboard android](../images/jawara-egov/implementasi/dashboard-android.jpeg)](../images/jawara-egov/implementasi/dashboard-android.jpeg)
-
-Pada tampilan ini user dapat melihat aplikasi-aplikasi yang telah terintegrasi dengan JAWARA e-Gov.
-
-### 5.2 Tampilan Aplikasi Pemerintah
-[![aplikasi pemerintah](../images/jawara-egov/implementasi/aplikasi-pemerintah.jpeg)](../images/jawara-egov/implementasi/aplikasi-pemerintah.jpeg)
-[![aplikasi pemerintah](../images/jawara-egov/implementasi/aplikasi-pemerintah-1.jpeg)](../images/jawara-egov/implementasi/aplikasi-pemerintah-1.jpeg)
-
-Pada tampilan ini user dapat melihat aplikasi-aplikasi yang digunakan khusus untuk pemerintahan saja.
-
-### 5.3 Tampilan Aplikasi Publik
-[![aplikasi publik](../images/jawara-egov/implementasi/aplikasi-publik.jpeg)](../images/jawara-egov/implementasi/aplikasi-publik.jpeg)
-
-[![aplikasi publik](../images/jawara-egov/implementasi/aplikasi-publik-1.jpeg)](../images/jawara-egov/implementasi/aplikasi-publik-1.jpeg)
-
-Pada tampilan ini user dapat melihat aplikasi-aplikasi yang dapat digunakan oleh masyarakat khususnya dalam ruang lingkiup Provinsi Banten.
-
