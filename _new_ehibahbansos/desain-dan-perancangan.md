@@ -35,7 +35,7 @@ Ruang lingkup pekerjaan ini adalah pengembangan sistem informasi ini dilakukan d
 ### 1.4 Ruang Lingkup Sistem Informasi / Aplikasi
 a) Menyediakan situs bagi seluruh Organisasi Perangkat Daerah yang ada dilingkungan Pemerintah Provinsi Banten untuk menyimpan Prosedur Operasional Baku yang berlaku dilingkungannya secara digital,
 
-b) Menyediakan proses pengaduan pengadaan / pengembangan sistem informasi / aplikasi / website secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemeritah Provinsi Banten.
+b) Menyediakan proses pengaduan pengadaan / pengembangan sistem informasi / aplikasi / website dan android secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemeritah Provinsi Banten.
 
 ### 1.5 Keluaran yang diinginkan
 a) Tersedianya sistem informasi e-hibahbansos bagi sistem informasi / aplikasi / website dan android,
@@ -108,10 +108,10 @@ Permodelan rancangan sistem yang digunakan adalah UML (Unified Modeling Language
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-opd.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-opd.png)
 
 #### 3.2.5 Deployment Diagram
-[![deployment-diagram](../images/e-hibahbansos/desain-dan-perancangan/deployment-diagram.jpg)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/deployment-diagram.jpg)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_deployment-diagram.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_deployment-diagram.png)
 
 #### 3.2.6 Technology Stack Diagram
-[![technology-stack-diagram](../images/e-hibahbansos/desain-dan-perancangan/technology-stack-diagram.jpg)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/technology-stack-diagram.jpg)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_technology-stack-diagram.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_technology-stack-diagram.png)
 
 ### 3.3 Tahapan Pekerjaan :
 Tahap-tahap atau langkah yang dilakukan dalam mengembangkan Sistem Informasi E-hibahbansos adalah sebagai berikut:
@@ -135,9 +135,9 @@ Penggunaan webservices / API yang telah disiapkan oleh sistem informasi / aplika
 Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode prototye, yaitu jika terjadi kesalahan/kekurangan baik proses maupuan output sistem, maka kesalahan/kekurangan tersebut akan diperbaiki/ditambahkan, sehingga memungkinkan pengembang untuk kembali ke tahapan pertama yaitu analisa (jika kekurangan sistem memang tidak terdefinisikan dalam dokumen perancangan sistem).
 
 ### 3.4 Hasil
-Berikut ini adalah hasil eksekusi sistem informasi Dashboard
+Berikut ini adalah hasil eksekusi sistem informasi Ehibahbansos dalam website dan android
 
-#### 3.4.1 Tampilan Awal
+#### 3.4.1 Tampilan Awal Website
 
 ##### 3.4.1.1 Layout Home
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-awal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-awal.png)
@@ -154,7 +154,7 @@ Berikut ini adalah hasil eksekusi sistem informasi Dashboard
 ##### 3.4.1.5 Layout Tampilan Pengumuman
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-pengumuman.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-pengumuman.png)
 
-#### 3.4.2 Tampilan Superadmin
+#### 3.4.2 Tampilan Website Superadmin
 
 ##### 3.4.2.1 Layout Tampilan Dashboard
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180727_sa_dashboard.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180727_sa_dashboard.png)
@@ -203,34 +203,34 @@ Berikut ini adalah hasil eksekusi sistem informasi Dashboard
 
 * **Checklist**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_checklist.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_checklist.png)
-  
+
 * **Banner**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_banner.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_banner.png)
-  
+
 * **Video**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_video.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_video.png)
-  
+
 * **Sosial Media**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_sosial-media.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_sosial-media.png)
 
 * **SKPD**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_skpd.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_skpd.png)
-  
+
 * **API Manager**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_api-manager.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_api-manager.png)
-  
+
 * **Host Key**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_host-key.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_host-key.png)
-  
+
 ##### 3.4.2.6 Layout Tampilan Log
 
 * **Log Aktivitas**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-activitas.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-activitas.png)
-  
+
 * **Log Login**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-login.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-login.png)
-  
-#### 3.4.3 Tampilan OPD
+
+#### 3.4.3 Tampilan Website OPD
 
 ##### 3.4.3.1 Layout Tampilan Dashboard
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_dashboard.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_dashboard.png)
@@ -239,20 +239,48 @@ Berikut ini adalah hasil eksekusi sistem informasi Dashboard
 
 * **Pengecekan Proposal**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_pengecekan.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_pengecekan.png)
-  
+
 * **Verifikasi Proposal**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_verifikasi.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_verifikasi.png)
-  
+
 * **Arsip**
   [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_arsip.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_arsip.png)
 
-#### 3.4.4 Tampilan Pendaftar HibahBansos
+#### 3.4.4 Tampilan Website Pendaftar HibahBansos
 
 ##### 3.4.4.1 Layout Tampilan Proposal Saya
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_proposal-saya.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_proposal-saya.png)
 
 ##### 3.4.4.2 Layout Tampilan Form HibahBansos
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_form-hibah-bansos.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_form-hibah-bansos.png)
+
+#### 3.4.5 Layout Tampilan Awal Android
+
+##### 3.4.5.1 Layout Tampilan Home
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal.png)
+
+##### 3.4.5.2 Layout Tampilan Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_proposal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_proposal.png)
+
+##### 3.4.5.3 Layout Tampilan Pengumuman
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_pengumuman.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_pengumuman.png)
+
+##### 3.4.5.4 Layout Tampilan Registrasi
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_registrasi.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_registrasi.png)
+
+##### 3.4.5.5 Layout Tampilan Login
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_login.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_login.png)
+
+#### 3.4.6 Layout Tampilan Android Pendaftar
+
+##### 3.4.6.1 Layout Tampilan Home
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_awal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_awal.png)
+
+##### 3.4.6.2 Layout Tampilan Input Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_input-proposal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_input-proposal.png)
+
+##### 3.4.6.3 Layout Tampilan Profile
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_profile.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_profile.png)
 
 ## 4.PENUTUP
 
