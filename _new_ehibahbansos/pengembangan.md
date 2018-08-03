@@ -303,3 +303,31 @@ Submodul ini dapat diakses dengan mengklik Log Activitas pada modul Log, pada su
 ##### 1.2.6.1 Tampilan Log Login
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_log_log-login.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_log_log-login.png)
 Submodul ini dapat diakses dengan mengklik Log Login pada modul Log, pada submodul ini admin dapat melihat data Log Login pada aplikasi e-Hibahbansos.
+
+### 1.3 Tampilan User
+Tampilan User sebagian besar sama seperti tampilan awal yang membedakan pada tampilan user ini adalah user dapat mendaftarkan proposal dan mengedit proposal.
+
+#### 1.3.1 Tampilan Form Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_create.png)](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_create.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_create1.png)](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_create1.png)
+Tampilan Form Proposal ini dapat diakses dengan mengklik Create Proposal pada Menu Tampilan Proposal.
+
+#### 1.3.2 Tampilan Form Edit Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_edit.png)](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_edit.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_edit1.png)](../images/new_ehibahbansos/pengembangan/20180803_user_proposal_edit1.png)
+Tampilan Form Proposal ini dapat diakses dengan mengklik Edit pada kolom action di tabel proposal pada Menu Tampilan Proposal.
+
+### 1.4 Tampilan OPD
+
+#### 1.4.1 Tampilan OPD Frontend
+Tampilan Frontend OPD sebagian besar sama seperti tampilan awal yang membedakan pada tampilan user ini adalah OPD dapat mendaftarkan proposal dan mengedit proposal.
+
+#### 1.4.1.1 Tampilan Form Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_create.png)](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_create.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_create1.png)](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_create1.png)
+Tampilan Form Proposal ini dapat diakses dengan mengklik Create Proposal pada Menu Tampilan Proposal.
+
+#### 1.4.1.2 Tampilan Form Edit Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit.png)](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit1.png)](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit1.png)
+Tampilan Form Proposal ini dapat diakses dengan mengklik Edit pada kolom action di tabel proposal pada Menu Tampilan Proposal.
