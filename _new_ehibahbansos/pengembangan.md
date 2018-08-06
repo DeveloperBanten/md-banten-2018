@@ -331,3 +331,65 @@ Tampilan Form Proposal ini dapat diakses dengan mengklik Create Proposal pada Me
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit.png)](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit.png)
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit1.png)](../images/new_ehibahbansos/pengembangan/20180803_opd_proposal_edit1.png)
 Tampilan Form Proposal ini dapat diakses dengan mengklik Edit pada kolom action di tabel proposal pada Menu Tampilan Proposal.
+
+#### 1.4.2 Tampilan OPD Backend
+
+##### 1.4.2.1 Tampilan Dashboard
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_dashboard.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_dashboard.png)
+Tampilan Dashboard ini akan timbul ketika OPD sukses login, halaman dashboard ini merupakan halaman backend dari OPD.
+
+##### 1.4.2.2 Tampilan Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal.png)
+Tampilan Proposal ini dapat diakses dengan mengklik Tulisan Proposal pada main menu backend OPD.
+
+###### 1.4.2.2.1 Tampilan Add Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah1.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah1.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah2.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah2.png)
+Tampilan Add Proposal ini dapat diakses dengan mengklik tombol + Add Proposal pada tampilan Proposal.
+
+###### 1.4.2.2.2 Tampilan Koreksi Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_koreksi.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_koreksi.png)
+Tampilan Koreksi Proposal ini dapat diakses dengan mengklik tombol Koreksi pada main kolom action proposal.
+
+###### 1.4.2.2.3 Tampilan Arsip Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_arsip.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_arsip.png)
+Tampilan Arsip Proposal ini dapat diakses dengan mengklik tombol Arsip pada main kolom action proposal.
+
+## 2. Tampilan Android
+
+### 1.1 Tampilan Umum
+
+#### 1.1.1 Tampilan Dashboard
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_awal.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_awal.jpeg)
+Pada saat membuka aplikasi android e-Hibahbansos maka *user* akan ditampilkan halaman Home aplikasi yang berisikan mengenai info-info mengenai aplikasi E-hibahbansos.
+
+#### 1.1.2 Tampilan Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal.jpeg)
+Tampilan Proposal ini dapat diakses dengan mengklik icon proposal pada dashboard e-Hibahbansos.
+
+##### 1.1.2.1 Tampilan Detail Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal_detail.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal_detail.jpeg)
+Tampilan Detail Proposal ini dapat diakses dengan mengklik tombol Baca pada proposal.
+
+#### 1.1.3 Tampilan Pengumuman
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman.jpeg)
+Tampilan Pengumuman ini dapat diakses dengan mengklik icon Pengumuman pada dashboard e-Hibahbansos.
+
+##### 1.1.3.1 Tampilan Detail Pengumuman
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman_detail.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman_detail.jpeg)
+Tampilan Detail Pengumuman ini dapat diakses dengan mengklik tombol Baca pada pengumuman.
+
+#### 1.1.4 Tampilan Daftar
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_registrasi.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_registrasi.jpeg)
+Tampilan Registrasi ini dapat diakses dengan mengklik icon Registrasi pada dashboard e-Hibahbansos.
+
+#### 1.1.5 Tampilan Log In
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_login.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_login.jpeg)
+Tampilan Log In ini dapat diakses dengan mengklik icon Log In pada dashboard e-Hibahbansos.
+
+### 1.2 Tampilan User
+
+#### 1.2.1 Tampilan Dashboard
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_user_awal.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_user_awal.jpeg)
+Pada saat berhasil log in pada  aplikasi android e-Hibahbansos maka *user* akan ditampilkan halaman Home aplikasi yang berisikan mengenai info-info mengenai aplikasi E-hibahbansos. 
