@@ -164,7 +164,7 @@ Halaman Add New Permission ini dapat diakses dengan mengklik tombol + Permission
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_permission_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_permission_edit.png)
 Halaman Edit Permission ini dapat diakses dengan mengklik tombol Edit pada kolom action. Sehingga akan memunculkan Form Edit Permission, pada form ini admin dapat merubah data Permission pada aplikasi e-Hibahbansos.
 
-##### 1.2.4.2 Tampilan Role
+##### 1.2.4.3 Tampilan Role
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_role.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_role.png)
 Submodul ini dapat diakses dengan mengklik Role pada modul User, pada submodul ini admin dapat melihat, menambahkan, mengedit, menghapus data role dan mengatur permission pada role yang terdapat pada aplikasi e-Hibahbansos.
 
