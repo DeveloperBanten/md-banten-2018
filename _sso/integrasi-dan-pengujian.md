@@ -162,4 +162,12 @@ Dalam tabel ini *user* dapat melakukan test ketika membuka Member, apakah sudah 
 
 Dalam tabel ini *user* dapat melakukan test ketika membuka Apps, apakah sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya, user dapat mengklik sub modul Apps pada modul Member & Apps Management, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
+### 2.4 Contoh Penggunaan SSO
 
+#### 2.4.1 Tampilan Login Aplikasi Yankes Menggunakan SSO
+
+| Tampilan | Tampilan Login Yankes                               | Tampilan Login SSO                             | Tampilan Login Berhasil                              |
+| -------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| Login Aplikasi Yankes Menggunakan SSO     | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180808_tampilan_login_yankes.png)](../images/sso/pengembangan/20180808_tampilan_login_yankes.png) | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_login.png)](../images/sso/pengembangan/20180724_awal_login.png) | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180808_login berhasil.png)](../images/sso/pengembangan/20180808_login berhasil.png) |
+
+Pada pengujian ini *user* melakukan login kedalam aplikasi yankes maka akan timbul tampilan login Yankes dengan menggunakan SSO, ketika *user* mengklik tombol "KLIK SSO JAWARA" maka sistem akan menampilkan tampilan login SSO. Setelah berhasil melakukan login SSO maka sistem akan kembali ke aplikasi Yankes dalam posisi sudah berhasil Login. *User* dapat melakukan login kepada apliaksi yang lain setelah berhasil melakukan login ke aplikasi SSO.
