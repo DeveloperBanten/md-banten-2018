@@ -54,7 +54,7 @@ Adapun penyusun melakukan beberapa penelitian yang dilakukan dengan :
 ### 2.1 Metode Yang digunakan
 Menggunakan metode *prototyping* untuk melakukan perancangan sistem informasi berbasis web.
 Ilustrasi alur *prototyping*
-[![ilustrasi-alur-prototyping](../images/e-hibahbansos/desain-dan-perancangan//alur-prototype.png)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)
+[![ilustrasi-alur-prototyping](../images/e-hibahbansos/desain-dan-perancangan/alur-prototype.png)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)
 
 ### 2.2 Metode Pengumpulan Data
 Untuk mengumpulkan data yang diperlukan untuk membangun sistem ini diadakan wawancara dan studi pustaka. Pengumpulan data ini diperlukan untuk mengetahui permasalahan dan gambaran sistem yang sedang berjalan sehingga dapat mengembangkannya untuk membentuk sistem baru yang dapat mendukung sistem yang sedang berjalan.
@@ -65,5 +65,81 @@ b). Studi Pustaka, Melakukan pengumpulan melalui buku text, internet sebagai ref
 ### 3.1 Perencanaan Aplikasi
 Sistem informasi Billboard adalah untuk mempermudah pemerintah dan masyarakat dalam mengawasi dan mengontrol billboard yang ada.
 
-### 3.2. Perancangan Sistem
+### 3.2 Perancangan Sistem
 Permodelan rancangan sistem yang digunakan adalah UML (Unified Modeling Language). Menurut Whitten dan Bentley (2007, p.381), Unified Modeling Language adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda-beda. UML yang kami gunakan terdiri dari use case diagram, activity diagram, sequence diagram, state chart diagram, class diagram, deploymen diagram dan technology diagram.
+
+#### 3.2.1 Use Case Diagram
+##### 3.2.1.1 Use Case Diagram Superadmin
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_use-case_superadmin.png)](../images/billboard/desain-dan-perancangan/20180807_use-case_superadmin.png)
+
+##### 3.2.1.2 Use Case Diagram OPD
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_use-case_opd.png)](../images/billboard/desain-dan-perancangan/20180807_use-case_opd.png)
+
+##### 3.2.1.3 Use Case Diagram User
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_use-case_user.png)](../images/billboard/desain-dan-perancangan/20180807_use-case_user.png)
+
+#### 3.2.2 Activity Diagram
+##### 3.2.2.1 Activity Diagram Superadmin
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_activity-diagram_superadmin.png)](../images/billboard/desain-dan-perancangan/20180807_activity-diagram_superadmin.png)
+
+##### 3.2.2.2 Activity Diagram OPD
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_activity-diagram_opd.png)](../images/billboard/desain-dan-perancangan/20180807_activity-diagram_opd.png)
+
+##### 3.2.2.3 Activity Diagram User
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_activity-diagram_user.png)](../images/billboard/desain-dan-perancangan/20180807_activity-diagram_user.png)
+
+#### 3.2.3 Sequence Diagram
+##### 3.2.3.1 Sequence Diagram Superadmin
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_sequence_superadmin.png)](../images/billboard/desain-dan-perancangan/20180807_sequence_superadmin.png)
+
+##### 3.2.3.2 Sequence Diagram OPD
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_sequence_opd.png)](../images/billboard/desain-dan-perancangan/20180807_sequence_opd.png)
+
+##### 3.2.3.3 Sequence Diagram User
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_sequence_user.png)](../images/billboard/desain-dan-perancangan/20180807_sequence_user.png)
+
+#### 3.2.4 State Chart Diagram
+##### 3.2.4.1 State Chart Diagram Superadmin
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_state-chart_superadmin.png)](../images/billboard/desain-dan-perancangan/20180807_state-chart_superadmin.png)
+
+##### 3.2.4.2 State Chart Diagram OPD
+[![ilustrasi-alur-prototyping](../images/billboard/desain-dan-perancangan/20180807_state-chart_opd.png)](../images/billboard/desain-dan-perancangan/20180807_state-chart_opd.png)
+
+#### 3.2.5 Deployment Diagram
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_deployment-diagram.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_deployment-diagram.png)
+
+#### 3.2.6 Technology Stack Diagram
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_technology-stack-diagram.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_technology-stack-diagram.png)
+
+### 3.3 Tahapan Pekerjaan :
+Tahap-tahap atau langkah yang dilakukan dalam mengembangkan Sistem Informasi E-Billboard adalah sebagai berikut:
+
+#### 3.3.1 Analisis dan Perancangan
+1). Analisis
+Tim pengembang aplikasi akan melakukan analisis jika diperlukan dapat dilakukan survey pendahuluan untuk melihat sejauh mana kebutuhan pengguna akan sistem yang akan dibangun, data-data yang dibutuhkan, dll. Dalam analisis ini dilakukana diskusi-diskusi baik dengan bagian terkait pada satuan kerja.
+
+2). Perancangan Sistem
+Perancangan sistem dilaksanakan setelah proses analisis dilaksanakan dan telah disepakati modul dan prosedur-prosedur yang akan diterapkan dalam sistem. Perancangan sistem meliputi kegiatan: penetapan alur data/dokumen, penetapan prosedur, perancangan database, perancangan form dan perancangan interface/dialog layar.
+
+#### 3.3.2 Pembangunan Sistem
+Setelah proses analisis dan perancangan sistem selesai dilakukan, tahapan selanjutnya adalah pembangunan sistem, yang meliputi kegiatan. Pembuatan struktur database, pembuatan kode program/koding, pembuatan laporan-laporan.
+
+#### 3.3.3 Pengujian
+Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode prototye, yaitu jika terjadi kesalahan/kekurangan baik proses maupuan output sistem, maka kesalahan/kekurangan tersebut akan diperbaiki/ditambahkan, sehingga memungkinkan pengembang untuk kembali ke tahapan pertama yaitu analisa (jika kekurangan sistem memang tidak terdefinisikan dalam dokumen perancangan sistem).
+
+### 3.4 Hasil
+Berikut ini adalah hasil eksekusi sistem informasi e-Billboard dalam website dan android:
+
+#### 3.4.1 Tampilan Awal Website
+
+##### 3.4.1.1 Layout Home
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_awal_home.png)](../images/billboard/desain-dan-perancangan/20180808_awal_home.png)
+
+
+##### 3.4.1.2 Layout Map
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_awal_map.png)](../images/billboard/desain-dan-perancangan/20180808_awal_map.png)
+
+##### 3.4.1.3 Layout Login
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_awal_login.png)](../images/billboard/desain-dan-perancangan/20180808_awal_login.png)
+
+#### 3.4.2 Tampilan OPD
