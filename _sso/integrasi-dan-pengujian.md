@@ -166,8 +166,8 @@ Dalam tabel ini *user* dapat melakukan test ketika membuka Apps, apakah sudah da
 
 #### 2.4.1 Tampilan Login Aplikasi Yankes Menggunakan SSO
 
-| Tampilan | Tampilan Login Yankes                               | Tampilan Login SSO                             | Tampilan Login Berhasil                              |
+| Tampilan | Tampilan Login Yankes                               | Tampilan Login SSO                             | Hasil                              |
 | -------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| Login Aplikasi Yankes Menggunakan SSO     | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180808_tampilan_login_yankes.png)](../images/sso/pengembangan/20180808_tampilan_login_yankes.png) | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_login.png)](../images/sso/pengembangan/20180724_awal_login.png) | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180808_login berhasil.png)](../images/sso/pengembangan/20180808_login berhasil.png) |
+| Login Aplikasi Yankes Menggunakan SSO     | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180808_tampilan_login_yankes.png)](../images/sso/pengembangan/20180808_tampilan_login_yankes.png) | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_login.png)](../images/sso/pengembangan/20180724_awal_login.png) | Ketika *user* berhasil Login kepada aplikasi SSO maka akan kembali pada aplikasi Yankes |
 
 Pada pengujian ini *user* melakukan login kedalam aplikasi yankes maka akan timbul tampilan login Yankes dengan menggunakan SSO, ketika *user* mengklik tombol "KLIK SSO JAWARA" maka sistem akan menampilkan tampilan login SSO. Setelah berhasil melakukan login SSO maka sistem akan kembali ke aplikasi Yankes dalam posisi sudah berhasil Login. *User* dapat melakukan login kepada apliaksi yang lain setelah berhasil melakukan login ke aplikasi SSO.
