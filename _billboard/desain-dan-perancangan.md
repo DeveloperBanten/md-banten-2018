@@ -28,7 +28,7 @@ Agar terdapatnya sebuah sistem yang baik dalam pendataan billboard yang terdapat
 Maksud dari kegiatan ini adalah untuk melakukan kegiatan pembuatan aplikasi billboard yang berbasis website dan android.
 
 #### b) Tujuan
-Sistem Billboard Provinsi Banten dibangun dengan tujuan untuk memudahkan pemerintah dan masyarakat dalam mencari informasi mengenai lokasi, status, serta demografi billboard yang terdapat pada Provinsi Banten
+Sistem Billboard Provinsi Banten dibangun dengan tujuan untuk memudahkan pemerintah dan masyarakat dalam mencari informasi mengenai lokasi, status, serta demografi billboard yang terdapat pada Provinsi Banten.
 
 ### 1.3 Ruang Lingkup Pekerjaan
 Ruang lingkup pekerjaan pada pembuiatan sistem informasi ini dilakukan di Dinas Komunikasi Informasi Statistika dan Persandian Provinsi Banten, adapun hasil dari kegiatan ini untuk dapat digunakan pada instansi dan masyarakat dilingkungan Pemerintah Provinsi Banten.
@@ -152,3 +152,82 @@ Berikut ini adalah hasil eksekusi sistem informasi e-Billboard dalam website dan
 
 ##### 3.4.2.3 Tampilan Accout OPD
 [![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_opd_account.png)](../images/billboard/desain-dan-perancangan/20180808_opd_account.png)
+
+#### 3.4.3 Tampilan Superadmin
+
+##### 3.4.3.1 Layout Dashboard
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_home.png)](../images/billboard/desain-dan-perancangan/20180808_sa_home.png)
+
+##### 3.4.3.2 Layout Billboard
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_billboard.png)](../images/billboard/desain-dan-perancangan/20180808_sa_billboard.png)
+
+* **Layout Tambah Billboard**
+
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_billboard_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_billboard_tambah.png)
+
+##### 3.4.3.3 Layout Pengaturan
+
+###### 3.4.3.3.1 Layout Banner
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_banner.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_banner.png)
+
+* **Layout Tambah Banner**
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_banner_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_banner_tambah.png)
+
+###### 3.4.3.3.2 Layout Video
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_video.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_video.png)
+
+* **Layout Tambah Video**
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_video_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_video_tambah.png)
+
+###### 3.4.3.3.3 Layout Kategori
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_kategori.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_kategori.png)
+
+* **Layout Tambah Kategori**
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_kategori_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_kategori_tambah.png)
+
+###### 3.4.3.3.4 Layout Sosial Media
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_sosial-media.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_sosial-media.png)
+
+* **Layout Tambah Sosial Media**
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_sosial-media_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_pengaturan_sosial-media_tambah.png)
+
+##### 3.4.3.4 Layout Users & Permission
+
+###### 3.4.3.4.1 Layout User
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_user.png)](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_user.png)
+
+* **Layout Tambah User**
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_user_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_user_tambah.png)
+
+###### 3.4.3.4.2 Layout Permission
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_permission.png)](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_permission.png)
+
+* **Layout Tambah Permission**
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_permission_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_permission_tambah.png)
+
+###### 3.4.3.4.3 Layout Role
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_role.png)](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_role.png)
+
+* **Layout Tambah Role**
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_role_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_sa_user-and-permission_role_tambah.png)
+
+##### 3.4.3.5 Layout Setting Account Superadmin
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_sa_account.png)](../images/billboard/desain-dan-perancangan/20180808_sa_account.png)
+
+#### 3.4.4 Tampilan Login Android
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_login.png)](../images/billboard/desain-dan-perancangan/20180808_and_login.png)
+
+#### 3.4.5 Tampilan View List
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_view-list.png)](../images/billboard/desain-dan-perancangan/20180808_and_view-list.png)
+
+##### 3.4.5.1 Tampilan View List Detail
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_view-list_detail.png)](../images/billboard/desain-dan-perancangan/20180808_and_view-list_detail.png)
+
+#### 3.4.6 Tampilan View Maps
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_view-maps.png)](../images/billboard/desain-dan-perancangan/20180808_and_view-maps.png)
+
+##### 3.4.6.1 Tampilan Tambah Billboard
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_view-maps_tambah.png)](../images/billboard/desain-dan-perancangan/20180808_and_view-maps_tambah.png)
+
+## 4. Penutup
+Dengan adanya pembuatan dari aplikasi e-Billboard  ini dapat membantu pemerintah Provinsi Banten dalam mencari informasi mengenai lokasi, status, serta demografi billboard yang terdapat pada Provinsi Banten sehingga memudahkan pemerintah dalam mengontrol dan mengawasi billboard yang terdapat pada Provinsi Banten.
