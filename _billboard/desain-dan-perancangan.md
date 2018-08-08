@@ -143,3 +143,12 @@ Berikut ini adalah hasil eksekusi sistem informasi e-Billboard dalam website dan
 [![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_awal_login.png)](../images/billboard/desain-dan-perancangan/20180808_awal_login.png)
 
 #### 3.4.2 Tampilan OPD
+
+##### 3.4.2.1 Layout Home
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_opd_home.png)](../images/billboard/desain-dan-perancangan/20180808_opd_home.png)
+
+##### 3.4.2.2 layout Buat Laporan
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_opd_form-laporan.png)](../images/billboard/desain-dan-perancangan/20180808_opd_form-laporan.png)
+
+##### 3.4.2.3 Tampilan Accout OPD
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_opd_account.png)](../images/billboard/desain-dan-perancangan/20180808_opd_account.png)
