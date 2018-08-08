@@ -118,6 +118,7 @@ Pada submodul Arsip ini admin dapat mengupload foto dan dokumen yang berkaitan d
 Submodul ini dapat diakses dengan mengklik Workflow pada modul Workflow, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data workflow yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Workflow**
+
 | Tampilan                  | URL/ Image                               | Ada  | Tidak |
 | ------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Workflow | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_workflow_tambah.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_workflow_tambah.png) |      |       |
@@ -125,6 +126,7 @@ Submodul ini dapat diakses dengan mengklik Workflow pada modul Workflow, pada su
 Halaman Add New Workflow ini dapat diakses dengan mengklik tombol Add New Workflow. Sehingga akan memunculkan Workflow Add Form, pada form ini admin dapat menambahkan workflow pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Workflow**
+
 | Tampilan               | URL/ Image                               | Ada  | Tidak |
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Workflow | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_workflow_edit.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_workflow_edit.png) |      |       |
@@ -139,6 +141,7 @@ Halaman Edit Workflow ini dapat diakses dengan mengklik tombol Edit pada kolom a
 Submodul ini dapat diakses dengan mengklik State List pada modul Workflow, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data state list yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New State**
+
 | Tampilan               | URL/ Image                               | Ada  | Tidak |
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New State | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_state_tambah.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_state_tambah.png) |      |       |
@@ -146,6 +149,7 @@ Submodul ini dapat diakses dengan mengklik State List pada modul Workflow, pada 
 Halaman Add New State ini dapat diakses dengan mengklik tombol Add New State. Sehingga akan memunculkan State Add Form, pada form ini admin dapat menambahkan State pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit State**
+
 | Tampilan            | URL/ Image                               | Ada  | Tidak |
 | ------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit State | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_state_edit.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_state_edit.png) |      |       |
@@ -160,6 +164,7 @@ Halaman Edit State ini dapat diakses dengan mengklik tombol Edit pada kolom acti
 Submodul ini dapat diakses dengan mengklik Transition List pada modul Workflow, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data Transition yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Transition**
+
 | Tampilan                    | URL/ Image                               | Ada  | Tidak |
 | --------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Transition | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_transition_tambah.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_transition_tambah.png) |      |       |
@@ -167,6 +172,7 @@ Submodul ini dapat diakses dengan mengklik Transition List pada modul Workflow, 
 Halaman Add New Transition ini dapat diakses dengan mengklik tombol Add New Transition. Sehingga akan memunculkan Transition Form, pada form ini admin dapat menambahkan Transition pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Transition**
+
 | Tampilan                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Transition | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_transition_edit.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_transition_edit.png) |      |       |
@@ -174,6 +180,7 @@ Halaman Add New Transition ini dapat diakses dengan mengklik tombol Add New Tran
 Halaman Edit Transition ini dapat diakses dengan mengklik tombol Edit pada kolom action. Sehingga akan memunculkan Form Edit Transition, pada form ini admin dapat merubah data Transition pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 ###### 2.1.2.3.4 Workflow Guard
+
 | Tampilan                | URL/ Image                               | Ada  | Tidak |
 | ----------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Workflow Guard | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_guard.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_guard.png) |      |       |
@@ -181,6 +188,7 @@ Halaman Edit Transition ini dapat diakses dengan mengklik tombol Edit pada kolom
 Submodul ini dapat diakses dengan mengklik Workflow Guard pada modul Workflow, pada submodul ini admin dapat melihat, menambahkan dan mengedit data Workflow Guard yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Guard**
+
 | Tampilan               | URL/ Image                               | Ada  | Tidak |
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Guard | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_guard_tambah.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_guard_tambah.png) |      |       |
@@ -188,6 +196,7 @@ Submodul ini dapat diakses dengan mengklik Workflow Guard pada modul Workflow, p
 Halaman Add New Guard ini dapat diakses dengan mengklik tombol Add New Guard. Sehingga akan memunculkan Guard Add Form, pada form ini admin dapat menambahkan Guard yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Guard**
+
 | Tampilan            | URL/ Image                               | Ada  | Tidak |
 | ------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Guard | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_guard_edit.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_guard_edit.png) |      |       |
@@ -202,6 +211,7 @@ Halaman Edit Guard ini dapat diakses dengan mengklik tombol Edit pada kolom acti
 Submodul ini dapat diakses dengan mengklik Workflow Notification pada modul Workflow, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data Workflow Notification yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Notification**
+
 | Tampilan                      | URL/ Image                               | Ada  | Tidak |
 | ----------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Notification | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_notif_tambah.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_workflow_notif_tambah.png) |      |       |
@@ -209,6 +219,7 @@ Submodul ini dapat diakses dengan mengklik Workflow Notification pada modul Work
 Halaman Add New Notification ini dapat diakses dengan mengklik tombol Add Notification. Sehingga akan memunculkan Notification Add Form, pada form ini admin dapat menambahkan Notification yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Notification**
+
 | Tampilan                   | URL/ Image                               | Ada  | Tidak |
 | -------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Notification | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_tulisannya-salah.png)](../images/new_ehibahbansos/pengembangan/20180803_tulisannya-salah.png) |      |       |
@@ -225,6 +236,7 @@ Halaman Edit Notification ini dapat diakses dengan mengklik tombol Edit pada kol
 Submodul ini dapat diakses dengan mengklik User List pada modul User, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data user yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New User**
+
 | Tampilan              | URL/ Image                               | Ada  | Tidak |
 | --------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New User | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_user-list_tambah-user.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_user-list_tambah-user.png) |      |       |
@@ -232,6 +244,7 @@ Submodul ini dapat diakses dengan mengklik User List pada modul User, pada submo
 Halaman Add New User ini dapat diakses dengan mengklik tombol + User. Sehingga akan memunculkan Form User, pada form ini admin dapat menambahkan User yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit User**
+
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit User | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_user-list_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_user-list_edit.png) |      |       |
@@ -246,6 +259,7 @@ Halaman Edit User ini dapat diakses dengan mengklik tombol Edit pada kolom actio
 Submodul ini dapat diakses dengan mengklik Permission pada modul User, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data permission yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Permission**
+
 | Tampilan                    | URL/ Image                               | Ada  | Tidak |
 | --------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Permission | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_permission_tambah-permission.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_permission_tambah-permission.png) |      |       |
@@ -253,6 +267,7 @@ Submodul ini dapat diakses dengan mengklik Permission pada modul User, pada subm
 Halaman Add New Permission ini dapat diakses dengan mengklik tombol + Permission. Sehingga akan memunculkan Form Permission, pada form ini admin dapat menambahkan Permission yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Permission**
+
 | Tampilan                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Permission | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_permission_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_permission_edit.png) |      |       |
@@ -267,6 +282,7 @@ Halaman Edit Permission ini dapat diakses dengan mengklik tombol Edit pada kolom
 Submodul ini dapat diakses dengan mengklik Role pada modul User, pada submodul ini admin dapat melihat, menambahkan, mengedit, menghapus data role dan mengatur permission pada role yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Role**
+
 | Tampilan              | URL/ Image                               | Ada  | Tidak |
 | --------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Role | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_role_tambah-role.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_role_tambah-role.png) |      |       |
@@ -274,6 +290,7 @@ Submodul ini dapat diakses dengan mengklik Role pada modul User, pada submodul i
 Halaman Add New Role ini dapat diakses dengan mengklik tombol + New Role. Sehingga akan memunculkan Form Role, pada form ini admin dapat menambahkan Role yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Role**
+
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Role | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_user_role_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_user_role_edit.png) |      |       |
@@ -281,6 +298,7 @@ Halaman Add New Role ini dapat diakses dengan mengklik tombol + New Role. Sehing
 Halaman Edit Role ini dapat diakses dengan mengklik tombol Edit pada kolom action. Sehingga akan memunculkan Form Edit Role, pada form ini admin dapat merubah data Role pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add Permission**
+
 | Tampilan                | URL/ Image                               | Ada  | Tidak |
 | ----------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add Permission | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_user_role_permission.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_user_role_permission.png) |      |       |
@@ -297,6 +315,7 @@ Halaman Add Permission ini dapat diakses dengan mengklik tombol Add Permission p
 Submodul ini dapat diakses dengan mengklik Tentang pada modul Setting, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data tampilan tentang yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Tentang**
+
 | Tampilan                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Tentang | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_tentang_tambah-tentang.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_tentang_tambah-tentang.png) |      |       |
@@ -304,6 +323,7 @@ Submodul ini dapat diakses dengan mengklik Tentang pada modul Setting, pada subm
 Halaman Add New Tentang ini dapat diakses dengan mengklik tombol + Add Tentang. Sehingga akan memunculkan Form Tentang, pada form ini admin dapat menambahkan data Tentang yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Tentang**
+
 | Tampilan              | URL/ Image                               | Ada  | Tidak |
 | --------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Tentang | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_tentang_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_tentang_edit.png) |      |       |
@@ -318,6 +338,7 @@ Halaman Edit Tentang ini dapat diakses dengan mengklik tombol Edit pada kolom ac
 Submodul ini dapat diakses dengan mengklik Peraturan pada modul Setting, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data tampilan Peraturan yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Peraturan**
+
 | Tampilan                   | URL/ Image                               | Ada  | Tidak |
 | -------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Peraturan | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_peraturan_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_peraturan_tambah.png) |      |       |
@@ -325,6 +346,7 @@ Submodul ini dapat diakses dengan mengklik Peraturan pada modul Setting, pada su
 Halaman Add New Peraturan ini dapat diakses dengan mengklik tombol + Add Peraturan. Sehingga akan memunculkan Form Perauran, pada form ini admin dapat menambahkan data Peraturan yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Peraturan**
+
 | Tampilan                | URL/ Image                               | Ada  | Tidak |
 | ----------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Peraturan | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_peraturan_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_peraturan_edit.png) |      |       |
@@ -339,6 +361,7 @@ Halaman Edit Peraturan ini dapat diakses dengan mengklik tombol Edit pada kolom 
 Submodul ini dapat diakses dengan mengklik Pengumuman pada modul Setting, pada submodul ini admin dapat melihat, menambahkan dan mengedit data Pengumumanyang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Pengumuman**
+
 | Tampilan                    | URL/ Image                               | Ada  | Tidak |
 | --------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Pengumuman | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_pengumuman_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_pengumuman_tambah.png) |      |       |
@@ -346,6 +369,7 @@ Submodul ini dapat diakses dengan mengklik Pengumuman pada modul Setting, pada s
 Halaman Add New Pengumuman ini dapat diakses dengan mengklik tombol + Add Pengumuman. Sehingga akan memunculkan Form Pengumuman, pada form ini admin dapat menambahkan data Pengumuman yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Pengumuman**
+
 | Tampilan                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Pengumuman | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_pengumuman_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_pengumuman_edit.png) |      |       |
@@ -360,6 +384,7 @@ Halaman Edit Pengumuman ini dapat diakses dengan mengklik tombol Edit pada kolom
 Submodul ini dapat diakses dengan mengklik Checklist pada modul Setting, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data Checklist yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Checklist**
+
 | Tampilan                   | URL/ Image                               | Ada  | Tidak |
 | -------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Checklist | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_checklist_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_checklist_tambah.png) |      |       |
@@ -367,6 +392,7 @@ Submodul ini dapat diakses dengan mengklik Checklist pada modul Setting, pada su
 Halaman Add New Checklist ini dapat diakses dengan mengklik tombol + Add Checklist. Sehingga akan memunculkan Form Checklist, pada form ini admin dapat menambahkan data Checklist yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Checklist**
+
 | Tampilan                | URL/ Image                               | Ada  | Tidak |
 | ----------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Checklist | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_checklist_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_checklist_edit.png) |      |       |
@@ -381,6 +407,7 @@ Halaman Edit Checklist ini dapat diakses dengan mengklik tombol Edit pada kolom 
 Submodul ini dapat diakses dengan mengklik Banner pada modul Setting, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data Banner yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Banner**
+
 | Tampilan                | URL/ Image                               | Ada  | Tidak |
 | ----------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Banner | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_banner_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_banner_tambah.png) |      |       |
@@ -388,6 +415,7 @@ Submodul ini dapat diakses dengan mengklik Banner pada modul Setting, pada submo
 Halaman Add New Banner ini dapat diakses dengan mengklik tombol + Add Banner. Sehingga akan memunculkan Form Banner, pada form ini admin dapat menambahkan data Banner yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Banner**
+
 | Tampilan             | URL/ Image                               | Ada  | Tidak |
 | -------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Banner | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_banner_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_banner_edit.png) |      |       |
@@ -402,6 +430,7 @@ Halaman Edit Banner ini dapat diakses dengan mengklik tombol Edit pada kolom act
 Submodul ini dapat diakses dengan mengklik Video pada modul Setting, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data Video yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add New Video**
+
 | Tampilan               | URL/ Image                               | Ada  | Tidak |
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add New Video | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_video_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_video_tambah.png) |      |       |
@@ -409,6 +438,7 @@ Submodul ini dapat diakses dengan mengklik Video pada modul Setting, pada submod
 Halaman Add New Video ini dapat diakses dengan mengklik tombol + Add Video. Sehingga akan memunculkan Form Video, pada form ini admin dapat menambahkan data Video yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Video**
+
 | Tampilan            | URL/ Image                               | Ada  | Tidak |
 | ------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Video | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_video_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_video_edit.png) |      |       |
@@ -423,6 +453,7 @@ Halaman Edit Video ini dapat diakses dengan mengklik tombol Edit pada kolom acti
 Submodul ini dapat diakses dengan mengklik Sosial Media pada modul Setting, pada submodul ini admin dapat melihat, menambahkan, mengedit dan menghapus data Sosial Media yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add Sosial Media**
+
 | Tampilan                  | URL/ Image                               | Ada  | Tidak |
 | ------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add Sosial Media | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_sosial-media_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_sosial-media_tambah.png) |      |       |
@@ -430,6 +461,7 @@ Submodul ini dapat diakses dengan mengklik Sosial Media pada modul Setting, pada
 Halaman Add New Sosial Media ini dapat diakses dengan mengklik tombol + Add Sosial Media. Sehingga akan memunculkan Form Sosial Media, pada form ini admin dapat menambahkan data Sosial Media yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit Sosial Media**
+
 | Tampilan                   | URL/ Image                               | Ada  | Tidak |
 | -------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit Sosial Media | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_sosial-media_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_sosial-media_edit.png) |      |       |
@@ -444,6 +476,7 @@ Halaman Edit Sosial Media ini dapat diakses dengan mengklik tombol Edit pada kol
 Submodul ini dapat diakses dengan mengklik SKPD pada modul Setting, pada submodul ini admin dapat melihat, mengedit dan menghapus data SKPD yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Edit SKPD**
+
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Edit SKPD | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_setting_skpd.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_setting_skpd.png) |      |       |
@@ -458,6 +491,7 @@ Halaman Edit SKPD ini dapat diakses dengan mengklik tombol Edit pada kolom actio
 Submodul ini dapat diakses dengan mengklik Api Manager pada modul Setting, pada submodul ini admin dapat melihat, menambahkan dan mengupdate data Api Manager yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add API Manager**
+
 | Tampilan                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
 | Tampilan Add API Manager | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_api-manager_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_api-manager_tambah.png) |      |       |
@@ -465,6 +499,7 @@ Submodul ini dapat diakses dengan mengklik Api Manager pada modul Setting, pada 
 Halaman Add New Api Manager ini dapat diakses dengan mengklik tombol + Add. Sehingga akan memunculkan Form Api Manager, pada form ini admin dapat menambahkan data Api Manager yang baru pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Update API Manager**
+
 | Tampilan                    | URL/ Image                               | Ada  | Tidak |
 | --------------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Update API Manager | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_api-manager_edit.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_api-manager_edit.png) |      |       |
@@ -479,6 +514,7 @@ Halaman Update Api Manager ini dapat diakses dengan mengklik tombol Action pada 
 Submodul ini dapat diakses dengan mengklik Host Keys pada modul Setting, pada submodul ini admin dapat melihat dan menambahkan data Host Keys yang terdapat pada aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
 
 * **Add Host Key**
+
 | Tampilan              | URL/ Image                               | Ada  | Tidak |
 | --------------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Add Host Key | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_host-key_tambah.png)](../images/new_ehibahbansos/pengembangan/20180731_sa_setting_host-key_tambah.png) |      |       |
