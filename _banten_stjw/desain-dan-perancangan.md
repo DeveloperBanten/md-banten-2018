@@ -6,168 +6,281 @@ comments: true
 cat: Banten Satu Data Jawara Egov
 ---
 
-## Abstrak
-
-Seiring dengan perkembangan zaman, saat ini kita telah memasuki era dimana informasi sangat penting untuk masyarakat. Demi membantu masyarakat dalam mencari segala informasi pemerintahan yang terdapat pada pemerintahan Provinsi Banten sehingga dibutuhkannya sebuah wadah bagi masyarakat dalam mencari informasi khususnya dalam ruang lingkup Provinsi Banten. 
-
-pada saat ini perangkat seluler merupakan kebutuhan yang wajib dimiliki oleh setiap orang untuk melakukan berbagai hal seperti komunikasi, bertukar informasi dan melakukan hal-hal lainnya. Salah satu sistem operasi perangkat seluler yang banyak digunakan dan perkembangannya
-sangat pesat saat ini adalah android.
-
-Android merupakan sebuah sistem operasi yang bersifat open source. Artinya programmer diizinkan oleh pengembang sistem operasi untuk membuat, mengubah, mengembangkan dan menyebarluaskan aplikasi. Dengan memanfaatkan teknologi telepon seluler yang
-menggunakan sistem operasi android, sangat memungkinkan dibuat sebuah aplikasi yang dapat mengerjakan proses yang telah diceritakan di atas dan harusnya memenuhi
+## ABSTRAK
+Dewasa ini perkembangan teknologi komputer sangatlah pesat. Dengan menggunakan aplikasi komputer akan didapat informasi mengenai suatu tampilan objek yang ditampilkan lebih hidup dan menarik. Adanya kemajuan teknologi ini memungkinkan Sistem untuk menjalankan prosedur pemberian dana hibah dan bantuan sosial dapat berjalan lebih baik dan membantu masyarakat dan Pemerintah Provinsi Banten dalam menjalankan kegiatan yang berkaitan dengan hibah dan bantuan sosial yang lebih terstruktur dan lebih transparansi.
 
 ## Daftar Isi
-
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## 1. Pendahuluan
+## 1. PENDAHULUAN
 
-### 1.1 Latar Beakang
+### 1.1 Latar Belakang
+Pembangunan Sistem informasi / aplikasi / website saat ini yang berlangsung di lingkungan Pemerintah Provinsi Banten seakan – akan berjalan sendiri – sendiri.
+Meskipun sudah ada Peraturan Gubernur No. 35 Tahun 2008 dan Peraturan Gubernur No. 80, belum menjadikan panduan dalam mengembangkan sistem informasi / aplikasi tersebut.
+Agar terdapatnya sebuah sitem yang baik dalam menyelenggarakan kegiatan hibah dan bansos maka perlu dibuatnya suatu fasilitas untuk mendukung kegiatan tersebut. dengan dibuatnya aplikasi E-hibahbansos diharapkan dapat memudahkan segala proses kegiatan E-hibahbansos baik dari sisi pemerintahan maupun masyarakat Provinsi Banten.
 
-Banten Satu Data *E-government* menjadi proses pemanfaatan tekhnologi informasi sebagai media untuk membantu menjalankan sistem pemerintahan secara lebih efektif dan efisien. Sebagai wujud dari penerapan e-government di Indonesia salah satunya adalah dengan pembuatan android pemerintah daerah.
+### 1.2 Maksud dan Tujuan
 
-Pemerintahan yang baik harus memiliki sebuah wadah informasi yang dapat menjadi prasarana bagi masyarakat untuk mengetahui kegiatan kepemerintahan maupun info yang meliputi Profil Pemerintah, Profil Provinsi dan informasi-informasi lainnya yang dapat dibuka untuk umum yang nantinya akan terhubung langsung  terhubung dengan website yang ada.
+#### a) Maksud
+Maksud dari kegiatan ini adalah untuk melakukan kegiatan pengembangan Sistem Informasi E-hibahbansos.
 
-Saat ini belum terdapat aplikasi android yang menampung informasi yang ada di Banten sehingga jika masyarakat ingin mencari suatu informasi ia harus mencari website terkait dengan informasi yang dicari, sehingga agak merepotkan bagi masyarakat. Dengan adanya Banten Satu Data JAWARA E-gov ini diharapkan dapat membantu masyarakat dalam mencari informasi yang terdapat didalam pemerintahan Provinsi Banten khususnya dalam penggunaan android.
+#### b) Tujuan
+Sistem ehibahbansos Provinsi Banten dibangun dengan tujuan untuk terciptanya efisiensi proses, perbaikan prosedur, peningkatan transparansi dan akuntabilitas belanja hibah, bantuan sosial dan bantuan keuangan pada Pemerintah Provinsi Banten.
 
-### 1.2 Tujuan
+### 1.3 Ruang Lingkup Pekerjaan
+Ruang lingkup pekerjaan ini adalah pengembangan sistem informasi ini dilakukan di Dinas Komunikasi Informasi Statistika dan Persandian Provinsi Banten, adapun hasil dari kegiatan ini untuk dapat digunakan pada instansi dan masyarakat dilingkungan Pemerintah Provinsi Banten.
 
-Tujuan dari perancangan android Banten Satu Data Jawara eGov ini adalah sebagai berikut:
+### 1.4 Ruang Lingkup Sistem Informasi / Aplikasi
+a) Menyediakan situs bagi seluruh Organisasi Perangkat Daerah yang ada dilingkungan Pemerintah Provinsi Banten untuk menyimpan Prosedur Operasional Baku yang berlaku dilingkungannya secara digital,
 
- 1. Mempermudah masyarakat dalam mencari informasi
- 2. Untuk satu pintu bagi semua apliaksi OPD yang terdapat dipemerintahan Banten
+b) Menyediakan proses pengaduan pengadaan / pengembangan sistem informasi / aplikasi / website dan android secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemeritah Provinsi Banten.
 
-### 1.3 Karakteristik Produk
+### 1.5 Keluaran yang diinginkan
+a) Tersedianya sistem informasi e-hibahbansos bagi sistem informasi / aplikasi / website dan android,
 
- 1. dapat menyajikan informasi mengenai pemerintahan Provinsi Banten
- 2. Dikembangkan menggunakan *native*
- 3. *User Friendly* (menggunakan *interface* / antarmuka yang mudah digunakan oleh *user*)
+b) Tersedianya dokumen API yang digunakan.
 
-### 1.4 Keluaran yang diinginkan
-
- 1. Tersedianya aplikasi android yang dapat membantu masyarakat dalam pencarian informasi khususnya dalam ruang lingkup Provinsi Banten.
- 2. Tersedianya dokumentasi API yang digunakan
+### 1.6 Waktu dan Jadwal Pelaksanaan dan Lokasi Kegiatan
+a) Waktu pelaksanaan kegiatan : 3 bulan sejak dikeluarkan SPK sampai dengan pemakaian,
+b) Lokasi kegiatan : Kantor OPD terkait dan Dinas Komunikasi Informasi Statistika dan Persandian Pemerintah Provinsi Banten.
 
 ## 2. METODE PENELITIAN
-
 Untuk memperoleh data yang dapat menunjang aplikasi ini, maka di perlukan data teoritis dan data dinas terkait untuk mendapatkan data dan informasi yang berhubungan dengan aplikasi ini.
 Adapun penyusun melakukan beberapa penelitian yang dilakukan dengan :
 
-### 2.1 Metode yang Digunakan
-
-Menggunakan metode *Prototyping* untuk melakukan perancangan sistem informasi berbasis web.
-
-Ilustrasi alur *Prototyping*
-
-[![Ilustrasi Alur Prototyping](../images/jawara-egov/desain-dan-perancangan/20171018_alur-prototype.png)](../images/jawara-egov/desain-dan-perancangan/20171018_alur-prototype.png)
+### 2.1 Metode Yang digunakan
+Menggunakan metode *prototyping* untuk melakukan perancangan sistem informasi berbasis web.
+Ilustrasi alur *prototyping*
+[![ilustrasi-alur-prototyping](../images/e-hibahbansos/desain-dan-perancangan//alur-prototype.png)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)
 
 ### 2.2 Metode Pengumpulan Data
+Untuk mengumpulkan data yang diperlukan untuk membangun sistem ini diadakan wawancara dan studi pustaka. Pengumpulan data ini diperlukan untuk mengetahui permasalahan dan gambaran sistem yang sedang berjalan sehingga dapat mengembangkannya untuk membentuk sistem baru yang dapat mendukung sistem yang sedang berjalan.
+a). Wawancara ini dilakukan kepada Pemprov Banten. Wawancara dilakukan kepada sistem analist Pemprov Banten untuk mengetahui permasalahan dalam proses pendataan yang sedang berjalan sekarang.
+b). Studi Pustaka, Melakukan pengumpulan melalui buku text, internet sebagai referensi.
 
-Untuk mengumpulkan data yang diperlukan untuk membangun sistem ini diadakan wawancara dan studi pustaka. Pengumpulan data ini dilakukan untuk mengetahui permasalahan dan gambaran sistem yang sedang berjalan sehingga dapat mengembangkannya untuk membentuk sistem baru yang dapat mendukung sistem yang sedang berjalan.
+## 3. HASIL PEMBAHASAN
+### 3.1 Perencanaan Aplikasi
+Sistem informasi e-hibahbansos adalah untuk mempermudah pemerintah dan masyarakat dalam menyenggarakan kegiatan hibah dan bantuan sosial.
 
-* Wawancara ini dilakukan kepada Pemprov Banten. Wawancara dilakukan kepada sistem analist Pemprov Banten untuk mengetahui permasalahan dalam proses pendataan yang sedang berjalan sekarang.
-* Studi pustaka, melakukan pengumpulan informasi dari buku text, internet sebagai referensi.
+### 3.2. Perancangan Sistem
+Permodelan rancangan sistem yang digunakan adalah UML (Unified Modeling Language). Menurut Whitten dan Bentley (2007, p.381), Unified Modeling Language adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda-beda. UML yang kami gunakan terdiri dari use case diagram, activity diagram, sequence diagram, state chart diagram, class diagram, deploymen diagram dan technology diagram.
 
-### 2.3 Metode Analisis
+#### 3.2.1 Use Cace Diagram
+##### 3.2.1.1 Use Case Diagram Super Admin
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180718_usecase-superadmin.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180718_usecase-superadmin.png)
 
-Tim pengembang aplikasi akan melakukan analisis jika diperlukan dapat dilakukan survey pendahuluan untuk melihat sejauh mana kebutuhan pengguna akan sistem yang akan dibangun, fasilitas yang akan dibangun, data-data yang dibutuhkan, dll. Dalam analisis ini dilakukan diskusi-diskusi baik dengan bagian terkait pada satuan kerja.
+##### 3.2.1.2 Use Case Diagram Pendaftar Hibah Bansos
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20170718_usecase-pendaftar.png)](../images/new_ehibahbansos/desain-dan-perancangan/20170718_usecase-pendaftar.png)
 
-### 2.4 Ruang Lingkup Sistem Informasi / Aplikasi
+##### 3.2.1.3 Use Case Diagram Organisasi Perangkat Daerah (OPD)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20170718_usecase-opd.png)](../images/new_ehibahbansos/desain-dan-perancangan/20170718_usecase-opd.png)
 
- 1. Menyediakan aplikasi android pemerintah sebagai wadah bagi masyarakat dalam mencari informasi.
- 2. Menyediakan aplikasi android pemerintah sebagai wadah untuk semua informasi aplikasi yang terdapat di setiap dinas / OPD dilingkungan pemerintah provinsi Banten
+#### 3.2.2 Activity Diagram
 
-### 2.5 Waktu dan Jadwal Pelaksanaan dan Lokasi Kegiatan
+##### 3.2.2.1 Activity Diagram Super Admin
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180719_activitydiagram-superadmin.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180719_activitydiagram-superadmin.png)
 
- 1. Waktu Pelaksanaan kegiatan : 4 bulan sejak dikeluarkan SPK sampai dengan Pemakaian
- 2. Lokasi Kegiatan : Kantor OPD terkait dan Dinas Komunikasi Informasi Statistika dan Persandian Pemerintah Provinsi Banten
+##### 3.2.2.2 Activity Diagram Pendaftar Hibah Bansos
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180719_activitydiagram-warga.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180719_activitydiagram-warga.png)
 
-## 3. Hasil dan Pembahasan
+##### 3.2.2.3 Activity Diagram OPD
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180719_activitydiagram-opd.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180719_activitydiagram-opd.png)
 
-### 3.1  Perencanaan Aplikasi
+#### 3.2.3 Sequence Diagram
 
-**Banten Satu Data JAWARA E-gov** adalah wadah untuk mengumpulkan informasi-informasi pada Provinsi Banten, yang dmana sistem ini akan mempermudah masyarakat dalam mencari informasi yang ada di Provinsi Banten.
+##### 3.2.3.1 Sequence Diagram Super Admin
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180719_sequencediagram_superadmin.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180719_sequencediagram_superadmin.png)
 
-### 3.2 Perancangan Sistem
+##### 3.2.3.2 Sequence Kegiatan Belanja Hibah Bansos
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180719_sequencediagram-kegiatan.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180719_sequencediagram-kegiatan.png)
 
-Permodelan rancangan sistem yang digunakan adalah UML *(Unified Modeling Language)*. Menurut Whitten dan Bentley (2007, p.381), Unified Modeling Language adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda – beda. UML yang digunakan terdiri dari use case diagram, activity diagram, sequence diagram, state chart diagram, deployment diagram dan technology stack diagram.
+#### 3.2.4 State Chart Diagram
 
-#### 3.2.1 *Use Case Diagram*
+##### 3.2.4.1 State Chart Diagram Super Admin
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-superadmin.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-superadmin.png)
 
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_usecase_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_usecase_jawara.png)
+##### 3.2.4.2 State Chart Diagram Pendaftar Hibah / Bansos
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-warga.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-warga.png)
 
-#### 3.2.2 *Activity Diagram*
-
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_activitydiagram_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_activitydiagram_jawara.png)
-
-#### 3.2.3 *Sequence Diagram*
-
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_sequence_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_sequence_jawara.png)
-
-#### 3.2.4. *State Chart Diagram*
-
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_statechart_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_statechart_jawara.png)
+##### 3.2.4.3 State Chart Diagram OPD
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-opd.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_statechart-opd.png)
 
 #### 3.2.5 Deployment Diagram
-
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_deployment_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_deployment_jawara.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_deployment-diagram.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_deployment-diagram.png)
 
 #### 3.2.6 Technology Stack Diagram
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_technology-stack-diagram.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_technology-stack-diagram.png)
 
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_technology_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_technology_jawara.png)
-
-### 3.3 Tahapan Pekerjaan
-
-Tahap-tahap atau langkah yang dilakukan dalam mengembangkan Android Banten Satu Data Jawara eGov adalah sebagai berikut:
+### 3.3 Tahapan Pekerjaan :
+Tahap-tahap atau langkah yang dilakukan dalam mengembangkan Sistem Informasi E-hibahbansos adalah sebagai berikut:
 
 #### 3.3.1 Analisis dan Perancangan
+1). Analisis
+Tim pengembang aplikasi akan melakukan analisis jika diperlukan dapat dilakukan survey pendahuluan untuk melihat sejauh mana kebutuhan pengguna akan sistem yang akan dibangun, data-data yang dibutuhkan, dll. Dalam analisis ini dilakukana diskusi-diskusi baik dengan bagian terkait pada satuan kerja.
 
-**Analisis**
-
-Tim pengembang aplikasi akan melakukan analisis jika diperlukan dapat dilakukan survey pendahuluan untuk melihat sejauh mana kebutuhan pengguna akan sistem yang akan dibangun, fasiitas yang akan dibangun, data-data yang dibutuhkan, dll. Dalam analisis ini akan dilakukan diskusi-diskusi dengan bagian terkait pada satuan kerja.
-
-**Perancangan Sistem**
-
-Perancangan sistem dilaksanakan setelah proses analisis dilaksanakan dan telah disepakati modul dan prosedur-prosedur yang akan diterapkan dalam sistem.
+2). Perancangan Sistem
+Perancangan sistem dilaksanakan setelah proses analisis dilaksanakan dan telah disepakati modul dan prosedur-prosedur yang akan diterapkan dalam sistem. Perancangan sistem meliputi kegiatan: penetapan alur data/dokumen, penetapan prosedur, perancangan database, perancangan form dan perancangan interface/dialog layar.
 
 #### 3.3.2 Pembangunan Sistem
-
-Setelah proses analisis dan perancangan sistem selesai dilakukan, tahapan selanjutnya adalah pembangunan sistem, yang meliputi kegiatan: pembuatan struktur database, pembuatan kode program/coding, pembuatan laporan-laporan.
+Setelah proses analisis dan perancangan sistem selesai dilakukan, tahapan selanjutnya adalah pembangunan sistem, yang meliputi kegiatan. Pembuatan struktur database, pembuatan kode program/koding, pembuatan laporan-laporan.
 
 #### 3.3.3 Integrasi dan Pengujian
+1). Integrasi
+Setelah proses pengembangan sistem selasai dilakukan, tahap selanjutnya adalah Integrasi sistem, yang meliputi kegiatan: pembuatan struktur database terkait integrasi, pembuatan kode program/coding terkait integrasi, pembuatan laporan-laporan terkait integrasi.
+Penggunaan webservices / API yang telah disiapkan oleh sistem informasi / aplikasi yang ada.
 
-**Integrasi**
-
-Setelah proses pengembangan sistem selesai dilakukan, tahapan selanjutnya adalah Integrasi sistem, yang meliputi kegiatan: pembuatan struktur database terkait integrasi, pembuatan kode program/coding terkait integrasi, pembuatan laporan-laporan terkait integrasi.
-
-**Pengujian**
-
-Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode *prototype*, yaitu jika terjadi kesalahan/kekurangan baik proses maupun *output* sistem, maka kesalahan/kekurangan tersebut akan diperbaiki/ditambahkan,
-sehingga memungkinkan pengembang untuk kembali ke tahapan pertama yaitu analisa (jika kekurangan sistem memang tidak terdefinisikan dalam dokumen perancangan sistem).
+2). Pengujian
+Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode prototye, yaitu jika terjadi kesalahan/kekurangan baik proses maupuan output sistem, maka kesalahan/kekurangan tersebut akan diperbaiki/ditambahkan, sehingga memungkinkan pengembang untuk kembali ke tahapan pertama yaitu analisa (jika kekurangan sistem memang tidak terdefinisikan dalam dokumen perancangan sistem).
 
 ### 3.4 Hasil
+Berikut ini adalah hasil eksekusi sistem informasi Ehibahbansos dalam website dan android
 
-Berikut ini adalah hasil eksekusi Android Banten Satu Data Jawara eGov
+#### 3.4.1 Tampilan Awal Website
 
-#### 3.4.1 Layout Tampilan Beranda
+##### 3.4.1.1 Layout Home
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-awal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-awal.png)
 
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_beranda_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_beranda_jawara.png)
+##### 3.4.1.2 Layout Tampilan Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-proposal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-proposal.png)
 
-Layout ini akan tampil ketika *user* masuk kedalam aplikasi Banten Satu Data Jawara eGov, pada tampilan ini berisi informasi layanan - layanan yang telah disediakan oleh pemerintah Provinsi Banten.
+##### 3.4.1.3 Layout Tampilan Tentang
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-tentang.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-tentang.png)
 
-#### 3.4.2 Layout Tampilan Aplikasi Pemerintah
+##### 3.4.1.4 Layout Tampilan Peraturan
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-peraturan.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-20180726_layout_tampilan-peraturan.png)
 
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_aplikasi-pemerintah_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_aplikasi-pemerintah_jawara.png)
+##### 3.4.1.5 Layout Tampilan Pengumuman
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-pengumuman.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180726_layout_tampilan-pengumuman.png)
 
-Layout tampilan dapat diakses oleh *user* dengan mengklik menu Aplikasi Pemerintah pada list menu aplikasi Banten Satu Data, pada tampilan ini *user* dapat melihat aplikasi - aplikasi pemerintahan Provinsi Banten. Di tampilan ini *user* dapat pindah ke aplikasi - aplikasi pemerintahan dengan mengklik *icon* aplikasi yang terdapat pada menu ini.
+#### 3.4.2 Tampilan Website Superadmin
 
-#### 3.4.3 Layout Tampilan Aplikasi Publik
+##### 3.4.2.1 Layout Tampilan Dashboard
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180727_sa_dashboard.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180727_sa_dashboard.png)
 
-[![Use Case Diagram](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_aplikasi-publik_jawara.png)](../images/banten-satu-data-jawara-egov/desain-dan-perancangan/20180726_aplikasi-publik_jawara.png)
+##### 3.4.2.2 Layout Tampilan Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180727_sa_proposal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180727_sa_proposal.png)
 
-Layout tampilan dapat diakses oleh *user* dengan mengklik menu Aplikasi Publik pada list menu aplikasi Banten Satu Data, pada tampilan ini *user* dapat melihat aplikasi - aplikasi untuk publik pada pemerintahan Provinsi Banten. Di tampilan ini *user* dapat pindah ke aplikasi - aplikasi tersebut dengan mengklik *icon* aplikasi yang terdapat pada menu ini.
+##### 3.4.2.3 Layout Tampilan Workflow
 
-## 4. Penutup
+* **Workflow**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_workflow.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_workflow.png)
 
-Dengan adanya pembuatan dari aplikasi Banten Satu Data Jawara eGov  ini dapat membantu masyarakat dalam mencari informasi atau laporan yang terdapat di pemerintahan Banten, sehingga masyarakat tidak bingung jika ingin mencari informasi atau laporan yang ada.
+* **State List**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_state-list.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_state-list.png)
+
+* **Transition List**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_transition-list.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_transition-list.png)
+
+* **Workflow Guard**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_guard.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_guard.png)
+
+* **Workflow Notification**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_notification.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_workflow_notification.png)
+
+##### 3.4.2.4 Layout Tampilan User
+
+* **User List**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_user_user.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_user_user.png)
+
+* **Permission**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_user_permission.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_user_permission.png)
+
+* **Role**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_user_role.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_user_role.png)
+
+##### 3.4.2.5 Layout Tampilan Setting
+
+* **Tentang**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_tentang.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_tentang.png)
+
+* **Peraturan**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_peraturan.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_peraturan.png)
+
+* **Pengumuman**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_pengumuman.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_pengumuman.png)
+
+* **Checklist**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_checklist.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_checklist.png)
+
+* **Banner**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_banner.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_banner.png)
+
+* **Video**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_video.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_video.png)
+
+* **Sosial Media**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_sosial-media.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_sosial-media.png)
+
+* **SKPD**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_skpd.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_skpd.png)
+
+* **API Manager**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_api-manager.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_api-manager.png)
+
+* **Host Key**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_host-key.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_setting_host-key.png)
+
+##### 3.4.2.6 Layout Tampilan Log
+
+* **Log Aktivitas**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-activitas.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-activitas.png)
+
+* **Log Login**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-login.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_sa_log_log-login.png)
+
+#### 3.4.3 Tampilan Website OPD
+
+##### 3.4.3.1 Layout Tampilan Dashboard
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_dashboard.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_dashboard.png)
+
+##### 3.4.3.2 Layout Tampilan Proposal
+
+* **Pengecekan Proposal**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_pengecekan.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_pengecekan.png)
+
+* **Verifikasi Proposal**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_verifikasi.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_verifikasi.png)
+
+* **Arsip**
+  [![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_arsip.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_opd_proposal_arsip.png)
+
+#### 3.4.4 Tampilan Website Pendaftar HibahBansos
+
+##### 3.4.4.1 Layout Tampilan Proposal Saya
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_proposal-saya.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_proposal-saya.png)
+
+##### 3.4.4.2 Layout Tampilan Form HibahBansos
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_form-hibah-bansos.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180730_warga_form-hibah-bansos.png)
+
+#### 3.4.5 Layout Tampilan Awal Android
+
+##### 3.4.5.1 Layout Tampilan Home
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal.png)
+
+##### 3.4.5.2 Layout Tampilan Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_proposal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_proposal.png)
+
+##### 3.4.5.3 Layout Tampilan Pengumuman
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_pengumuman.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_pengumuman.png)
+
+##### 3.4.5.4 Layout Tampilan Registrasi
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_registrasi.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_registrasi.png)
+
+##### 3.4.5.5 Layout Tampilan Login
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_login.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_awal_login.png)
+
+#### 3.4.6 Layout Tampilan Android Pendaftar
+
+##### 3.4.6.1 Layout Tampilan Home
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_awal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_awal.png)
+
+##### 3.4.6.2 Layout Tampilan Input Proposal
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_input-proposal.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_input-proposal.png)
+
+##### 3.4.6.3 Layout Tampilan Profile
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_profile.png)](../images/new_ehibahbansos/desain-dan-perancangan/20180801_and_user_profile.png)
+
+## 4.PENUTUP
+
+Dengan adanya pembuatan dari sistem aplikasi E-hibahbansos diharapkan dapat  terciptanya efisiensi proses, perbaikan prosedur, peningkatan transparansi dan akuntabilitas belanja hibah, bantuan sosial dan bantuan keuangan pada Pemerintah Provinsi Banten.
