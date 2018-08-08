@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: item
 title: Integrasi dan Pengujian
 description: Integrasi dan Pengujian Aplikasi Mobile Layanan Kesehatan
 cat: Yankes

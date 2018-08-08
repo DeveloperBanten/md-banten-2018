@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: item
 title: Implementasi
 description: Implementasi Aplikasi Mobile Layanan Kesehatan
 cat: Yankes

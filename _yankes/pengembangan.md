@@ -1,13 +1,11 @@
 ---
-layout: document
+layout: item
 title: Pengembangan
 description: Pengembangan Aplikasi Mobile Layanan Kesehatan
 cat: Yankes
 toc: true
 ---
 
-
-## Daftar Isi
 
 ## Daftar Isi
 * Will be replaced with the ToC, excluding the "Contents" header

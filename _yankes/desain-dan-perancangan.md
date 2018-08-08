@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: item
 title: Desain dan Perancangan
 description: Desain dan Perancangan Aplikasi Mobile Layanan Kesehatan
 cat: Yankes

@@ -4,6 +4,7 @@ title: "Desain dan Perancangan"
 date: 2018-05-16 16:25:06 +0700
 comments: true
 toc: true
+cat: SSO
 ---
 ## ABSTRAK
 Dewasa ini perkembangan teknologi komputer sangatlah pesat. Dengan menggunakan aplikasi komputer akan didapat informasi mengenai suatu tampilan objek yang ditampilkan lebih hidup dan menarik. Dengan banyaknya aplikasi pada pemerintahan sehingga membutuhkan suatu aplikasi yang mengijinkan *user* untuk mengakses semua aplikasi dengan satu akun login.
