@@ -89,7 +89,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Pen
 
 | Akses                  | URL/ Image                               | Ada  | Tidak |
 | ---------------------- | ---------------------------------------- | ---- | ----- |
-| Lihat Pengaduan | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg)](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg) |      |       |
+| Lihat Pengaduan | [![dashboard android](../images/jawara-egov/implementasi/20180808_lihat-pengaduan.jpeg)](../images/jawara-egov/implementasi/20180808_lihat-pengaduan.jpeg) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Lihat Pengaduan** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
