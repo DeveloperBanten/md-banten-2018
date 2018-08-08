@@ -105,7 +105,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Kes
 
 | Akses                  | URL/ Image                               | Ada  | Tidak |
 | ---------------------- | ---------------------------------------- | ---- | ----- |
-| Kamar Inap | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_kamar-inap.jpeg)](../images/jawara-egov/implementasi/20180808_and_kamar-inap.jpeg) |      |       |
+| Kamar Inap | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_kamar-inap1.jpeg)](../images/jawara-egov/implementasi/20180808_and_kamar-inap1.jpeg) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Kamar Inap** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
