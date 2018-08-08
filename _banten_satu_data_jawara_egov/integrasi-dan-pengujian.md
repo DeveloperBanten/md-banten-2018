@@ -28,13 +28,13 @@ Dibawah ini adalah pengintegrasian yang terdapat didalam Banten Satu data JAWARA
 ### 1.1 Public Function Content
 [![Content](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_content.png)](dev2018.bantenprov.go.id)
 
-#### 1.2 Public Function Index
+### 1.2 Public Function Index
 [![Index](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_index.png)](dev2018.bantenprov.go.id)
 
 #### 1.3 Public Function Menu
 [![Menu](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_menu.png)](dev2018.bantenprov.go.id)
 
-#### 1.4 Public Function Submenu
+### 1.4 Public Function Submenu
 [![Submenu](../images/jawara-egov/integrasi-dan-pengujian/mocr_public-function_submenu.png)](dev2018.bantenprov.go.id)
 
 Pada Integrasi ini semua response baik *Success Response* maupun *Error Response* hasilnya akan ditampilkan dalam bentuk Json. 
@@ -45,7 +45,7 @@ Pada pengujian ini akan menggunakan User Acceptance Test (UAT).
 
 Dibawah ini adalah pengujian yang dilakukan didalam aplikasi Banten Satu Data JAWARA e-Gov:
 
-#### 2.1 Loading JAWARA e-Gov
+### 2.1 Loading JAWARA e-Gov
 
 | Akses                | URL/ Image                               | Ada  | Tidak |
 | -------------------- | ---------------------------------------- | ---- | ----- |
@@ -53,7 +53,7 @@ Dibawah ini adalah pengujian yang dilakukan didalam aplikasi Banten Satu Data JA
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Loading JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.2 Dashboard JAWARA e-Gov
+### 2.2 Dashboard JAWARA e-Gov
 
 | Akses                  | URL/ Image                               | Ada  | Tidak |
 | ---------------------- | ---------------------------------------- | ---- | ----- |
@@ -61,7 +61,63 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Loading JAW
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.3 Aplikasi Pemerintah
+#### 2.2.1 Layanan Kepegawaian
+
+| Akses                  | URL/ Image                               | Ada  | Tidak |
+| ---------------------- | ---------------------------------------- | ---- | ----- |
+| Layanan Kepegawaian | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_layanan_kepegawaian.jpeg)](../images/jawara-egov/implementasi/20180808_and_layanan_kepegawaian.jpeg) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Kepegawaian** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+##### 2.2.1.1 Pegawai Aktif
+
+| Akses                  | URL/ Image                               | Ada  | Tidak |
+| ---------------------- | ---------------------------------------- | ---- | ----- |
+| Pegawai Aktif | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg)](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Pegawai Aktif** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+#### 2.2.2 Layanan Pengaduan
+
+| Akses                  | URL/ Image                               | Ada  | Tidak |
+| ---------------------- | ---------------------------------------- | ---- | ----- |
+| Layanan Pengaduan | [![dashboard android](../images/jawara-egov/implementasi/20180808_layanan_pengaduan.jpeg)](../images/jawara-egov/implementasi/20180808_layanan_pengaduan.jpeg) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Pengaduan** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+##### 2.2.2.1 Lihat Pengaduan
+
+| Akses                  | URL/ Image                               | Ada  | Tidak |
+| ---------------------- | ---------------------------------------- | ---- | ----- |
+| Lihat Pengaduan | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg)](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Lihat Pengaduan** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+#### 2.2.3 Layanan Kesehatan
+
+| Akses                  | URL/ Image                               | Ada  | Tidak |
+| ---------------------- | ---------------------------------------- | ---- | ----- |
+| Layanan Kesehatan | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_layanan-kesehatan.jpeg)](../images/jawara-egov/implementasi/20180808_and_layanan-kesehatan.jpeg) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Kesehatan** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+##### 2.2.3.1 Kamar Inap
+
+| Akses                  | URL/ Image                               | Ada  | Tidak |
+| ---------------------- | ---------------------------------------- | ---- | ----- |
+| Kamar Inap | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_kamar-inap.jpeg)](../images/jawara-egov/implementasi/20180808_and_kamar-inap.jpeg) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Kamar Inap** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+###### 2.2.3.1.1 Detail Kamar Inap
+
+| Akses                  | URL/ Image                               | Ada  | Tidak |
+| ---------------------- | ---------------------------------------- | ---- | ----- |
+| Detail Kamar Inap | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_detail_kamar-inap.jpeg)](../images/jawara-egov/implementasi/20180808_and_detail_kamar-inap.jpeg) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Detail Kamar Inap** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+### 2.3 Aplikasi Pemerintah
 
 | Akses               | URL/ Image                               | Ada  | Tidak |
 | ------------------- | ---------------------------------------- | ---- | ----- |
@@ -69,7 +125,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard J
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Pemerintah** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-#### 2.4 Aplikasi Publik
+### 2.4 Aplikasi Publik
 
 | Akses           | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
