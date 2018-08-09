@@ -10,11 +10,11 @@ cat: Banten Satu Data Jawara Egov
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## Integrasi dan Pengujian Banten Satu Data JAWARA e-Gov
+## Integrasi dan Pengujian Portal JAWARA e-Gov
 
-Banten Satu Data JAWARA e-Gov adalah sebuah aplikasi sistem informasi Provinsi Banten yang berbasis android yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi dan pelayanan yang tersedia pada Pemerintahan Provinsi Banten.
+Portal JAWARA e-Gov adalah sebuah aplikasi sistem informasi Provinsi Banten yang berbasis website yang dikeluarkan oleh pemerintah Provinsi Banten untuk memudahkan bagi masyarakat dalam melakukan pencarian informasi serta menjadi satu pintu bagi semua aplikasi dan pelayanan yang tersedia pada Pemerintahan Provinsi Banten.
 
-## 1. Integrasi JAWARA e-Gov
+## 1. Integrasi Portal JAWARA e-Gov
 Integrasi aplikasi dilakukan dengan:
 1. melalui antar muka aplikasi atau melalui method
 2. *focus method level*
@@ -39,40 +39,222 @@ Dibawah ini adalah pengintegrasian yang terdapat didalam Banten Satu data JAWARA
 
 Pada Integrasi ini semua response baik *Success Response* maupun *Error Response* hasilnya akan ditampilkan dalam bentuk Json. 
 
-## 2. Pengujian JAWARA e-Gov
+## 2. Pengujian Portal JAWARA e-Gov
 
 Pada pengujian ini akan menggunakan User Acceptance Test (UAT).
 
-Dibawah ini adalah pengujian yang dilakukan didalam aplikasi Banten Satu Data JAWARA e-Gov:
+Dibawah ini adalah pengujian yang dilakukan didalam aplikasi Portal JAWARA e-Gov:
 
-#### 2.1 Loading JAWARA e-Gov
+### 2.1 Tampilan Awal
+
+#### 2.1.1 Halaman Awal Aplikasi
 
 | Akses                | URL/ Image                               | Ada  | Tidak |
 | -------------------- | ---------------------------------------- | ---- | ----- |
-| Loading JAWARA e-Gov | [![lihat Category](../images/jawara-egov/pengembangan/loading.jpeg)](../images/jawara-egov/pengembangan/loading.jpeg) |      |       |
+| Halaman Awal Aplikasi | [![lihat Category](../images/jawara-egov/pengembangan/awal-jawara-egov.jpeg)](../images/jawara-egov/pengembangan/awal-jawara-egov.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Loading JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada halaman awal ini user dapat melihat menu-menu yang terdapat pada bagian atas aplikasi. Dihalaman ini user dapat melihat aplikasi-aplikasi apa saja yang terdapat pada Pemerintahan Provinsi Banten yang jika diklik akan memindahkan ke link url aplikasi yang diklik tersebut. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
 
-#### 2.2 Dashboard JAWARA e-Gov
+#### 2.1.2 Tampilan Profil Provinsi
 
-| Akses                  | URL/ Image                               | Ada  | Tidak |
-| ---------------------- | ---------------------------------------- | ---- | ----- |
-| Dashboard JAWARA e-Gov | [![dashboard android](../images/jawara-egov/implementasi/dashboard-android.jpeg)](../images/jawara-egov/implementasi/dashboard-android.jpeg) |      |       |
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Profil Provinsi | [![lihat Category](../images/jawara-egov/pengembangan/profil-provinsi.png)](../images/jawara-egov/pengembangan/profil-provinsi.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada Tampilan ini terdapat beberapa submenu yaitu Profil Banten, Sejarah Banten, Geografi, Demografi, Arti Lambang dan Kebudayaan. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
 
-#### 2.3 Aplikasi Pemerintah
+#### 2.1.3 Tampilan Profil Pemerintah
 
-| Akses               | URL/ Image                               | Ada  | Tidak |
-| ------------------- | ---------------------------------------- | ---- | ----- |
-| Aplikasi Pemerintah | [![aplikasi pemerintah](../images/jawara-egov/implementasi/aplikasi-pemerintah.jpeg)](../images/jawara-egov/implementasi/aplikasi-pemerintah.jpeg) |      |       |
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Profil Pemerintah | [![lihat Category](../images/jawara-egov/pengembangan/profil-pemerintah.png)](../images/jawara-egov/pengembangan/profil-pemerintah.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Pemerintah** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada Tampilan ini terdapat beberapa submenu yaitu Profil Gubernur, Profil Wakil Gubernur, Daftar Nama Pegawai dan ILPPD. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
 
-#### 2.4 Aplikasi Publik
+#### 2.1.4 Tampilan Layanan Informasi
 
-| Akses           | URL/ Image                               | Ada  | Tidak |
-| --------------- | ---------------------------------------- | ---- | ----- |
-| Apliaksi Publik | [![aplikasi publik](../images/jawara-egov/implementasi/aplikasi-publik.jpeg)](../images/jawara-egov/implementasi/aplikasi-publik.jpeg) |      |       |
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Layanan Informasi | [![lihat Category](../images/jawara-egov/pengembangan/layanan-informasi.png)](../images/jawara-egov/pengembangan/layanan-informasi.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Publik** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada Tampilan ini terdapat beberapa submenu yaitu PPID, Dasar Hukum dan Pelayanan. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
+
+#### 2.1.5 Tampilan Informasi Pembangunan Daerah
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Informasi Pembangunan Daerah | [![lihat Category](../images/jawara-egov/pengembangan/informasi-pembangunan-daerah.png)](../images/jawara-egov/pengembangan/informasi-pembangunan-daerah.png) |      |       |
+
+Pada Tampilan ini terdapat beberapa submenu yaitu Transparansi Pengelolaan Anggaran Daerah, Informasi Berkala, Informasi Serta Merta, KTDA, SLAD dan MOU Perjanjian Kerjasama. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
+
+#### 2.1.6 Tampilan Press Release
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Press Release | .[![lihat Category](../images/jawara-egov/pengembangan/press-release.png)](../images/jawara-egov/pengembangan/press-release.png) |      |       |
+
+Pada Tampilan ini terdapat beberapa submenu yaitu Gallery, News and Events dan Kontak. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+### 2.2 Tampilan Superadmin
+
+Untuk memulai akses kedalah JAWARA e-Gov superadmin dapat mengklik link url berikut ini http://dev2018.bantenprov.go.id/admin sehingga akan menampilkan tampilan login.
+
+#### 2.2.1 Tampilan Login Superadmin
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Login Superadmin | [![lihat Login Superadmin](../images/jawara-egov/pengembangan/login-superadmin.png)](../images/jawara-egov/pengembangan/login-superadmin.png) |      |       |
+
+Setelah membuka link url diatas maka akan timbul *Page Sign In*. Terdapat 2 *field* yang harus diisi yaitu email dan passwor untuk melakukan *sign In* kedalam aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+#### 2.2.2 Tampilan Dashboard Superadmin
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Dashboard Superadmin | [![lihat Dashboard Superadmin](../images/jawara-egov/pengembangan/dashboard-superadmin.png)](../images/jawara-egov/pengembangan/dashboard-superadmin.png) |      |       |
+
+Di page Dashboard Superadmin ini, superadmin dapat mengakses beberapa menu untuk mengatur tampilan forntend aplikasi Portal jawara e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
+
+#### 2.2.3 Tampilan Menu General
+
+##### 2.2.3.1 Tampilan Submenu Banners
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Submenu Banners | [![lihat Submenu Banners](../images/jawara-egov/pengembangan/banners.png)](../images/jawara-egov/pengembangan/banners.png) |      |       |
+
+*Page* Banners ini dapat diakses dengan mengklik General pada kolom menu lalu klik Banners. Pada *page* ini superadmin dapat mengedit, menambahkan, menghapus serta mengatur letak dan posisi gambar maupun images slider pada *frontend* aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
+
+###### 2.2.3.1.1 Create Banner
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Create Banner | [![lihat Create Banner](../images/jawara-egov/pengembangan/banners-create.png)](../images/jawara-egov/pengembangan/banners-create.png) |      |       |
+
+*Page* Create Banner ini menampilkan formulir untuk menambahkan images/banners kedalam database aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+###### 2.2.3.1.2 Banner Order
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Banner Order | [![lihat Banner Order](../images/jawara-egov/pengembangan/banners-order.png)](../images/jawara-egov/pengembangan/banners-order.png) |      |       |
+
+*Page* Banner Order ini untuk mengatur tata letak images/banner pada *frontend* aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+#### 2.2.4 Tampilan Menu Pages
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Menu Pages | [![lihat Pages](../images/jawara-egov/pengembangan/pages.png)](../images/jawara-egov/pengembangan/pages.png) |      |       |
+
+Tampilan Pages ini dapat diakses dengan cara mengklik Pages pada kolom menu. Pada halaman Pages ini superadmin dapat menambahkan dan mengatur tampilan menu yang terdapat di *frontend* aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+##### 2.2.4.1 Create Pages
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Create Pages | [![lihat Create Pages](../images/jawara-egov/pengembangan/pages-create.png)](../images/jawara-egov/pengembangan/pages-create.png) |      |       |
+
+*Page* Create Pages ini menampilkan formulir untuk menambahkan pages kedalam database aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
+
+##### 2.2.4.2 General Order
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| General Order | [![lihat General Order](../images/jawara-egov/pengembangan/pages-order.png)](../images/jawara-egov/pengembangan/pages-order.png) |      |       |
+
+*Page* General Order ini mengatur menu yang terdapat didalam aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+#### 2.2.5 Tampilan Menu Gallery
+
+##### 2.2.5.1 Tampilan Submenu Albums
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Submenu Albums | [![lihat Albums](../images/jawara-egov/pengembangan/albums.png)](../images/jawara-egov/pengembangan/albums.png) |      |       |
+
+*Page* Albums ini dapat diakses dengan cara mengklik Gallery pada kolom menu lalu mengklik Albums. Pada page ini superadmin dapat membuat, mengedit album pada aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+###### 2.2.5.1.1 Create Album
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Create Album | [![lihat Albums](../images/jawara-egov/pengembangan/albums-create.png)](../images/jawara-egov/pengembangan/albums-create.png) |      |       |
+
+*Page* Create Album ini menampilkan form untuk menambahkan album ke dalam database aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+#### 2.2.6 Tampilan Menu Links
+
+##### 2.2.6.1 Tampilan Submenu Category
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Submenu Category | [![lihat Category](../images/jawara-egov/pengembangan/link-category.png)](../images/jawara-egov/pengembangan/link-category.png) |      |       |
+
+*Page* Category ini dapat diakses dengan cara mengklik Links pada kolom menu lalu klik Category. Pada *page* ini superadmin dapat membuat kategori-kategori link aplikasi pemerintahan di Provinsi Banten. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+###### 2.2.6.1.1 Create Category
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Create Category | [![lihat Category](../images/jawara-egov/pengembangan/link-category-create.png)](../images/jawara-egov/pengembangan/link-category-create.png) |      |       |
+
+*page* ini akan menampilkan formulir untuk menambahkan kategori links kedalam database aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+##### 2.2.6.2 Tampilan Submenu Link
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Submenu Link | [![lihat Link](../images/jawara-egov/pengembangan/links-links.png)](../images/jawara-egov/pengembangan/links-links.png) |      |       |
+
+*Page* Links ini dapat diakses dengan cara mengklik Links pada kolom menu lalu klik Links. Pada halaman ini superadmin dapat menambah, mengedit, menghapus dan mengatur link apliaksi-aplikasi OPD pada *frontend* apliksai JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+###### 2.2.6.2.1 Create Link
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Create Link | [![lihat Link](../images/jawara-egov/pengembangan/links-links-create.png)](../images/jawara-egov/pengembangan/links-links-create.png) |      |       |
+
+Pada *page* Create Links akan menampilkan formulir untuk menambahkan Links kedalam database aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+###### 2.2.6.2.2 Link Header Order
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Link Header Order | [![lihat Link](../images/jawara-egov/pengembangan/links-links-order.png)](../images/jawara-egov/pengembangan/links-links-order.png) |      |       |
+
+Pada *page* ini superadmin dapat mengatur tata letak aplikasi-aplikasi yang akan ditampilkan ke *frontend* aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+#### 2.2.7 Tampilan Menu News and Events
+
+##### 2.2.7.1 Tampilan Submenu Category
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Submenu Category | [![lihat Category](../images/jawara-egov/pengembangan/news-category.png)](../images/jawara-egov/pengembangan/news-category.png) |      |       |
+
+*Page* Category ini dapat diakses dengan cara mengklik News and Events pada kolom menu lalu klik Category. Pada *page* ini superadmin dapat membuat kategori-kategori Berita aplikasi pemerintahan di Provinsi Banten. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+###### 2.2.7.1.1 Create Category
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Create Category | [![lihat Category](../images/jawara-egov/pengembangan/news-category-create.png)](../images/jawara-egov/pengembangan/news-category-create.png) |      |       |
+
+*Page* ini akan menampilkan formulir untuk menambahkan kategori berita kedalam database aplikasi JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+##### 2.2.7.2 Tampilan Submenu News and Events
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Submenu News and Events | [![lihat Category](../images/jawara-egov/pengembangan/news-and-events.png)](../images/jawara-egov/pengembangan/news-and-events.png) |      |       |
+
+*Page* News and Events ini bisa diakses dengan cara mengklik News and Events pada kolom menu lalu mengklik News and Event pada kolom submenu. pada *page* ini superadmin dapat menampilkan berita-berita yang akan ditampilkan kedalam *frontend* JAWARA e-Gov. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
+
+###### 2.2.7.2.1 Create News and Event
+
+| Akses                | URL/ Image                               | Ada  | Tidak |
+| -------------------- | ---------------------------------------- | ---- | ----- |
+| Create News and Event | [![lihat Category](../images/jawara-egov/pengembangan/news-and-events-create.png)](../images/jawara-egov/pengembangan/news-and-events-create.png) |      |       |
+
+*Page* ini akan menampilkan formulir untuk menambahkan berita kedalam database aplikasi JAWARA e-Gov Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak.
