@@ -326,3 +326,36 @@ Tampilan ini dapat diakses dengan mengklik tulisan Account pada "Superadmin". Pa
 ##### 1.2.4.2 Log Out
 
 Sub modul Log Out ini dapat diakses dengan mengklik tulisan Log Out pada "Superadmin". Sub modul ini digunakan Superadmin untu melakukan Log Out atau keluar dari Tampilan Superadmin.
+
+## 2. Tampilan Android
+
+### 2.1 Login
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_login.jpeg)](../images/sso/pengembangan/20180809_and_login.jpeg)
+
+Tampilan Login ini akan muncul ketika *user* membuka aplikasi, pada tampilan login ini terdapat 2 (dua) *field* yang harus diisi oleh *user* yaitu NIK dan Password.
+
+### 2.2 View List
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_view-list.jpeg)](../images/sso/pengembangan/20180809_and_view-list.jpeg)
+
+Pada tampilan View List ini *user* dapat melihat list billboard yang sudag terdaftar pada aplikasi.
+
+#### 2.2.1 View List Detail
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_view-list_detail.jpeg)](../images/sso/pengembangan/20180809_and_view-list_detail.jpeg)
+
+Tampilan View List Detail ini dapat diakses dengan mengklik billboard yang akan dilihat detailnya pada tampilan View List. Pada tampilan ini *user* dapat melihat detail billboard yang sudah terdaftar pada aplikasi.
+
+### 2.3 View Map
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_view-maps.jpeg)](../images/sso/pengembangan/20180809_and_view-maps.jpeg)
+
+Pada tampilan View Maps ini *user* dapat melihat denah lokasi billboard pada peta yang disediakan. Pada tampilan ini *user* dapat memfilter pencarian billboard berdasarkan Kota, Kecamatan dan Kelurahan.
+
+### 2.4 Tambah Billboard
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard.jpeg)](../images/sso/pengembangan/20180809_and_tambah-billboard.jpeg)
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard1.jpeg)](../images/sso/pengembangan/20180809_and_tambah-billboard1.jpeg)
+
+Tampilan Tambah Billboard ini dapat diakses dengan megklik "+" pada lingkaran berwarna pink pada aplikasi. Pada tampilan ini akan ditampilkan form untuk menambah data billboard ke aplikasi e-Billboard.
