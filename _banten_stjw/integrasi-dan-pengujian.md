@@ -51,7 +51,7 @@ Dibawah ini adalah pengujian yang dilakukan didalam aplikasi Portal JAWARA e-Gov
 
 | Akses                | URL/ Image                               | Ada  | Tidak |
 | -------------------- | ---------------------------------------- | ---- | ----- |
-| Halaman Awal Aplikasi | [![lihat Category](../images/jawara-egov/pengembangan/awal-jawara-egov.jpeg)](../images/jawara-egov/pengembangan/awal-jawara-egov.jpeg) |      |       |
+| Halaman Awal Aplikasi | [![lihat Category](../images/jawara-egov/pengembangan/awal-jawara-egov.png)](../images/jawara-egov/pengembangan/awal-jawara-egov.png) |      |       |
 
 Pada halaman awal ini user dapat melihat menu-menu yang terdapat pada bagian atas aplikasi. Dihalaman ini user dapat melihat aplikasi-aplikasi apa saja yang terdapat pada Pemerintahan Provinsi Banten yang jika diklik akan memindahkan ke link url aplikasi yang diklik tersebut. Untuk pengujiannya, penguji dapat mengecek apakah Halaman awal aplikasi ini sudah dapat diakses atau belum, jika sudah dapat diakses penguji dapat meceklis pada kolom ada sedangkan jika tidak dapat diakses penguji dapat menceklis pada kolom tidak
 
