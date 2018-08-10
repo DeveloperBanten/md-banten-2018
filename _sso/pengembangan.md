@@ -29,14 +29,14 @@ Pada tampilan ini *user* dapat melihat informasi mengenai aplikasi SSO seperti a
 
 #### 1.2.1 Web Redirect
 
-[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_dokumentasi_web-redirect.png)](../images/sso/pengembangan/20180724_awal_dokumentasi_web-redirect.png)
+[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180810_dokumentasi_web-redirect.png)](../images/sso/pengembangan/20180810_dokumentasi_web-redirect.png)
 
 Tampilan ini dapat diakses dengan mengklik "Web Redirect" pada modul "Dokumentasi". Tampilan ini memberitahukan cara pemakaian aplikasi SSO melalui web seperti mendaftar sebagai member, login, membuat SSo Apps, dll.
 
 
 #### 1.2.2 Android
 
-[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_dokumentasi_android.png)](../images/sso/pengembangan/20180724_awal_dokumentasi_android.png)
+[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180810_dokumentasi_android.png)](../images/sso/pengembangan/20180810_dokumentasi_android.png)
 
 Tampilan ini dapat diakses dengan mengklik "Android" pada modul "Dokumentasi". Tampilan ini memberitahukan cara pemakaian aplikasi SSO melalui Android seperti mendaftar sebagai member, login, membuat SSo Apps, dll.
 
