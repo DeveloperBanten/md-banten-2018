@@ -51,7 +51,7 @@ Dibawah ini adalah pengujian yang dilakukan didalam aplikasi Banten Satu Data JA
 | -------------------- | ---------------------------------------- | ---- | ----- |
 | Loading JAWARA e-Gov | [![lihat Category](../images/jawara-egov/pengembangan/loading.jpeg)](../images/jawara-egov/pengembangan/loading.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Loading JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Loading JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat membuka aplikasi Jawara e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ### 2.2 Dashboard JAWARA e-Gov
 
@@ -59,7 +59,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Loading JAW
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Dashboard JAWARA e-Gov | [![dashboard android](../images/jawara-egov/implementasi/dashboard-android.jpeg)](../images/jawara-egov/implementasi/dashboard-android.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard JAWARA e-Gov** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada tampilan ini user dapat melihat layanan - layanan yang tersedia pada aplikasi Banten Satu Data JAWARA e-Gov,dalam tampilan dashboard ini *user* dapat mengakses beberapa layanan yang sudah disediakan seperti layanan kesehatan, layanan bantuan, layanan informasi, layanan kepegawaian, dll. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 #### 2.2.1 Layanan Kepegawaian
 
@@ -67,7 +67,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Dashboard J
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Kepegawaian | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_layanan_kepegawaian.jpeg)](../images/jawara-egov/implementasi/20180808_and_layanan_kepegawaian.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Kepegawaian** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada tampilan Layanan Kepegawaian ini dapat diakses dengan mengklik icon Layanan Kepegawaian, pada Layanan Kepegawaian terdapat beberapa informasi yang dapat diakses oleh *user* seperti Pegawai Aktif, Pegawai Meninggal, Pegawai Pensiun, Pegawai Pindah/Keluar,Semua Pegawai dan Data Jumlah. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.2.1.1 Pegawai Aktif
 
@@ -75,7 +75,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Kep
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Pegawai Aktif | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg)](../images/jawara-egov/implementasi/20180808_and_pegawai-aktif.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Pegawai Aktif** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Halaman Pegawai Aktif ini dapat oleh *user* dengan mengklik icon Pegawai Aktif pada menu Layanan Pegawai, pada tampilan ini *user* dapat melihat data pegawai yang masih aktif dalam pemerintahan Provinsi Bnaten. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 #### 2.2.2 Layanan Pengaduan
 
@@ -83,7 +83,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Pegawai Akt
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Pengaduan | [![dashboard android](../images/jawara-egov/implementasi/20180808_layanan_pengaduan.jpeg)](../images/jawara-egov/implementasi/20180808_layanan_pengaduan.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Pengaduan** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada tampilan Layanan Pengaduan ini dapat diakses dengan mengklik icon Layanan Pengaduan ini *user* dapat melihat informasi mengenai data pengaduan yang telah dikirum melalui aplikasi Epormas. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.2.2.1 Lihat Pengaduan
 
@@ -91,7 +91,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Pen
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Lihat Pengaduan | [![dashboard android](../images/jawara-egov/implementasi/20180808_lihat-pengaduan.jpeg)](../images/jawara-egov/implementasi/20180808_lihat-pengaduan.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Lihat Pengaduan** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Lihat Pengaduan ini dapat diakses dengan mengklik kotak Jumlah Pengaduan, pada tampilan ini *user* dapat melihat data pengaduan yang telah masuk kedalam aplikasi eEpormas. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 #### 2.2.3 Layanan Kesehatan
 
@@ -99,7 +99,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Lihat Penga
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Kesehatan | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_layanan-kesehatan.jpeg)](../images/jawara-egov/implementasi/20180808_and_layanan-kesehatan.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Kesehatan** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada tampilan Layanan Kesehatan ini dapat diakses dengan mengklik icon Layanan Kesehatan, pada tampilan ini *user* dapat melihat informasi mengenai layanan - layanan kesehatan yang tersedia pada pemerintahan Provinsi Banten, pada tampilan ini *user* dapat mengakses informasi mengenai Rumah Sakit,Kamar Inap, Dokter, Data Yankes dan Data Rekapitulasi Puskesmas. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.2.3.1 Kamar Inap
 
@@ -107,7 +107,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Layanan Kes
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Kamar Inap | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_kamar-inap1.jpeg)](../images/jawara-egov/implementasi/20180808_and_kamar-inap1.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Kamar Inap** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada tampilan Kamar Inap ini *user* dapat melihat data - data kamar inap yang tersedia pada rumah sakit - rumah sakit yang berada di Provinsi Banten. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ###### 2.2.3.1.1 Detail Kamar Inap
 
@@ -115,7 +115,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Kamar Inap*
 | ---------------------- | ---------------------------------------- | ---- | ----- |
 | Detail Kamar Inap | [![dashboard android](../images/jawara-egov/implementasi/20180808_and_detail_kamar-inap.jpeg)](../images/jawara-egov/implementasi/20180808_and_detail_kamar-inap.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Detail Kamar Inap** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Pada tampilan Detal Kamar Inap ini dapat diakses dengan mengklik gambar rumah sakit yang berada pada Layanan Kamar Inap, pada layanan ini *user* dapat melihat data kamar inap yang berada pada rumah sakit tersebut beserta list harga kamar inap yang berada pada rumah sakit tersebut. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ### 2.3 Aplikasi Pemerintah
 
@@ -123,7 +123,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Detail Kama
 | ------------------- | ---------------------------------------- | ---- | ----- |
 | Aplikasi Pemerintah | [![aplikasi pemerintah](../images/jawara-egov/implementasi/aplikasi-pemerintah.jpeg)](../images/jawara-egov/implementasi/aplikasi-pemerintah.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Pemerintah** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Tampilan Aplikasi Pemerintah dapat diakses dengan mengklik icon Aplikasi Pemerintah pada menu dibawah aplikasi, pada tampilan Aplikasi Pemerintah ini *user* dapat melihat aplikasi - aplikasi pemerintah yang terdapat pada pemerintahan Provinsi Banten. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ### 2.4 Aplikasi Publik
 
@@ -131,4 +131,4 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Pe
 | --------------- | ---------------------------------------- | ---- | ----- |
 | Apliaksi Publik | [![aplikasi publik](../images/jawara-egov/implementasi/aplikasi-publik.jpeg)](../images/jawara-egov/implementasi/aplikasi-publik.jpeg) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah **Aplikasi Publik** sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Tampilan Apliaksi Publik ini dapat diakses dengan mengklik icon Aplikasi Publik pada daftra menu yang berada pada bagian bawah aplikasi, pada tampilan ini *user* dapat melihat aplikasi - aplikasi layanan publik yang terdapat pada pemerintahan Provinsi Banten. Untuk mengecek dapat diakses tidaknya konten ini *user* dapat melihat di aplikasi android JAWARA e-Gov, jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
