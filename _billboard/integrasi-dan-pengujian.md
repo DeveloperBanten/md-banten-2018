@@ -10,7 +10,7 @@ cat: Billboard
 
 [TOC]
 
-## Integrasi dan Pengujian (UAT) SSO
+## Integrasi dan Pengujian (UAT) e-Billboard
 
 Pada laporan ini akan membahas tentang Pengujian dan Integrasi aplikasi e-Billboard, untuk pengujiannya menggunakan User Acceptance Test (UAT).
 
