@@ -52,7 +52,7 @@ Dalam tabel ini *user* dapat melakukan test ketika membuka Home apliksi SSO, apa
 
 | Tampilan     | URL/ Image                               | Ada  | Tidak |
 | ------------ | ---------------------------------------- | ---- | ----- |
-| Web Redirect | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_dokumentasi_web-redirect.png)](../images/sso/pengembangan/20180724_awal_dokumentasi_web-redirect.png) |      |       |
+| Web Redirect | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180810_dokumentasi_web-redirect.png)](../images/sso/pengembangan/20180810_dokumentasi_web-redirect.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test ketika membuka Sub Menu Web Redirect pada Menu Dokumentasi, apakah sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya, user dapat mengklik Sub Menu Web Redirect pada Menu Dokumentasi, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
@@ -60,7 +60,7 @@ Dalam tabel ini *user* dapat melakukan test ketika membuka Sub Menu Web Redirect
 
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
-| Android  | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_dokumentasi_android.png)](../images/sso/pengembangan/20180724_awal_dokumentasi_android.png) |      |       |
+| Android  | [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180810_dokumentasi_android.png)](../images/sso/pengembangan/20180810_dokumentasi_android.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test ketika membuka Sub Menu Android pada Menu Dokumentasi, apakah sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya, user dapat mengklik Sub Menu Android pada Menu Dokumentasi, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
