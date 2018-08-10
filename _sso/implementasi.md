@@ -77,13 +77,13 @@ Halaman Dokumentasi ini dapat diakses oleh *user* dengan cara mengklik Dokumenta
 
 ##### 3.1.2.1 Web Redirect
 
-[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_dokumentasi_web-redirect.png)](../images/sso/pengembangan/20180724_awal_dokumentasi_web-redirect.png)
+[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180810_dokumentasi_web-redirect.png)](../images/sso/pengembangan/20180810_dokumentasi_web-redirect.png)
 
 Halaman ini dapat diakses oleh *user* dengan mengklik sub menu Web Redirect pada menu Dokumentasi. Pada halaman ini menjelaskan tentang gambaran umum pemakaian aplikasi melalui website.
 
 ##### 3.1.2.2 Android
 
-[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_dokumentasi_android.png)](../images/sso/pengembangan/20180724_awal_dokumentasi_android.png)
+[![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180810_dokumentasi_android.png)](../images/sso/pengembangan/20180810_dokumentasi_android.png)
 
 Halaman ini dapat diakses oleh *user* dengan mengklik sub menu Android pada menu Dokumentasi. Pada halaman ini menjelaskan tentang gambaran umum pemakaian aplikasi melalui Android.
 
