@@ -17,7 +17,7 @@ Berikut ini adalah tampilan - tampilan yang terdapat didalam apliaksi SSO:
 
 ## 1. Tampilan Awal SSO
 
-Untuk memulai akses terhadap aplikasi SSO (Single Sign On), buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url https://sso.bangunbanten.com/ kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Sehingga akan muncul tampilan seperti dibawah ini :
+Untuk memulai akses terhadap aplikasi SSO (Single Sign On), buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url https://satulogin.bantenprov.go.id/ kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Sehingga akan muncul tampilan seperti dibawah ini :
 
 ### 1.1 Tampilan Home SSO
 
