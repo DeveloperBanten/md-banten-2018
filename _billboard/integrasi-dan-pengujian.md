@@ -21,30 +21,30 @@ Berikut ini adalah integrasi antara website e-Billboard dengan android e-Billboa
 
 ### 1.1 Get Coordinate
 
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/getcoordinate1.png)](../images/billboard/integrasi-dan-pengujian/getcoordinate1.png)
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/getcoordinate2.png)](../images/billboard/integrasi-dan-pengujian/getcoordinate2.png)
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/getcoordinate3.png)](../images/billboard/integrasi-dan-pengujian/getcoordinate3.png)
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/getcoordinate4.png)](../images/billboard/integrasi-dan-pengujian/getcoordinate4.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/getcoordinate1.png)](../images/billboard/Integrasi-dan-pengujian/getcoordinate1.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/getcoordinate2.png)](../images/billboard/Integrasi-dan-pengujian/getcoordinate2.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/getcoordinate3.png)](../images/billboard/Integrasi-dan-pengujian/getcoordinate3.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/getcoordinate4.png)](../images/billboard/Integrasi-dan-pengujian/getcoordinate4.png)
 
 ### 1.2 Get List
 
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/getlist1.png)](../images/billboard/integrasi-dan-pengujian/getlist1.png)
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/getlist2.png)](../images/billboard/integrasi-dan-pengujian/getlist2.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/getlist1.png)](../images/billboard/Integrasi-dan-pengujian/getlist1.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/getlist2.png)](../images/billboard/Integrasi-dan-pengujian/getlist2.png)
 
 ### 1.3 Get Req Handler
 
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/getreqhandler.png)](../images/billboard/integrasi-dan-pengujian/getreqhandler.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/getreqhandler.png)](../images/billboard/Integrasi-dan-pengujian/getreqhandler.png)
 
 ### 1.4 Post Req Handler
 
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/postreqhandler1.png)](../images/billboard/integrasi-dan-pengujian/postreqhandler1.png)
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/postreqhandler2.png)](../images/billboard/integrasi-dan-pengujian/postreqhandler2.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/postreqhandler1.png)](../images/billboard/Integrasi-dan-pengujian/postreqhandler1.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/postreqhandler2.png)](../images/billboard/Integrasi-dan-pengujian/postreqhandler2.png)
 
 ### 1.5 Send Data
 
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/senddata1.png)](../images/billboard/integrasi-dan-pengujian/senddata1.png)
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/senddata2.png)](../images/billboard/integrasi-dan-pengujian/senddata2.png)
-[![ilustrasi-alur-prototyping](../images/billboard/integrasi-dan-pengujian/senddata3.png)](../images/billboard/integrasi-dan-pengujian/senddata3.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/senddata1.png)](../images/billboard/Integrasi-dan-pengujian/senddata1.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/senddata2.png)](../images/billboard/Integrasi-dan-pengujian/senddata2.png)
+[![ilustrasi-alur-prototyping](../images/billboard/Integrasi-dan-pengujian/senddata3.png)](../images/billboard/Integrasi-dan-pengujian/senddata3.png)
 
 ## 2. Pengujian atau *User Acceptance Test* (UAT)
 
