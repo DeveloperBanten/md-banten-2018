@@ -89,7 +89,7 @@ Tampilan ini dapat diakses oleh Superadmin ketika berhasil melakukan Login kedal
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_dashboard.png)](../images/sso/pengembangan/20180809_sa_dashboard.png)
 
-Tampilan Dashboard ini dapat diakses ketika superadmin berhasil melakukan Login kedalam apilaksi e-Billboard. Pada halam ini superadmin dapat meilhat informasi - informasi yang terdapat didalam aplikasi e-Billboard, pada tapilan ini terdapat beberapa modul yang terdapat pada bagian atas aplikasi seperti Dashboard, Billboard, Pengaturan dan Users & Permission
+Tampilan Dashboard ini dapat diakses ketika superadmin berhasil melakukan Login kedalam apilaksi e-Billboard. Pada halaman ini superadmin dapat meilhat informasi - informasi yang terdapat didalam aplikasi e-Billboard, pada tapilan ini terdapat beberapa modul yang terdapat pada bagian atas aplikasi seperti Dashboard, Billboard, Pengaturan dan Users & Permission
 
 #### 1.3.2 Billboard
 
@@ -117,7 +117,7 @@ Publish Billboard ini dapat diakses dengan mengklik icon gembok pada kolom actio
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_detail.png)](../images/sso/pengembangan/20180809_sa_billboard_detail.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_detail1.png)](../images/sso/pengembangan/20180809_sa_billboard_detail1.png)
 
-Tampilan Lihat Detail Billboard ini dapat diakses dengan mengklik icon mata pada kolom action di tabel billboard. Pada tampilan ini superadmin dapat melihat detail billboard.
+Tampilan Lihat Detail Billboard ini dapat diakses dengan mengklik icon mata pada kolom action di tabel billboard. Pada tampilan ini superadmin dapat melihat detail data billboard.
 
 ##### 1.3.2.5 Edit Billboard
 
@@ -317,13 +317,13 @@ Delete Role ini dapat diakses dengan mengklik icon tong sampah pada kolom action
 
 Modul Profile Superadmin ini dapat diakses dengan mengklik tulisan "Superadmin" pada pojok kanan atas aplikasi, pada modul ini terdapat 2 submodul yaitu :
 
-##### 1.2.4.1 Account
+##### 1.3.5.1 Account
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_account.png)](../images/sso/pengembangan/20180809_sa_account.png)
 
 Tampilan ini dapat diakses dengan mengklik tulisan Account pada "Superadmin". Pada tampilan ini Superadmin dapat mengatur data profile Superadmin dengan mengisi form Account Setting.
 
-##### 1.2.4.2 Log Out
+##### 1.3.5.2 Log Out
 
 Sub modul Log Out ini dapat diakses dengan mengklik tulisan Log Out pada "Superadmin". Sub modul ini digunakan Superadmin untu melakukan Log Out atau keluar dari Tampilan Superadmin.
 
