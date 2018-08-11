@@ -76,7 +76,7 @@ Pada bagian ini akan dijelaskan langkah - langkah penggunaan dari menu - menu ya
 
 ##### 3.1.1.1 Home e-Billboard
 
-Untuk mengakses aplikasi e-Billboard, *user* dapat membuka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url https://bilboard.bangunbanten.com kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Akan muncul tampilan halaman Home e-Billboard seperti gambar dibawah ini.
+Untuk mengakses aplikasi e-Billboard, *user* dapat membuka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url (server sementara) https://bilboard.bangunbanten.com kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Akan muncul tampilan halaman Home e-Billboard seperti gambar dibawah ini.
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_home.png)](../images/sso/pengembangan/20180809_awal_home.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_home1.png)](../images/sso/pengembangan/20180809_awal_home1.png)
