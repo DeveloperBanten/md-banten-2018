@@ -69,6 +69,7 @@ Tampilan Proposal ini dapat diakses dengan mengklik Proposal pada list menu supe
 
 ##### 1.2.2.1 Tampilan Proposal Koreksi
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180813_sa_koreksi.png)](../images/new_ehibahbansos/pengembangan/20180813_sa_koreksi.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180813_sa_koreksi1.png)](../images/new_ehibahbansos/pengembangan/20180813_sa_koreksi1.png)
 Tampilan koreksi proposal ini dapat diakses dengan cara mengklik tombol Koreksi pada kolom action proposal. Pada halaman ini admin dapat mengecek kelengkapan dokumen dan persyaratan adminstrasi proposal.
 
 ##### 1.2.2.2 Tampilan Proposal Arsip
@@ -351,6 +352,7 @@ Tampilan Add Proposal ini dapat diakses dengan mengklik tombol + Add Proposal pa
 
 ###### 1.4.2.2.2 Tampilan Koreksi Proposal
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180813_opd_koreksi.png)](../images/new_ehibahbansos/pengembangan/20180813_opd_koreksi.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180813_opd_koreksi1.png)](../images/new_ehibahbansos/pengembangan/20180813_opd_koreksi1.png)
 Tampilan koreksi proposal ini dapat diakses dengan cara mengklik tombol Koreksi pada kolom action proposal. Pada halaman ini OPD dapat mengecek kelengkapan dokumen dan persyaratan adminstrasi proposal.
 
 ###### 1.4.2.2.3 Tampilan Arsip Proposal
