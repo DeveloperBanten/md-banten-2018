@@ -26,36 +26,36 @@ Pada saat membuka aplikasi maka *user* akan ditampilkan halaman Home aplikasi ya
 
 #### 1.1.2 Tampilan Proposal
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_awal_proposal.png)](../images/new_ehibahbansos/pengembangan/20180731_awal_proposal.png)
-Pada modul PROPOSAL ini *user* dapat melihat proposal-proposal yang sudah terinput kedalam apliaksi E-hibahbansos dan sudah berada pada tahapan mana proposal tersebut. Pada modul ini terdapat tombol Show pada kolom action untuk melihat detail proposal.
+Tampilan Proposal ini dapat diakses dengan cara mengklik tulisan Proposal pada daftar menu yang berada pada bagian atas aplikasi. Pada modul PROPOSAL ini *user* dapat melihat proposal-proposal yang sudah terinput kedalam apliaksi E-hibahbansos dan sudah berada pada tahapan mana proposal tersebut. Pada modul ini terdapat tombol Show pada kolom action untuk melihat detail proposal.
 
 ##### 1.1.2.1 Tampilan Detail Proposal
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_awal_proposal_detail.png)](../images/new_ehibahbansos/pengembangan/20180731_awal_proposal_detail.png)
-Pada Halaman ini user dapat melihat detail dari proposal yang ingin dilihat.
+Tampilan Detail Proposal ini dapat diakses dengan cara mengklik tulisan show yang terletak pada kolom action proposal. Pada Halaman ini user dapat melihat detail dari proposal yang ingin dilihat.
 
 #### 1.1.3 Tampilan Tentang
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_awal_tentang.png)](../images/new_ehibahbansos/pengembangan/20180731_awal_tentang.png)
-Pada modul TENTANG ini *user* dapat mengetahui informasi mengenai aplikasi E-hibahbansos seperti apa itu e-hibahbansos, tujuan dan tahapan-tahapan yang terdapat di dalam aplikasi E-hibahbansos.
+Tampilan Tentang ini dapat diakses dengan cara mengklik tulisan Tentang pada daftar menu aplikasi yang terdapat pada bagian atas aplikasi. Pada modul TENTANG ini *user* dapat mengetahui informasi mengenai aplikasi E-hibahbansos seperti apa itu e-hibahbansos, tujuan dan tahapan-tahapan yang terdapat di dalam aplikasi E-hibahbansos.
 
 #### 1.1.4 Tampilan Peraturan
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_awal_peraturan.png)](../images/new_ehibahbansos/pengembangan/20180731_awal_peraturan.png)
-Pada modul PERATURAN ini *user* dapat melihat peraturan-peraturan yang menjadi dasar dalam pembuatan aplikasi E-hibahbansos.
+Tampilan Peraturan ini dapat diakses dengan cara mengklik tulisan Peraturan pada daftar menu aplikasi yang terdapat pada bagian atas aplikasi. Pada modul PERATURAN ini *user* dapat melihat peraturan-peraturan yang menjadi dasar dalam pembuatan aplikasi E-hibahbansos.
 
 #### 1.1.5 Tampilan Pengumuman
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_awal_pengumuman.png)](../images/new_ehibahbansos/pengembangan/20180731_awal_pengumuman.png)
-Pada modul PENGUMUMAN ini *user* dapat melihat pengumuman yang  dikeluarkan oleh operator E-hibahbansos.
+Tampilan Pengumuman ini dapat diakses dengan cara mengklik tulisan Pengumuman pada daftar menu aplikasi yang terdapat pada bagian atas aplikasi. Pada modul PENGUMUMAN ini *user* dapat melihat pengumuman yang  dikeluarkan oleh operator E-hibahbansos.
 
 #### 1.1.6 Tampilan Account
-Pada tampilan ini akan menampilkan beberapa sub modul yaitu Login Operator, Login dan Registrasi.
+Tampilan Account ini dapat diakses dengan cara mengklik tulisan Account pada daftar menu aplikasi yang terdapat pada bagian atas aplikasi. Pada tampilan ini akan menampilkan beberapa sub modul yaitu Login Operator, Login dan Registrasi.
 
 ##### 1.1.6.1 Login Operator
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180731_awal_login-operator.png)](../images/new_ehibahbansos/pengembangan/20180731_awal_login-operator.png)
-Login Operator hanya dapat diakses oleh admin dan OPD yang sudah terdaftar didalam aplikasi e-Hibahbansos.
+Tampilan Login Operator ini dapat diakses dengan cara mengklik tulisan Login Operator pada menu Account. Login Operator hanya dapat diakses oleh admin dan OPD yang sudah terdaftar didalam aplikasi e-Hibahbansos.
 
 ##### 1.1.6.2 Login
-Pada submodul Login ini user akan dialihkan ke link SSO untuk melakukan Login.
+Tampilan Login ini dapat diakses dengan cara mengklik tulisan Login pada menu Account. Pada submodul Login ini user akan dialihkan ke link SSO untuk melakukan Login.
 
 ##### 1.1.6.3 Registrasi
-Pada submodul Registrasi ini user akan dialihkan ke link SSO untuk melakukan registrasi.
+Tampilan Registrasi ini dapat diakses dengan cara mengklik tulisan Registrasi pada menu Account. Pada submodul Registrasi ini user akan dialihkan ke link SSO untuk melakukan registrasi.
 
 ### 1.2 Tampilan Superadmin
 
@@ -68,14 +68,14 @@ Tampilan Dashboard superadmin ini dapat diakses ketika superadmin berhasil melak
 Tampilan Proposal ini dapat diakses dengan mengklik Proposal pada list menu superadmin, pada tampilan propoasl ini superadmin dapat mengakses koreksi dan arsip pada kolom action.
 
 ##### 1.2.2.1 Tampilan Proposal Koreksi
-[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_koreksi.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_koreksi.png)
-Pada submodul koreksi ini admin dapat mengkoreksi proposal yang telah terdaftar pada aplikasi e-Hibahbansos.
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180813_sa_koreksi.png)](../images/new_ehibahbansos/pengembangan/20180813_sa_koreksi.png)
+Tampilan koreksi proposal ini dapat diakses dengan cara mengklik tombol Koreksi pada kolom action proposal. Pada halaman ini admin dapat mengecek kelengkapan dokumen dan persyaratan adminstrasi proposal.
 
 ##### 1.2.2.2 Tampilan Proposal Arsip
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_arsip.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_arsip.png)
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_arsip1.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_arsip1.png)
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_arsip2.png)](../images/new_ehibahbansos/pengembangan/20180803_sa_proposal_arsip2.png)
-Pada submodul Arsip ini admin dapat mengupload foto dan dokumen yang berkaitan dengan proposal yang didaftarkan.
+Tampilan proposal Arsip ini dapat diakses dengan cara mengklik tulisan Arsip pada kolom action proposal. Pada submodul Arsip ini admin dapat mengupload foto dan dokumen yang berkaitan dengan proposal yang didaftarkan.
 
 #### 1.2.3 Tampilan Workflow
 
@@ -347,11 +347,11 @@ Tampilan Proposal ini dapat diakses dengan mengklik Tulisan Proposal pada main m
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah.png)
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah1.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah1.png)
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah2.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_tambah2.png)
-Tampilan Add Proposal ini dapat diakses dengan mengklik tombol + Add Proposal pada tampilan Proposal.
+Tampilan Add Proposal ini dapat diakses dengan mengklik tombol + Add Proposal pada tampilan Proposal. Pada halaman ini OPD dapat menambahkan data baru proposal dengan cara mengisi form add proposal yang telah disediakan.
 
 ###### 1.4.2.2.2 Tampilan Koreksi Proposal
-[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_koreksi.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_koreksi.png)
-Tampilan Koreksi Proposal ini dapat diakses dengan mengklik tombol Koreksi pada main kolom action proposal.
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180813_opd_koreksi.png)](../images/new_ehibahbansos/pengembangan/20180813_opd_koreksi.png)
+Tampilan koreksi proposal ini dapat diakses dengan cara mengklik tombol Koreksi pada kolom action proposal. Pada halaman ini OPD dapat mengecek kelengkapan dokumen dan persyaratan adminstrasi proposal.
 
 ###### 1.4.2.2.3 Tampilan Arsip Proposal
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_arsip.png)](../images/new_ehibahbansos/pengembangan/20180805_opd_be_proposal_arsip.png)
