@@ -65,7 +65,7 @@ Pada bagian ini akan dijelaskan langkah - langkah penggunaan dari menu - menu ya
 
 #### 3.1.1 Home SSO
 
-Untuk mengakses aplikasi SSO, *user* dapat membuka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url https://sso.bangunbanten.com/ kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Akan muncul tampilan halaman Home SSO seperti gambar dibawah ini.
+Untuk mengakses aplikasi SSO, *user* dapat membuka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url https://satulogin.bantenprov.go.id/ kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Akan muncul tampilan halaman Home SSO seperti gambar dibawah ini.
 
 [![ilustrasi-alur-prototyping](../images/sso/pengembangan/20180724_awal_home.png)](../images/sso/pengembangan/20180724_awal_home.png)
 
