@@ -565,3 +565,37 @@ Tampilan Log In ini dapat diakses dengan mengklik icon Log In pada dashboard e-H
 [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_user_awal.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_user_awal.jpeg)
 
 Pada saat berhasil log in pada  aplikasi android e-Hibahbansos maka *user* akan ditampilkan halaman Home aplikasi yang berisikan mengenai info-info mengenai aplikasi E-hibahbansos. 
+
+#### 1.2.2 Menu Proposal
+
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal.jpeg)
+
+Tampilan Proposal ini dapat diakses dengan mengklik icon proposal pada dashboard e-Hibahbansos. Pada menu ini akan menampilkan proposal - proposal yang telah dibuat oleh *user* saja.
+
+##### 1.2.2.1 Tampilan Detail Proposal
+
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal_detail.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal_detail.jpeg)
+
+Tampilan Detail Proposal ini dapat diakses dengan mengklik tombol Baca pada proposal.
+
+#### 1.2.3 Menu Pengumuman
+
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman.jpeg)
+
+Tampilan Pengumuman ini dapat diakses dengan mengklik icon Pengumuman pada dashboard e-Hibahbansos.
+
+##### 1.2.3.1 Tampilan Detail Pengumuman
+
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman_detail.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman_detail.jpeg)
+
+Tampilan Detail Pengumuman ini dapat diakses dengan mengklik tombol Baca pada pengumuman.
+
+#### 1.2.4 Menu Profile
+
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180817_and_user_profile.jpeg)](../images/new_ehibahbansos/pengembangan/20180817_and_user_profile.jpeg)
+
+Menu Profile ini dapat diakses dengan mengklik icon profile pada list menu yang terdapat pada aplikasi e-Hibahbansos. Pada menu ini *user* dapat melihat informasi mengenai *user* itu sendiri.
+
+#### 1.2.5 Menu Logout
+
+Menu Logout ini dapat diakses dengan mengklik icon Logout pada list menu aplikasi. Menu Logout ini digunakan *user* untuk kelura dari accout user pada aplikasi e-Hibahbansos
