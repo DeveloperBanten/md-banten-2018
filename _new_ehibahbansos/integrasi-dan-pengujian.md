@@ -17,9 +17,25 @@ Pada laporan ini akan membahas tentang Pengujian dan Integrasi Ehibahbansos, unt
 
 ## 1. Integrasi Ehibahbansos
 
-Untuk saat pengintegrasian antara aplikasi E-hibahbansos belum dapat dilakukan karena belum terhubungnya natara aplikasi E-hibahbansos dengan aplikasi SIMRAL.
+Integrasi aplikasi dilakukan dengan:
 
-* data akan berubah ketika sudah terhubung dengan SIMRAL
+1. melalui antar muka aplikasi atau melalui method
+2. focus method level
+3. method dishare dengan meletakannnya pada sebuah server pusat / dengan mengakses method pada aplikasi.
+
+Application Programming Interface mekanisme terdefinisi dibuat untuk berhubungan dengan sumber daya seperti server aplikasi, middleware, dan basis data.
+
+Dibawah ini adalah contoh method, parameter dan response yang terdapat didalam aplikasi e-Hibahabansos:
+
+### 1.1 Request Berita Information
+
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180820_int_req.png)](../images/new_ehibahbansos/pengembangan/20180820_int_req.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180820_int_req1.png)](../images/new_ehibahbansos/pengembangan/20180820_int_req1.png)
+
+### 1.2 Get All Data
+
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180820_int_get.png)](../images/new_ehibahbansos/pengembangan/20180820_int_get.png)
+[![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180820_int_get1.png)](../images/new_ehibahbansos/pengembangan/20180820_int_get1.png)
 
 ## 2.  User Acceptance Test
 Pada pengujian ini akan menggunakan User Acceptance Test (UAT).
@@ -662,9 +678,53 @@ Tampilan Log In ini dapat diakses dengan mengklik icon Log In pada dashboard e-H
 
 #### 2.2.2 Tampilan User
 
-##### 2.2.1.1  Home
+##### 2.2.2.1  Dashboard
 | Tampilan      | URL/ Image                               | Ada  | Tidak |
 | ------------- | ---------------------------------------- | ---- | ----- |
 | Tampilan Home | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_user_awal.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_user_awal.jpeg) |      |       |
 
 Pada saat berhasil log in pada  aplikasi android e-Hibahbansos maka *user* akan ditampilkan halaman Home aplikasi yang berisikan mengenai info-info mengenai aplikasi E-hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
+
+##### 2.2.2.2 Proposal
+
+| Tampilan      | URL/ Image                               | Ada  | Tidak |
+| ------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Home | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal.jpeg) |      |       |
+
+Tampilan Proposal ini dapat diakses dengan mengklik icon proposal pada dashboard e-Hibahbansos. Pada menu ini akan menampilkan proposal - proposal yang telah dibuat oleh *user* saja. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
+
+###### 2.2.2.2.1 Detail Proposal
+
+| Tampilan      | URL/ Image                               | Ada  | Tidak |
+| ------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Home | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal_detail.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_proposal_detail.jpeg)|      |       |
+
+Tampilan Detail Proposal ini dapat diakses dengan mengklik tombol Baca pada proposal. Pada tampilan ini *user* dapat melihat detail proposal yang dipilih oleh *user*. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
+
+##### 2.2.2.3 Pengumuman
+
+| Tampilan      | URL/ Image                               | Ada  | Tidak |
+| ------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Home | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman.jpeg)|      |       |
+
+Tampilan Pengumuman ini dapat diakses dengan mengklik icon Pengumuman pada dashboard e-Hibahbansos. Pada tampilan ini *user* dapat melihat pengumuman - pengumuman yang dikeluarkan oleh admin aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
+
+###### 2.2.2.3.1 Detail Pengumuman
+
+| Tampilan      | URL/ Image                               | Ada  | Tidak |
+| ------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Home | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman_detail.jpeg)](../images/new_ehibahbansos/pengembangan/20180805_and_umum_pengumuman_detail.jpeg)|      |       |
+
+Tampilan Detail Pengumuman ini dapat diakses dengan mengklik tombol Baca pada pengumuman. Pada tampilan ini *user* dapat melihat detail laporan yang telah dibuat oleh admin aplikasi e-Hibahbansos. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
+
+##### 2.2.2.4 Profile
+
+| Tampilan      | URL/ Image                               | Ada  | Tidak |
+| ------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan Home | [![use-case-diagram-super-admin](../images/new_ehibahbansos/pengembangan/20180817_and_user_profile.jpeg)](../images/new_ehibahbansos/pengembangan/20180817_and_user_profile.jpeg)|      |       |
+
+Menu Profile ini dapat diakses dengan mengklik icon profile pada list menu yang terdapat pada aplikasi e-Hibahbansos. Pada menu ini *user* dapat melihat informasi mengenai *user* itu sendiri. Jika modul ini dapat diakses oleh *user*, maka user dapat menceklis pada kolom **Ada** sedangkan jika belum dapat diakses maka *user* dapat meceklis pada kolom **Tidak Ada**.
+
+##### 2.2.2.5 Log Out
+
+Menu Logout ini dapat diakses dengan mengklik icon Logout pada list menu aplikasi. Menu Logout ini digunakan *user* untuk kelura dari accout user pada aplikasi e-Hibahbansos.
