@@ -10,27 +10,27 @@ cat: Billboard
 
 [TOC]
 
-## e-Billboard
+## Media Ruang
 
-e-Billboard adalah sistem pada pemerintahan Provinsi Banten yang digunakan untuk mempermudah pemerintah dan masyarakat dalam mencari informasi mengenai lokasi, status serta demografi billboard yang terdapat pada Provinsi Banten.
+Media Ruang adalah sistem pada pemerintahan Provinsi Banten yang digunakan untuk mempermudah pemerintah dan masyarakat dalam mencari informasi mengenai lokasi, status serta demografi Media Ruang yang terdapat pada Provinsi Banten.
 
 ## 1. Pendahuluan
 
 ### 1.1 Tujuan Pembuatan Implementasi
 
-Dokumen User Manual Aplikasi e-Billboard ini dibuat untuk tujuan sebagai berikut:
+Dokumen User Manual Aplikasi Media Ruang ini dibuat untuk tujuan sebagai berikut:
 
-1. Menggambarkan dan menjelaskan penggunaan aplikasi e-Billboard.
-2. Sebagai panduan konfigurasi dan penggunaan aplikasi e-Billboard.
+1. Menggambarkan dan menjelaskan penggunaan aplikasi Media Ruang.
+2. Sebagai panduan konfigurasi dan penggunaan aplikasi Media Ruang.
 
 ### 1.2 Deskripsi Umum Sistem
 
-1. Deskripsi Umum Aplikasi e-Billboard adalah aplikasi yang berbasis web dan android yang akan dipakai oleh setiap golongan masyarakat dalam memudahkan untuk melakukan pemetaan dan pengumpulan informasi mengenai billboard yang terdapat pada Provinsi Banten.
+1. Deskripsi Umum Aplikasi Media Ruang adalah aplikasi yang berbasis web dan android yang akan dipakai oleh setiap golongan masyarakat dalam memudahkan untuk melakukan pemetaan dan pengumpulan informasi mengenai Media Ruang yang terdapat pada Provinsi Banten.
 2. Deskripsi Umum Kebutuhan Aplikasi yang Akan Diimplementasikan meliputi semua informasi yang bersifat teknis dan menjadi acuan dalam pengembangan aplikasi.
 
 ## 2. Struktur Menu
 
-Adapun menu yang terdapat pada aplikasi e-Billboard adalah sebagai berikut:
+Adapun menu yang terdapat pada aplikasi Media Ruang adalah sebagai berikut:
 
 ### 2.1 Menu Website
 
@@ -44,61 +44,61 @@ Adapun menu yang terdapat pada aplikasi e-Billboard adalah sebagai berikut:
 * Map
 * Buat Laporan
 * Profile
-	* Account
-	* Log Out
-  
+  * Account
+  * Log Out
+
 3. Menu Superadmin
 * Dashboard
 * Billboard
 * Pengaturan
-	* Banner
-	* Video
-	* Sosial Media
+  * Banner
+  * Video
+  * Sosial Media
 * Users & Permission
-	* Users
-	* Permission
-	* Role
+  * Users
+  * Permission
+  * Role
 * Profile
-	* Account
-	* Log Out
+  * Account
+  * Log Out
 
 ### 2.2 Menu Android
 * View List
 * View Map
-  
+
 ## 3. Penggunaan
 
-Pada bagian ini akan dijelaskan langkah - langkah penggunaan dari menu - menu yang terdapat pada aplikasi e-Billboard.
+Pada bagian ini akan dijelaskan langkah - langkah penggunaan dari menu - menu yang terdapat pada aplikasi Media Ruang.
 
 ### 3.1 Website
 
-#### 3.1.1 Halaman Awal e-Billboard
+#### 3.1.1 Halaman Awal Media Ruang
 
-##### 3.1.1.1 Home e-Billboard
+##### 3.1.1.1 Home Media Ruang
 
-Untuk mengakses aplikasi e-Billboard, *user* dapat membuka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url (server sementara) https://bilboard.bangunbanten.com kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Akan muncul tampilan halaman Home e-Billboard seperti gambar dibawah ini.
+Untuk mengakses aplikasi Media Ruang, *user* dapat membuka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url (server sementara) https://bilboard.bangunbanten.com kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser. Akan muncul tampilan halaman Home Media Ruang seperti gambar dibawah ini.
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_home.png)](../images/sso/pengembangan/20180809_awal_home.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_home1.png)](../images/sso/pengembangan/20180809_awal_home1.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_home2.png)](../images/sso/pengembangan/20180809_awal_home2.png)
 
-Pada tampilan ini *user* dapat melihat informasi - informasi yang terdapat pada aplikasi e-Billboard seperti map dan data - data billboard yang sudah terdaftarkan ke dalam aplikasi. Pada halaman ini *user* dapat melakukan pencarian pada form pencarian yang terletak disebelah map.
+Pada tampilan ini *user* dapat melihat informasi - informasi yang terdapat pada aplikasi Media Ruang seperti map dan data - data Media Ruang yang sudah terdaftarkan ke dalam aplikasi. Pada halaman ini *user* dapat melakukan pencarian pada form pencarian yang terletak disebelah map.
 
 ##### 3.1.1.2 Tampilan Map
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_map.png)](../images/sso/pengembangan/20180809_awal_map.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_map1.png)](../images/sso/pengembangan/20180809_awal_map1.png)
 
-Tampilan Map ini dapat diakses dengan mengklik tulisan Map pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan Map ini *user* dapat melihat map yang berisikan informasi letak - letak billboard pada daerah Banten. Pada Halaman ini *user* dapat melakukan pencarian billboard berdasarkan lokasi Kota, Kecamatan dan Kelurahan.
+Tampilan Map ini dapat diakses dengan mengklik tulisan Map pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan Map ini *user* dapat melihat map yang berisikan informasi letak - letak Media Ruang pada daerah Banten. Pada Halaman ini *user* dapat melakukan pencarian Media Ruang berdasarkan lokasi Kota, Kecamatan dan Kelurahan.
 
 ##### 3.1.1.3 Tampilan Login
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_login.png)](../images/sso/pengembangan/20180809_awal_login.png)
 
-Tampilan Login ini dapat diakses dengan mengklik tulisan Login pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan ini *user* akan disajikan dengan form Login, Form login ini dapat digunakan oleh OPD dan Superadmin untuk masuk kedalam aplikasi e-Billboard sesuai dengan tupoksi nya masing - masing.
+Tampilan Login ini dapat diakses dengan mengklik tulisan Login pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan ini *user* akan disajikan dengan form Login, Form login ini dapat digunakan oleh OPD dan Superadmin untuk masuk kedalam aplikasi Media Ruang sesuai dengan tupoksi nya masing - masing.
 
 #### 3.1.2 Tampilan OPD
-Tampilan ini dapat diakses oleh OPD ketika berhasil melakukan Login kedalam aplikasi e-Billboard.
+Tampilan ini dapat diakses oleh OPD ketika berhasil melakukan Login kedalam aplikasi Media Ruang.
 
 ##### 3.1.2.1 Tampilan Home
 
@@ -106,21 +106,21 @@ Tampilan ini dapat diakses oleh OPD ketika berhasil melakukan Login kedalam apli
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_home1.png)](../images/sso/pengembangan/20180809_awal_home1.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_awal_home2.png)](../images/sso/pengembangan/20180809_awal_home2.png)
 
-Tampilan Home OPD ini adalah halaman yang pertama kali dilihat oleh *user* ketika berhasil login menggunakan id OPD. Pada tampilan ini OPD dapat melihat informasi - informasi yang terdapat pada aplikasi e-Billboard seperti map dan data - data billboard yang sudah terpetakan dalam aplikasi. pada tampilan ini terdapat beberapa modul yaitu Home, Map dan Buat Laporan. Pada halaman ini *user* dapat melakukan pencarian pada form pencarian yang terletak disebelah map.
+Tampilan Home OPD ini adalah halaman yang pertama kali dilihat oleh *user* ketika berhasil login menggunakan id OPD. Pada tampilan ini OPD dapat melihat informasi - informasi yang terdapat pada aplikasi Media Ruang seperti map dan data - data Media Ruang yang sudah terpetakan dalam aplikasi. pada tampilan ini terdapat beberapa modul yaitu Home, Map dan Buat Laporan. Pada halaman ini *user* dapat melakukan pencarian pada form pencarian yang terletak disebelah map.
 
 ##### 3.1.2.2 Tampilan Map
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_opd_map.png)](../images/sso/pengembangan/20180809_opd_map.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_opd_map1.png)](../images/sso/pengembangan/20180809_opd_map1.png)
 
-Tampilan Map ini dapat diakses dengan mengklik tulisan Map pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan Map ini *user* dapat melihat map yang berisikan informasi letak - letak billboard pada daerah Banten. Pada Halaman ini *user* dapat melakukan pencarian billboard berdasarkan lokasi Kota, Kecamatan dan Kelurahan.
+Tampilan Map ini dapat diakses dengan mengklik tulisan Map pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan Map ini *user* dapat melihat map yang berisikan informasi letak - letak Media Ruang pada daerah Banten. Pada Halaman ini *user* dapat melakukan pencarian Media Ruang berdasarkan lokasi Kota, Kecamatan dan Kelurahan.
 
 ##### 3.1.2.3 Tampilan Buat Laporan
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_opd_buat-laporan.png)](../images/sso/pengembangan/20180809_opd_buat-laporan.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_opd_buat-laporan1.png)](../images/sso/pengembangan/20180809_opd_buat-laporan1.png)
 
-Tampilan Buat Laporan ini dapat diakses dengan mengklik tulisan Buat Laporan pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan Buat Laporan ini OPD dapat membuat laporan data billboard untuk memetakan billboard dengan mengisi form buat laporan seperti pada gambar diatas.
+Tampilan Buat Laporan ini dapat diakses dengan mengklik tulisan Buat Laporan pada daftar menu yang terdapat pada bagian atas aplikasi. Pada tampilan Buat Laporan ini OPD dapat membuat laporan data Media Ruang untuk memetakan Media Ruang dengan mengisi form buat laporan seperti pada gambar diatas.
 
 ##### 3.1.2.4 Tampilan Profile OPD
 Modul Profile OPD ini dapat diakses dengan mengklik tulisan "Nama OPD" pada pojok kanan atas aplikasi, pada modul ini terdapat 2 submodul yaitu :
@@ -136,41 +136,41 @@ Tampilan ini dapat diakses dengan mengklik tulisan Account pada "Nama OPD". Pada
 Sub modul Log Out ini dapat diakses dengan mengklik tulisan Log Out pada "Nama OPD". Sub modul ini digunakan OPD untu melakukan Log Out atau keluar dari Tampilan OPD.
 
 #### 3.1.3 Tampilan Superadmin
-Tampilan ini dapat diakses oleh Superadmin ketika berhasil melakukan Login kedalam aplikasi e-Billboard.
+Tampilan ini dapat diakses oleh Superadmin ketika berhasil melakukan Login kedalam aplikasi Media Ruang.
 
 ##### 3.1.3.1 Tampilan Dashboard
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_dashboard.png)](../images/sso/pengembangan/20180809_sa_dashboard.png)
 
-Tampilan Dashboard Superadmin  ini adalah halaman yang pertama kali dilihat oleh *user* ketika berhasil login menggunakan id Superadmin. Pada halaman ini superadmin dapat meilhat informasi - informasi yang terdapat didalam aplikasi e-Billboard, pada tapilan ini terdapat beberapa modul yang terdapat pada bagian atas aplikasi seperti Dashboard, Billboard, Pengaturan dan Users & Permission
+Tampilan Dashboard Superadmin  ini adalah halaman yang pertama kali dilihat oleh *user* ketika berhasil login menggunakan id Superadmin. Pada halaman ini superadmin dapat meilhat informasi - informasi yang terdapat didalam aplikasi Media Ruang, pada tapilan ini terdapat beberapa modul yang terdapat pada bagian atas aplikasi seperti Dashboard, Media Ruang, Pengaturan dan Users & Permission
 
 ##### 3.1.3.2 Tampilan Billboard
 
-[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard.png)](../images/sso/pengembangan/20180809_sa_billboard.png)
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang.png)](../images/sso/pengembangan/20180809_sa_Media Ruang.png)
 
-Tampilan Billboard ini dapat diakses dengan mengklik tulisan Billboard pada bagian atas aplikasi. pada tampilan ini superadmin dapat melihat tabel data billboard yang telah terinput kedalam aplikasi. pada tampilan ini terdapat beberapa bantuan seperti kolom pencarian, tambah billboard, publish, lihat detail, edit dan delete.
+Tampilan Media Ruang ini dapat diakses dengan mengklik tulisan Media Ruang pada bagian atas aplikasi. pada tampilan ini superadmin dapat melihat tabel data Media Ruang yang telah terinput kedalam aplikasi. pada tampilan ini terdapat beberapa bantuan seperti kolom pencarian, tambah Media Ruang, publish, lihat detail, edit dan delete.
 
 * **Kolom Pencarian**
 
-Kolom Pencarian ini dapat diakses dengan mengetik *keyword* yang di inginkan pada kotak pencarian yang berada di kiri atas tabel billboard.
+Kolom Pencarian ini dapat diakses dengan mengetik *keyword* yang di inginkan pada kotak pencarian yang berada di kiri atas tabel Media Ruang.
 
 * ** Tambah Billboard**
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_tambah.png)](../images/sso/pengembangan/20180809_sa_billboard_tambah.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_tambah1.png)](../images/sso/pengembangan/20180809_sa_billboard_tambah1.png)
 
-Tampilan Tambah Billboard ini dapat diakses dengan mengklik tombol Tambah Billboard pada bagian kanan atas tabel billboard. Pada tampilan ini superadmin dapat menambahkan data baru billboard pada aplikasi dengan mengisi form tambah billboard.
+Tampilan Tambah Media Ruang ini dapat diakses dengan mengklik tombol Tambah Media Ruang pada bagian kanan atas tabel Media Ruang. Pada tampilan ini superadmin dapat menambahkan data baru Media Ruang pada aplikasi dengan mengisi form tambah Media Ruang.
 
 * **Publish Billboard**
 
-Publish Billboard ini dapat diakses dengan mengklik icon gembok pada kolom action billboard. pada Publish Billboard ini superadmin dapat mengatur apakah data billboard akan dipublish atau tidak.
+Publish Media Ruang ini dapat diakses dengan mengklik icon gembok pada kolom action Media Ruang. pada Publish Media Ruang ini superadmin dapat mengatur apakah data Media Ruang akan dipublish atau tidak.
 
 * **Lihat Detail Billboard**
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_detail.png)](../images/sso/pengembangan/20180809_sa_billboard_detail.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_detail1.png)](../images/sso/pengembangan/20180809_sa_billboard_detail1.png)
 
-Tampilan Lihat Detail Billboard ini dapat diakses dengan mengklik icon mata pada kolom action di tabel billboard. Pada tampilan ini superadmin dapat melihat detail data billboard.
+Tampilan Lihat Detail Media Ruang ini dapat diakses dengan mengklik icon mata pada kolom action di tabel Media Ruang. Pada tampilan ini superadmin dapat melihat detail data Media Ruang.
 
 * **Edit Billboard**
 
@@ -178,11 +178,11 @@ Tampilan Lihat Detail Billboard ini dapat diakses dengan mengklik icon mata pada
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_edit1.png)](../images/sso/pengembangan/20180809_sa_billboard_edit1.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_edit2.png)](../images/sso/pengembangan/20180809_sa_billboard_edit2.png)
 
-Tampilan Edit Billboard ini dapat diakses dengan mengklik icon pensil pada kolom action di tabel billboard. Pada tampilan ini superadmin dapat mengedit / merubah data billboard.
+Tampilan Edit Media Ruang ini dapat diakses dengan mengklik icon pensil pada kolom action di tabel Media Ruang. Pada tampilan ini superadmin dapat mengedit / merubah data Media Ruang.
 
 * **Delete Billboard**
 
-Delete Billboard ini dapat diakses dengan mengklik icon tong sampah pada kolom action billboard. pada Delete Billboard ini superadmin dapat menghapus data billboard.
+Delete Media Ruang ini dapat diakses dengan mengklik icon tong sampah pada kolom action Media Ruang. pada Delete Media Ruang ini superadmin dapat menghapus data Media Ruang.
 
 ##### 3.1.3.3 Tampilan Pengaturan
 
@@ -241,6 +241,32 @@ Tampilan Edit Video ini dapat diakses dengan mengklik icon pensil pada kolom act
 Delete Video ini dapat diakses dengan mengklik icon tong sampah pada kolom action Video. pada Delete Video ini superadmin dapat menghapus data Video.
 
 ###### 3.1.3.3.3 Sosial Media
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180821_sa_pengaturan_kategori.png)](../images/sso/pengembangan/20180821_sa_pengaturan_kategori.png)
+
+Tampilan Kategori ini dapat diakses dengan mengklik tulisan Kategori pada Modul Pengaturan. pada tampilan ini superadmin dapat melihat tabel data Kategori yang telah terinput kedalam aplikasi. pada tampilan ini terdapat beberapa bantuan seperti kolom pencarian, tambah, edit dan delete kategori.
+
+* **Kolom Pencarian**
+
+Kolom Pencarian ini dapat diakses dengan mengetik *keyword* yang di inginkan pada kotak pencarian yang berada di kiri atas tabel kategori.
+
+* **Tambah Kategori**
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180821_sa_pengaturan_kategori_tambah.png)](../images/sso/pengembangan/20180821_sa_pengaturan_kategori_tambah.png)
+
+Tampilan Tambah Kategori ini dapat diakses dengan mengklik tombol Tambah Kategori pada bagian kanan atas tabel kategori. Pada tampilan ini superadmin dapat menambahkan data baru kategori pada aplikasi dengan mengisi form tambah kategori.
+
+* **Edit Kategori**
+
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180821_sa_pengaturan_kategori_edit.png)](../images/sso/pengembangan/20180821_sa_pengaturan_kategori_edit.png)
+
+Tampilan Edit Kategori ini dapat diakses dengan mengklik icon pensil pada kolom action di tabel kategori. Pada tampilan ini superadmin dapat mengedit / merubah data kategori.
+
+* **Delete Kategori**
+
+Delete Kategori ini dapat diakses dengan mengklik icon tong sampah pada kolom action kategori. pada Delete Kategori ini superadmin dapat menghapus data kategori.
+
+###### 3.1.3.3.4 Sosial Media
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_pengaturan_sosmed.png)](../images/sso/pengembangan/20180809_sa_pengaturan_sosmed.png)
 
@@ -392,23 +418,23 @@ Tampilan Login ini akan muncul ketika *user* membuka aplikasi, pada tampilan log
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_view-list.jpeg)](../images/sso/pengembangan/20180809_and_view-list.jpeg)
 
-Tampilan View List ini dapat diakses dengan mengklik View List pada daftar menu yang berada dibagian bawah aplikasi. Pada tampilan View List ini *user* dapat melihat list billboard yang sudag terdaftar pada aplikasi.
+Tampilan View List ini dapat diakses dengan mengklik View List pada daftar menu yang berada dibagian bawah aplikasi. Pada tampilan View List ini *user* dapat melihat list Media Ruang yang sudag terdaftar pada aplikasi.
 
 ##### 3.2.2.1 View List Detail
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_view-list_detail.jpeg)](../images/sso/pengembangan/20180809_and_view-list_detail.jpeg)
 
-Tampilan View List Detail ini dapat diakses dengan mengklik billboard yang akan dilihat detailnya pada tampilan View List. Pada tampilan ini *user* dapat melihat detail billboard yang sudah terdaftar pada aplikasi.
+Tampilan View List Detail ini dapat diakses dengan mengklik Media Ruang yang akan dilihat detailnya pada tampilan View List. Pada tampilan ini *user* dapat melihat detail Media Ruang yang sudah terdaftar pada aplikasi.
 
 #### 3.2.3 View Map
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_view-maps.jpeg)](../images/sso/pengembangan/20180809_and_view-maps.jpeg)
 
-Tampilan View Map ini dapat diakses dengan mengklik View Map pada daftar menu yang berada dibagian bawah aplikasi. Pada tampilan View Maps ini *user* dapat melihat denah lokasi billboard pada peta yang disediakan. Pada tampilan ini *user* dapat memfilter pencarian billboard berdasarkan Kota, Kecamatan dan Kelurahan.
+Tampilan View Map ini dapat diakses dengan mengklik View Map pada daftar menu yang berada dibagian bawah aplikasi. Pada tampilan View Maps ini *user* dapat melihat denah lokasi Media Ruang pada peta yang disediakan. Pada tampilan ini *user* dapat memfilter pencarian Media Ruang berdasarkan Kota, Kecamatan dan Kelurahan.
 
 #### 3.2.4 Tambah Billboard
 
-[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard.jpeg)](../images/sso/pengembangan/20180809_and_tambah-billboard.jpeg)
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-Media Ruang.jpeg)](../images/sso/pengembangan/20180809_and_tambah-Media Ruang.jpeg)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard1.jpeg)](../images/sso/pengembangan/20180809_and_tambah-billboard1.jpeg)
 
-Tampilan Tambah Billboard ini dapat diakses dengan megklik "+" pada lingkaran berwarna pink pada aplikasi. Pada tampilan ini akan ditampilkan form untuk menambah data billboard ke aplikasi e-Billboard.
+Tampilan Tambah Media Ruang ini dapat diakses dengan megklik "+" pada lingkaran berwarna pink pada aplikasi. Pada tampilan ini akan ditampilkan form untuk menambah data Media Ruang ke aplikasi Media Ruang.
