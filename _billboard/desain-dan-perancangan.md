@@ -454,13 +454,13 @@ Berikut ini adalah hasil eksekusi sistem informasi Media Ruang dalam website dan
 [![use-case-diagram-super-admin](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-list.png)](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-list.png)
 
 ##### 3.4.5.1 Tampilan View List Detail
-[![use-case-diagram-super-admin](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-list_detail.png)](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-list_detail.png)
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_view-list_detail.png)](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-list_detail.png)
 
 #### 3.4.6 Tampilan View Maps
-[![use-case-diagram-super-admin](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-maps.png)](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-maps.png)
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_view-maps.png)](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-maps.png)
 
 ##### 3.4.6.1 Tampilan Tambah Media Ruang
-[![use-case-diagram-super-admin](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-maps_tambah.png)](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-maps_tambah.png)
+[![use-case-diagram-super-admin](../images/billboard/desain-dan-perancangan/20180808_and_view-maps_tambah.png)](../images/Media Ruang/desain-dan-perancangan/20180808_and_view-maps_tambah.png)
 
 ## 4. Penutup
 Dengan adanya pembuatan dari aplikasi Media Ruang  ini dapat membantu pemerintah Provinsi Banten dalam mencari informasi mengenai lokasi, status, serta demografi Media Ruang yang terdapat pada Provinsi Banten sehingga memudahkan pemerintah dalam mengontrol dan mengawasi Media Ruang yang terdapat pada Provinsi Banten.
