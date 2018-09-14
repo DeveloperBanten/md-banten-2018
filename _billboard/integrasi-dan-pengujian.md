@@ -481,6 +481,6 @@ Pada tampilan View Maps ini *user* dapat melihat denah lokasi Media Ruang pada p
 
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
-| Tambah Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-Media Ruang.jpeg)](../images/sso/pengembangan/20180809_and_tambah-Media Ruang.jpeg) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-Media Ruang1.jpeg)](../images/sso/pengembangan/20180809_and_tambah-Media Ruang1.jpeg) |      |       |
+| Tambah Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard.jpeg)](../images/sso/pengembangan/20180809_and_tambah-billboard.jpeg) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard1.jpeg)](../images/sso/pengembangan/20180809_and_tambah-billboard1.jpeg) |      |       |
 
 Tampilan Tambah Media Ruang ini dapat diakses dengan megklik "+" pada lingkaran berwarna pink pada aplikasi. Pada tampilan ini akan ditampilkan form untuk menambah data Media Ruang ke aplikasi Media Ruang. Untuk pengujiannya *user* dapat mengklik "+" pada lingkaran berwarna pink di aplikasi. Jika menu Tambah Media Ruang ini dapat diakses, *user* dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
