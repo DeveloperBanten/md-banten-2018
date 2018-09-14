@@ -154,7 +154,7 @@ Tampilan Media Ruang ini dapat diakses dengan mengklik tulisan Media Ruang pada 
 
 Kolom Pencarian ini dapat diakses dengan mengetik *keyword* yang di inginkan pada kotak pencarian yang berada di kiri atas tabel Media Ruang.
 
-* ** Tambah Billboard**
+* **Tambah Billboard**
 
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_tambah.png)](../images/sso/pengembangan/20180809_sa_billboard_tambah.png)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_tambah1.png)](../images/sso/pengembangan/20180809_sa_billboard_tambah1.png)
