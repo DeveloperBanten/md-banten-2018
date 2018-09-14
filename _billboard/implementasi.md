@@ -146,7 +146,7 @@ Tampilan Dashboard Superadmin  ini adalah halaman yang pertama kali dilihat oleh
 
 ##### 3.1.3.2 Tampilan Billboard
 
-[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang.png)](../images/sso/pengembangan/20180809_sa_Media Ruang.png)
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard.png)](../images/sso/pengembangan/20180809_sa_billboard.png)
 
 Tampilan Media Ruang ini dapat diakses dengan mengklik tulisan Media Ruang pada bagian atas aplikasi. pada tampilan ini superadmin dapat melihat tabel data Media Ruang yang telah terinput kedalam aplikasi. pada tampilan ini terdapat beberapa bantuan seperti kolom pencarian, tambah Media Ruang, publish, lihat detail, edit dan delete.
 
@@ -434,7 +434,7 @@ Tampilan View Map ini dapat diakses dengan mengklik View Map pada daftar menu ya
 
 #### 3.2.4 Tambah Billboard
 
-[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-Media Ruang.jpeg)](../images/sso/pengembangan/20180809_and_tambah-Media Ruang.jpeg)
+[![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard.jpeg)](../images/sso/pengembangan/20180809_and_tambah-Media Ruang.jpeg)
 [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_and_tambah-billboard1.jpeg)](../images/sso/pengembangan/20180809_and_tambah-billboard1.jpeg)
 
 Tampilan Tambah Media Ruang ini dapat diakses dengan megklik "+" pada lingkaran berwarna pink pada aplikasi. Pada tampilan ini akan ditampilkan form untuk menambah data Media Ruang ke aplikasi Media Ruang.
