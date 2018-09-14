@@ -3,7 +3,6 @@ layout: item
 title: "Integrasi Dan Pengujian"
 date: 2018-05-16 16:25:06 +0700
 comments: true
-cat: Billboard
 ---
 
 ## Daftar Isi
@@ -132,7 +131,7 @@ Tampilan Dashboard ini dapat diakses ketika superadmin berhasil melakukan Login 
 
 | Tampilan    | URL/ Image                               | Ada  | Tidak |
 | ----------- | ---------------------------------------- | ---- | ----- |
-| Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang.png) |      |       |
+| Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard.png)](../images/billboard/pengembangan/20180809_sa_billboard.png) |      |       |
 
 Tampilan Media Ruang ini dapat diakses dengan mengklik tulisan Media Ruang pada bagian atas aplikasi. pada tampilan ini superadmin dapat melihat tabel data Media Ruang yang telah terinput kedalam aplikasi. pada tampilan ini terdapat beberapa bantuan seperti kolom pencarian, tambah Media Ruang, publish, lihat detail, edit dan delete. Untuk mengecek dapat diakses tidaknya, user dapat mengklik Media Ruang pada menu aplikasi jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
@@ -144,7 +143,7 @@ Kolom Pencarian ini dapat diakses dengan mengetik *keyword* yang di inginkan pad
 
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
-| Tambah Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang_tambah.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang_tambah.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang_tambah1.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang_tambah1.png) |      |       |
+| Tambah Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_tambah.png)](../images/billboard/pengembangan/20180809_sa_billboard_tambah.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_tambah1.png)](../images/billboard/pengembangan/20180809_sa_billboard_tambah1.png) |      |       |
 
 Tampilan Tambah Media Ruang ini dapat diakses dengan mengklik tombol Tambah Media Ruang pada bagian kanan atas tabel Media Ruang. Pada tampilan ini superadmin dapat menambahkan data baru Media Ruang pada aplikasi dengan mengisi form tambah Media Ruang. Untuk mengecek dapat diakses tidaknya, user dapat mengklik Tombol Tambah Media Ruang pada bagian atas tabel Media Ruang, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
@@ -156,7 +155,7 @@ Publish Media Ruang ini dapat diakses dengan mengklik icon gembok pada kolom act
 
 | Tampilan                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
-| Lihat Detail Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang_detail.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang_detail.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang_detail1.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang_detail1.png) |      |       |
+| Lihat Detail Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_detail.png)](../images/billboard/pengembangan/20180809_sa_billboard_detail.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_detail1.png)](../images/billboard/pengembangan/20180809_sa_billboard_detail1.png) |      |       |
 
 Tampilan Lihat Detail Media Ruang ini dapat diakses dengan mengklik icon mata pada kolom action di tabel Media Ruang. Pada tampilan ini superadmin dapat melihat detail Media Ruang. Untuk mengecek dapat diakses tidaknya, user dapat mengklik icon mata pada kolom action Media Ruang, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
@@ -164,7 +163,7 @@ Tampilan Lihat Detail Media Ruang ini dapat diakses dengan mengklik icon mata pa
 
 | Tampilan         | URL/ Image                               | Ada  | Tidak |
 | ---------------- | ---------------------------------------- | ---- | ----- |
-| Edit Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang_edit.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang_edit.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang_edit1.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang_edit1.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_Media Ruang_edit2.png)](../images/billboard/pengembangan/20180809_sa_Media Ruang_edit2png) |      |       |
+| Edit Media Ruang | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_edit.png)](../images/billboard/pengembangan/20180809_sa_billboard_edit.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_edit1.png)](../images/billboard/pengembangan/20180809_sa_billboard_edit1.png) [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180809_sa_billboard_edit2.png)](../images/billboard/pengembangan/20180809_sa_billboard_edit2png) |      |       |
 
 Tampilan Edit Media Ruang ini dapat diakses dengan mengklik icon pensil pada kolom action di tabel Media Ruang. Pada tampilan ini superadmin dapat mengedit / merubah data Media Ruang. Untuk mengecek dapat diakses tidaknya, user dapat mengklik icon pensil pada kolom action Media Ruang, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
@@ -242,8 +241,8 @@ Delete Video ini dapat diakses dengan mengklik icon tong sampah pada kolom actio
 
 ###### 2.1.3.3.3 Kategori
 
-| Tampilan     | URL/ Image                               | Ada  | Tidak |
-| ------------ | ---------------------------------------- | ---- | ----- |
+| Tampilan | URL/ Image                               | Ada  | Tidak |
+| -------- | ---------------------------------------- | ---- | ----- |
 | Kategori | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180821_sa_pengaturan_kategori.png)](../images/sso/pengembangan/20180821_sa_pengaturan_kategori.png) |      |       |
 
 Tampilan Kategori ini dapat diakses dengan mengklik tulisan Kategori pada Modul Pengaturan. pada tampilan ini superadmin dapat melihat tabel data kategori yang telah terinput kedalam aplikasi. pada tampilan ini terdapat beberapa bantuan seperti kolom pencarian, tambah, edit dan delete kategori. Untuk mengecek dapat diakses tidaknya, user dapat mengklik tulisan Kategori pada menu Pengaturan, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
@@ -254,16 +253,16 @@ Kolom Pencarian ini dapat diakses dengan mengetik *keyword* yang di inginkan pad
 
 * **Tambah Kategori**
 
-| Tampilan            | URL/ Image                               | Ada  | Tidak |
-| ------------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan        | URL/ Image                               | Ada  | Tidak |
+| --------------- | ---------------------------------------- | ---- | ----- |
 | Tambah Kategori | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180821_sa_pengaturan_kategori_tambah.png)](../images/sso/pengembangan/20180821_sa_pengaturan_kategori_tambah.png) |      |       |
 
 Tampilan Tambah Kategori ini dapat diakses dengan mengklik tombol Tambah Kategori pada bagian kanan atas tabel kategori. Pada tampilan ini superadmin dapat menambahkan data baru kategori pada aplikasi dengan mengisi form tambah kategori. Untuk mengecek dapat diakses tidaknya, user dapat mengklik Tombol Tambah Kategori pada bagian atas tabel kategori, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
 
 * **Edit Kategori**
 
-| Tampilan          | URL/ Image                               | Ada  | Tidak |
-| ----------------- | ---------------------------------------- | ---- | ----- |
+| Tampilan      | URL/ Image                               | Ada  | Tidak |
+| ------------- | ---------------------------------------- | ---- | ----- |
 | Edit Kategori | [![ilustrasi-alur-prototyping](../images/billboard/pengembangan/20180821_sa_pengaturan_kategori_edit.png)](../images/sso/pengembangan/20180821_sa_pengaturan_kategori_edit.png) |      |       |
 
 Tampilan Edit kategori ini dapat diakses dengan mengklik icon pensil pada kolom action di tabel kategori. Pada tampilan ini superadmin dapat mengedit / merubah data kategori. Untuk mengecek dapat diakses tidaknya, user dapat mengklik icon pensil pada kolom action sosial media, jika sudah dapat diakses user dapat ceklis pada kolom **Ada**, jika belum dapat diakses maka user dapat ceklis pada kolom **Tidak**.
