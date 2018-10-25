@@ -16,15 +16,15 @@ cat: E-hibahbansos
 ### 1.1 Tujuan Pembuatan Implementasi
 Dokumen User Manual Apliksai Ehibah-Bansos ini dibuat untuk tujuan sebagai berikut:
 
-  1. Menggambarkan dan menjelaskan penggunaan aplikasi Ehibah-Bansos untuk setiap pelapor atau operator OPD.
-  2. Sebagai panduan konfigurasi dan penggunaan aplikasi E-Bansos.
+    1. Menggambarkan dan menjelaskan penggunaan aplikasi Ehibah-Bansos untuk setiap pelapor atau operator OPD.
+    2. Sebagai panduan konfigurasi dan penggunaan aplikasi E-Bansos.
 
 ### 1.2 Deskripsi Umum Sistem
-  1. Deskripsi Umum Aplikasi
-  Ehibah-Bansos adalah aplikasi yang berbasis web yang akan dipakai oleh setiap golongan masyarakat dan pihak terkait berhubungan dengan pengajuan dana hibah dan bantuan sosial dan proses-proses yang terdapat untuk mencairkan dana hibah atau bansos.
+    1. Deskripsi Umum Aplikasi
+      Ehibah-Bansos adalah aplikasi yang berbasis web yang akan dipakai oleh setiap golongan masyarakat dan pihak terkait berhubungan dengan pengajuan dana hibah dan bantuan sosial dan proses-proses yang terdapat untuk mencairkan dana hibah atau bansos.
 
-  2. Deskripsi Umum Kebutuhan Aplikasi yang Akan Diimplementasikan
-  Deskripsi Umum kebutuhan aplikasi yang akan diimplementasikan meliputi semua informasi yang bersifat teknis dan menjadi acuan dalam pengembangan apliksi.
+    2. Deskripsi Umum Kebutuhan Aplikasi yang Akan Diimplementasikan
+      Deskripsi Umum kebutuhan aplikasi yang akan diimplementasikan meliputi semua informasi yang bersifat teknis dan menjadi acuan dalam pengembangan apliksi.
 
   ## 2.Menu dan Cara Penggunaan
 ### 2.1 Struktur Menu
@@ -53,10 +53,10 @@ Untuk memulai akses terhadap aplikasi Ehibah-Bansos ini:
 2. Kemudian tekan Enter pada tombol keyboard atau klik tombol GO pada browser.
 3. Akan muncul tampilan halaman depan aplikasi E-Bansos sebagai berikut:
 
-[![use awal](../images/implementasi/tampilan-ehibah-bansos.png)](../images/implementasi/tampilan-ehibah-bansos.png)
+[![use awal](../images/e-hibahbansos/implementasi/tampilan-ehibah-bansos.png)](../images/e-hibahbansos/implementasi/tampilan-ehibah-bansos.png)
 
 ### 2.3 Menu Tentang
-[![tentang](../images/implementasi/tentang-ehibah-bansos.png)](../images/implementasi/tentang-ehibah-bansos.png)
+[![tentang](../images/e-hibahbansos/implementasi/tentang-ehibah-bansos.png)](../images/e-hibahbansos/implementasi/tentang-ehibah-bansos.png)
 
 1. E-Hibah Bansos Provinsi Banten, yang membahas tentang apa itu E-Hibah Bansos.
 
@@ -70,45 +70,45 @@ Pada konten ini membahas mengenai workflow dalam pengelolaan dana E-Hibah Bansos
 ## 3. Tampilan Super Admin
 Untuk melakukan login sebagai superadmin maka dapat mengklik icon "orang" pada sebelah kanan atas aplikasi Ehibah-Bansos. Maka pada layar akan tampak menu login situs Ehibah-Bansos seperti dibawah ini:
 
-[![login](../images/implementasi/tampilan-login.png)](../images/implementasi/tampilan-login.png)
+[![login](../images/e-hibahbansos/implementasi/tampilan-login.png)](../images/e-hibahbansos/implementasi/tampilan-login.png)
 
 Setelah user memasukan Id dan Password untuk Log in sebagai super admin, maka tampilan akan menujukan seperti gambar dibawah ini:
 
-[![dashboard](../images/implementasi/tampilan-dashboard-sa.png)](../images/implementasi/tampilan-dashboard-sa.png)
+[![dashboard](../images/e-hibahbansos/implementasi/tampilan-dashboard-sa.png)](../images/e-hibahbansos/implementasi/tampilan-dashboard-sa.png)
 
 Seperti Tampilan diatas terdapat modul-modul dari Aplikasi Ehibah-Bansos pada super admin seperti, Koreksi, CMS dan Laporan.
 
 ### 3.1 Menu Koreksi
 Tampilan ini dapat diakses dengan cara mengklik "KOREKSI" pada bagian atas aplikasi Ehibah-Bansos, sehingga akan memunculkan tampilan seperti ini:
 
-[![Koreksi](../images/implementasi/tampilan-koreksi-sa.png)](../images/implementasi/tampilan-koreksi-sa.png)
+[![Koreksi](../images/e-hibahbansos/implementasi/tampilan-koreksi-sa.png)](../images/e-hibahbansos/implementasi/tampilan-koreksi-sa.png)
 
 Pada tampilan ini Superadmin dapat melihat semua pelaporan hibah dan bansos dari setiap OPD, dari mulai proses permohonan sampai dengan persetujuan dari proposal pelapor tersebut.
 
 ### 3.2 Menu CMS
 Tampilan ini dapat diakses dengan cara mengklik "CMS" pada bagian atas aplikasi Ehibah-Bansos, sehingga akan memunculkan tampilan seperti ini:
 
-[![cms](../images/implementasi/tampilan-cms-sa.png)](../images/implementasi/tampilan-cms-sa.png)
+[![cms](../images/e-hibahbansos/implementasi/tampilan-cms-sa.png)](../images/e-hibahbansos/implementasi/tampilan-cms-sa.png)
 
 Pada tampilan ini Superadmin dapat melihat semua manajemen pengguna dari Aplikasi Ehibah-Bansos, mulai dari Koordinator, umum, sampai OPD.
 
 ### 3.3 Menu Laporan
 Tampilan ini dapat diakses dengan cara mengklik "Laporan" pada bagian atas aplikasi Ehibah-Bansos, sehingga akan memunculkan tampilan seperti ini:
 
-[![laporan](../images/implementasi/tampilan-laporan-sa.png)](../images/implementasi/tampilan-laporan-sa.png)
+[![laporan](../images/e-hibahbansos/implementasi/tampilan-laporan-sa.png)](../images/e-hibahbansos/implementasi/tampilan-laporan-sa.png)
 
 Pada tampilan ini Superadmin dapat membuat laporan pertanggung jawaban untuk setiap laporan yang ada, dengan cara mengklik “Tambah” pada seperti diatas dan mengisi form yang tersedia. Maka akan tampil seperti gambar dibawah ini:
 
-[![tambah laporan](../images/implementasi/tampilan-tambah-laporan-sa.png)](../images/implementasi/tampilan-tambah-laporan-sa.png)
+[![tambah laporan](../images/e-hibahbansos/implementasi/tampilan-tambah-laporan-sa.png)](../images/e-hibahbansos/implementasi/tampilan-tambah-laporan-sa.png)
 
 ## 4. Tampilan Pendaftar
 Untuk melakukan login sebagai pendaftar maka dapat mengklik icon "orang" pada sebelah kanan atas aplikasi Ehibah-Bansos. Maka pada layar akan tampak menu login situs Ehibah-Bansos seperti dibawah ini:
 
-[![login](../images/implementasi/tampilan-login.png)](../images/implementasi/tampilan-login.png)
+[![login](../images/e-hibahbansos/implementasi/tampilan-login.png)](../images/e-hibahbansos/implementasi/tampilan-login.png)
 
 Setelah user memasukan Id dan Password untuk Log in sebagai super admin, maka tampilan akan menujukan seperti gambar dibawah ini:
 
-[![dashboard](../images/implementasi/tampilan-dashboard-pendaftar.png)](../images/implementasi/tampilan-dashboard-pendaftar.png)
+[![dashboard](../images/e-hibahbansos/implementasi/tampilan-dashboard-pendaftar.png)](../images/e-hibahbansos/implementasi/tampilan-dashboard-pendaftar.png)
 
 Seperti Tampilan diatas terdapat modul-modul dari Aplikasi Ehibah-Bansos pada pendaftar seperti, Daftar dan LPJ.
 
@@ -116,7 +116,7 @@ Seperti Tampilan diatas terdapat modul-modul dari Aplikasi Ehibah-Bansos pada pe
 Tampilan ini dapat di akses oleh Pengguna/pelapor dengan cara mengklik tulisan "DAFTAR" pada bagian atas aplikasi E-Bansos, sehingga akan muncul tampilan seperti ini:
 
 
-[![daftar](../images/implementasi/tampilan-daftar-pendaftar.png)](../images/implementasi/tampilan-daftar-pendaftar.png)
+[![daftar](../images/e-hibahbansos/implementasi/tampilan-daftar-pendaftar.png)](../images/e-hibahbansos/implementasi/tampilan-daftar-pendaftar.png)
 
 Pada halaman ini terdapat formulir untuk mendaftarkan dana hibah bansos pada aplikasi E-Bansos, didalam formulir Pengguna/pelapor harus mengisi field-field yang disediakan seperti:
 1. Tahun Anggaran
@@ -147,32 +147,32 @@ Setelah semua terisi operator OPD dapat mengklik tombol "Daftar" untuk menyimpan
 ### 4.2 Menu LPJ
 Tampilan ini dapat di akses oleh Pengguna/pelapor dengan cara mengklik tulisan "LPJ" pada bagian atas aplikasi E-Bansos, Jika Pengguna/Pelapor pernah melakukan pendaftaran ehibah-bansos akan ditampilan di Menu LPJ sebagai bentuk pertanggung jawaban.
 
-[![daftar](../images/implementasi/tampilan-lpj-pendaftar.png)](../images/implementasi/tampilan-lpj-pendaftar.png)
+[![daftar](../images/e-hibahbansos/implementasi/tampilan-lpj-pendaftar.png)](../images/e-hibahbansos/implementasi/tampilan-lpj-pendaftar.png)
 
 Dalam menu LPJH ini setiap Pelapor yang sudah mengajukan Proposal atau mendaftar Proposal Hibah/Bansos akan mendaptkan Lembar Pertanggung Jawaban (LPJ) setiap pelapor yang mendaftar akan mendaptkan LPJ sebanyak pelapor melakukan Daftar atau mengajukan proposal. 
 
 ## 5. Tampilan OPD
 Untuk melakukan login sebagai OPD maka dapat mengklik icon "orang" pada sebelah kanan atas aplikasi Ehibah-Bansos. Maka pada layar akan tampak menu login situs Ehibah-Bansos seperti dibawah ini:
 
-[![login](../images/implementasi/tampilan-login.png)](../images/implementasi/tampilan-login.png)
+[![login](../images/e-hibahbansos/implementasi/tampilan-login.png)](../images/e-hibahbansos/implementasi/tampilan-login.png)
 
 Setelah user memasukan Id dan Password untuk Log in sebagai pendaftar, maka tampilan akan menujukan seperti gambar dibawah ini:
 
-[![dashboard](../images/implementasi/tampilan-dashboard-opd.png)](../images/implementasi/tampilan-dashboard-opd.png)
+[![dashboard](../images/e-hibahbansos/implementasi/tampilan-dashboard-opd.png)](../images/e-hibahbansos/implementasi/tampilan-dashboard-opd.png)
 
 Seperti Tampilan diatas terdapat modul-modul dari Aplikasi Ehibah-Bansos pada OPD seperti, Daftar, cek berkas, dan pemberian rekomendasi.
 
 ### 5.1 Menu Daftar
 Tampilan ini dapat di akses oleh OPD dengan cara mengklik tulisan "DAFTAR" pada bagian atas aplikasi E-Bansos, sehingga akan muncul tampilan seperti ini:
 
-[![daftar](../images/implementasi/tampilan-daftar-opd.png)](../images/implementasi/tampilan-daftar-opd.png)
+[![daftar](../images/e-hibahbansos/implementasi/tampilan-daftar-opd.png)](../images/e-hibahbansos/implementasi/tampilan-daftar-opd.png)
 
 Pada tampilan ini operator OPD dapat mendaftar hibah atau bansos yang masuk pada OPD tersebut untuk diajukan lagi ke proses yang selanjutnya.
 
 ### 5.2 Menu Cek Berkas
 Tampilan ini dapat di akses oleh OPD dengan cara mengklik tulisan "CEK BERKAS" pada bagian atas aplikasi E-Bansos, sehingga akan muncul tampilan seperti ini:
 
-[![cek berkas](../images/implementasi/tampilan-cek-berkas-opd.png)](../images/implementasi/tampilan-cek-berkas-opd.png)
+[![cek berkas](../images/e-hibahbansos/implementasi/tampilan-cek-berkas-opd.png)](../images/e-hibahbansos/implementasi/tampilan-cek-berkas-opd.png)
 
 Pada tampilan ini operator OPD dapat melihat:
 1. Pada menu pengecekan berkas ini OPD dapat melhat proposal Hibah Bansos sesuai dengan masing-masing OPD.
@@ -181,7 +181,7 @@ Pada tampilan ini operator OPD dapat melihat:
 ### 5.3 Menu Pemberian Rekomendasi
 Tampilan ini dapat di akses oleh OPD dengan cara mengklik tulisan "PEMBERIAN REKOMENDASI" pada bagian atas aplikasi E-Bansos, sehingga akan muncul tampilan seperti ini:
 
-[![rekomendasi](../images/implementasi/tampilan-rekomendasi-opd.png)](../images/implementasi/tampilan-rekomendasi-opd.png)
+[![rekomendasi](../images/e-hibahbansos/implementasi/tampilan-rekomendasi-opd.png)](../images/e-hibahbansos/implementasi/tampilan-rekomendasi-opd.png)
 
 Pada tampilan ini operator OPD dapat memberikan surat rekomendasi untuk setiap pelapor yang proposalnya sudah melewati sesuai proses yang ada.
 
@@ -189,29 +189,29 @@ Pada tampilan ini operator OPD dapat memberikan surat rekomendasi untuk setiap p
 Untuk melakukan login sebagai Inspektorat maka dapat mengklik icon "orang" pada sebelah kanan atas aplikasi Ehibah-Bansos.
 Maka pada layar akan tampak menu login situs Ehibah-Bansos seperti dibawah ini:
 
-[![login](../images/implementasi/tampilan-login.png)](../images/implementasi/tampilan-login.png)
+[![login](../images/e-hibahbansos/implementasi/tampilan-login.png)](../images/e-hibahbansos/implementasi/tampilan-login.png)
 
 Setelah user memasukan Id dan Password untuk Log in sebagai Inspektorat, maka tampilan akan menujukan seperti gambar dibawah ini:
 
-[![dashboard](../images/implementasi/tampilan-dashboard-inspektorat.png)](../images/implementasi/tampilan-dashboard-inspektorat.png)
+[![dashboard](../images/e-hibahbansos/implementasi/tampilan-dashboard-inspektorat.png)](../images/e-hibahbansos/implementasi/tampilan-dashboard-inspektorat.png)
 
 Seperti Tampilan diatas terdapat modul dari Aplikasi Ehibah-Bansos pada Inspektorat seperti, Rekomendasi dan Verifikasi
 
 ### 6.1 Menu Rekomendasi dan Verifikasi
 Tampilan ini dapat diakses dengan cara mengklik "REKOMENDASI DAN VERIFIKASI" pada bagian atas aplikasi Ehibah-Bansos, sehingga akan memunculkan tampilan "Proposal Hibah" seperti ini:
 
-[![rekomendasi](../images/implementasi/tampilan-rekomendasi-inspektorat.png)](../images/implementasi/tampilan-rekomendasi-inspektorat.png)
+[![rekomendasi](../images/e-hibahbansos/implementasi/tampilan-rekomendasi-inspektorat.png)](../images/e-hibahbansos/implementasi/tampilan-rekomendasi-inspektorat.png)
 
 Pada tampilan ini Inspektorat dapat memeriksa kembali proposal dari setiap pelapor dan memberikan surat rekomendasi jika setiap proposal dari pelapor sudah melewati proses dan tahap-tahap yang diberikan sebelumnya untuk dilanjutkan ke proses selanjutnya.
 
 ## 7. Tampilan TAPD
 Untuk melakukan login sebagai TAPD maka dapat mengklik icon "orang" pada sebelah kanan atas aplikasi Ehibah-Bansos. Maka pada layar akan tampak menu login situs Ehibah-Bansos seperti dibawah ini:
 
-[![login](../images/implementasi/tampilan-login.png)](../images/implementasi/tampilan-login.png)
+[![login](../images/e-hibahbansos/implementasi/tampilan-login.png)](../images/e-hibahbansos/implementasi/tampilan-login.png)
 
 Setelah user memasukan Id dan Password untuk Log in sebagai TAPD, maka tampilan akan menujukan seperti gambar dibawah ini:
 
-[![dashboard](../images/implementasi/tampilan-dashboard-tapd.png)](../images/implementasi/tampilan-dashboard-tapd.png)
+[![dashboard](../images/e-hibahbansos/implementasi/tampilan-dashboard-tapd.png)](../images/e-hibahbansos/implementasi/tampilan-dashboard-tapd.png)
 
 Seperti Tampilan diatas terdapat modul-modul dari Aplikasi Ehibah-Bansos pada TAPD seperti, Verifikasi, dan Generate.
 
@@ -219,7 +219,7 @@ Seperti Tampilan diatas terdapat modul-modul dari Aplikasi Ehibah-Bansos pada TA
 Tampilan ini dapat di akses oleh TAPD dengan cara mengklik tulisan "VERIFIKASI" pada bagian atas aplikasi E-Bansos, sehingga akan muncul tampilan seperti ini:
 
 
-[![dashboard](../images/implementasi/tampilan-verifikasi-tapd.png)](../images/implementasi/tampilan-verifikasi-tapd.png)
+[![dashboard](../images/e-hibahbansos/implementasi/tampilan-verifikasi-tapd.png)](../images/e-hibahbansos/implementasi/tampilan-verifikasi-tapd.png)
 
 Pada tampilan ini TAPD dapat melihat bagaimana proses dan perkembangan dari proposal pelapor ehibah-bansos, dan TAPD dapat mempertimbangkan proposal pelapor guna untuk melanjutkan proses yang telah dibuat.
 
@@ -227,6 +227,6 @@ Pada tampilan ini TAPD dapat melihat bagaimana proses dan perkembangan dari prop
 Tampilan ini dapat di akses oleh TAPD dengan cara mengklik tulisan "Generate" pada bagian atas aplikasi E-Bansos, sehingga akan muncul tampilan seperti ini:
 
 
-[![generate](../images/implementasi/tampilan-generate-tapd.png)](../images/implementasi/tampilan-generate-tapd.png)
+[![generate](../images/e-hibahbansos/implementasi/tampilan-generate-tapd.png)](../images/e-hibahbansos/implementasi/tampilan-generate-tapd.png)
 
 Pada tampilan ini TAPD dapat melihat semua data Daftar Calon Normatif Penerimaan Belanja Hibah secara keseluruhan.
