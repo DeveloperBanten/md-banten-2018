@@ -16,14 +16,14 @@ cat: E-hibahbansos
 ### 1.1 Tujuan Pembuatan Implementasi
 Dokumen User Manual Apliksai Ehibah-Bansos ini dibuat untuk tujuan sebagai berikut:
 
-    1. Menggambarkan dan menjelaskan penggunaan aplikasi Ehibah-Bansos untuk setiap pelapor atau operator OPD.
-    2. Sebagai panduan konfigurasi dan penggunaan aplikasi E-Bansos.
+1. Menggambarkan dan menjelaskan penggunaan aplikasi Ehibah-Bansos untuk setiap pelapor atau operator OPD.
+2. Sebagai panduan konfigurasi dan penggunaan aplikasi E-Bansos.
 
 ### 1.2 Deskripsi Umum Sistem
-    1. Deskripsi Umum Aplikasi
+1. Deskripsi Umum Aplikasi
       Ehibah-Bansos adalah aplikasi yang berbasis web yang akan dipakai oleh setiap golongan masyarakat dan pihak terkait berhubungan dengan pengajuan dana hibah dan bantuan sosial dan proses-proses yang terdapat untuk mencairkan dana hibah atau bansos.
 
-    2. Deskripsi Umum Kebutuhan Aplikasi yang Akan Diimplementasikan
+2. Deskripsi Umum Kebutuhan Aplikasi yang Akan Diimplementasikan
       Deskripsi Umum kebutuhan aplikasi yang akan diimplementasikan meliputi semua informasi yang bersifat teknis dan menjadi acuan dalam pengembangan apliksi.
 
   ## 2.Menu dan Cara Penggunaan
