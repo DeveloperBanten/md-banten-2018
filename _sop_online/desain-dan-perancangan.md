@@ -106,7 +106,7 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 #### 3.5.2 Activity Diagram SOP Online
 
-[![Ilustrasi Alur Prototyping](/images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)](/images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)](../images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)
 
 #### 3.5.3 Sequence Diagram SOP Online
 
@@ -180,3 +180,98 @@ Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum s
 
 ###### 3.7.3.2.1 Sub modul User
 
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_user.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_user.png)
+
+* Form Create User
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_user-create.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_user-create.png)
+
+###### 3.7.3.2.2 Sub modul Role
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_role.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_role.png)
+
+* Form Create Role
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_role-create.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_role-create.png)
+
+###### 3.7.3.2.3 Sub modul Permission
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_permission.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_permission.png)
+
+* Form Create Permission
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_permission-create.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_permission-create.png)
+
+##### 3.7.3.3 Modul Master
+
+###### 3.7.3.3.1 Sub modul OPD
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_master_opd.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_master_opd.png)
+
+##### 3.7.3.4 Modul SOP Apps
+
+###### 3.7.3.4.1 SOP
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_sop-apps-sop.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_sop-apps-sop.png)
+
+* Form Create SOP
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_um_sop-apps-sop-create.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_um_sop-apps-sop-create.png)
+
+##### 3.7.3.5 Modul Review & Approve
+
+###### 3.7.3.5.1 Sub modul Kasi
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_kasi.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_kasi.png)
+
+* Detaik AJuan
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-kasi.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-kasi.png)
+
+###### 3.7.3.5.2 Sub modul Kabid
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_kabid.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_kabid.png)
+
+* Detaik AJuan
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-kabid.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-kabid.png)
+
+###### 3.7.3.5.3 Sub modul Kadis
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_kadis.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_kadis.png)
+
+* Detaik AJuan
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-kadis.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-kadis.png)
+
+###### 3.7.3.5.4 Sub modul Gubernur
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_gub.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_gub.png)
+
+* Detaik AJuan
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-gub.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_rna_ajuan-detail-gub.png)
+
+##### 3.7.3.6 Publikasi
+
+###### 3.7.3.6.1 Dashboard
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_pub_dashboard.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_pub_dashboard.png)
+
+###### 3.7.3.6.2 SOP (Semua OPD)
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_pub_sop.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_pub_sop.png)
+
+###### 3.7.3.6.3 Info Grafis
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sa_pub_info-graf.png)](../images/sop-online/desain-dan-perancangan/20181029_sa_pub_info-graf.png)
+
+##### 3.7.3.7 Laporan
+
+###### 3.7.3.7.1 Laporan SOP
+
+[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_cetak.png)](../images/sop-online/desain-dan-perancangan/20181029_cetak.png)
+
+## 4 Penutup
+
+Dengan adanya pembuatan dari sistem informasi SOP Online ini dapat membantu dalam mencari pegawai OPD dalam melakukan pencarian dan penyimpanan data OPD dan mempermudah dalam hal pengajuan serta pemberian persetujuan terhadap SOP yang diajukan oleh Staff.
