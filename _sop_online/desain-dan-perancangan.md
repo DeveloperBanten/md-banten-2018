@@ -106,7 +106,7 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 #### 3.5.2 Activity Diagram SOP Online
 
-[![Ilustrasi Alur Prototyping](../images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)](../images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)
+[![Ilustrasi Alur Prototyping](/images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)](/images/sop-online/desain-dan-perancangan/20181029_sop_activity_diagram.png)
 
 #### 3.5.3 Sequence Diagram SOP Online
 
