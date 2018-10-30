@@ -202,7 +202,7 @@ Pada submodul user (kepala seksi OPD) dapat melihat data-data SOP yang telah ter
 [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png)
 
 [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_wf-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_wf-2.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi-wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi-wf-2.png)
 
 [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_doc-1.png)
 [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_doc-2.png)
