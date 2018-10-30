@@ -228,10 +228,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan SOP 
 | Konten     | URL/ Image                               | Ada  | Tidak |
 | ---------- | ---------------------------------------- | ---- | ----- |
 | Form Create SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_create-detail.png)](../images/sop-online/pengembangan/20181029_sa_sopa_create-detail.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_create_wf.png)](../images/sop-online/pengembangan/20181029_sa_sopa_create_wf.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_create_doc.png)](../images/sop-online/pengembangan/20181029_sa_sopa_create_doc.png)|      |       |
+|      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Create SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik tombol Tambah Data pada bagian atas tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
@@ -239,13 +236,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Crea
 
 | Tampilan            | URL/ Image                               | Ada  | Tidak |
 | ------------------- | ---------------------------------------- | ---- | ----- |
-| Edit SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-detail.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-detail.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-wf.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-wf.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-doc.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-doc.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-tl.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-tl.png) |      |       |
+| Edit SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-detail.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-detail.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Edit SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik edit pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
@@ -263,17 +254,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan KASI
 
 | Subkonten       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_detail-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_wf-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi-wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi-wf-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_doc-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_doc-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_tl-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_tl-2.png) |      |       |
+| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_detail-1.png) [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
@@ -290,17 +271,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan KABI
 
 | Konten          | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_detail-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_detail-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_wf-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_wf-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_doc-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_doc-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-2.png) |      |       |
+| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_detail-1.png) [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_detail-2.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
@@ -316,17 +287,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan KADI
 
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
-| Detail SOP     | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_kadis_wf-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_kadis_doc-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-2.png) |      |       |
+| Detail SOP     | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-1.png) [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
@@ -342,17 +303,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Gube
 
 | Tampilan  | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
-| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_detail-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_wf-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_doc-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)
-
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_tl-1.png)
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_gub_tl-2.png) |      |       |
+| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_detail-1.png) [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
