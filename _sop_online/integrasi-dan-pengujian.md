@@ -156,8 +156,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Form
 
 | Tampilan      | URL/ Image                               | Ada  | Tidak |
 | ------------- | ---------------------------------------- | ---- | ----- |
-| Set Permission | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role_set-1.png)](../images/sop-online/pengembangan/20181029_sa_um_role_set-1.png) 
-[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role_set-2.png)](../images/sop-online/pengembangan/20181029_sa_um_role_set-2.png) |      |       |
+| Set Permission | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role_set-1.png)](../images/sop-online/pengembangan/20181029_sa_um_role_set-1.png) [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role_set-2.png)](../images/sop-online/pengembangan/20181029_sa_um_role_set-2.png) |      |       |
 
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Set Permission sudah dapat diakses oleh *user* atau tidak dengan mengklik set permission pada kolom set permission di tabel role. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
