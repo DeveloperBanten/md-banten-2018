@@ -14,7 +14,7 @@ cat: Sop Online
 ### Integrasi dan Pengujian SOP Online
 Pada laporan ini akan membahas tentang Integrasi dan Pengujian SOP Online, untuk pengujiannya menggunakan User Acceptance Test.
 
-### Integrasi SOP Online
+### 1. Integrasi SOP Online
 
 Salah satu sasaran Dinas Komunikasi, Informasi, Statistika dan Persandian adalah membuat sebuah sistem yang terkelola rapi dalam segala hal, baik dalam bidang IT maupun bidang yang lainnya agar mampu menyelenggarakan seluruh kegiatannya secara mandiri dan sesuai dengan ketentuan yang berlaku.
 
@@ -31,7 +31,7 @@ Integrasi aplikasi dilakukan dengan:
 Application Programming Interface mekanisme terdefinisi dibuat untuk berhubungan dengan sumber daya seperti server aplikasi, middleware, dan basis data.
 Dibawah ini adalah contoh method, parameter dan response yang terdapat didalam SOP Online:
 
-#### Tampilan Permission
+#### 1.1 Tampilan Permission
 
 [![Tampilan Get Permission](../images/sop-online/integrasi-dan-pengujian/sop-permission.png)](../images/sop-online/integrasi-dan-pengujian/sop-permission.png)
 
@@ -40,7 +40,7 @@ Pada page ini terdapat method yang berupa tombol **GET** dan link url untuk kont
 1. *Success Response* yang ditampilkan dalam "Success 200" dan hasilnya ditampilkan dalam bentuk Json.
 2. *Error Response* yang ditampilkan dalam "Error 4xx" dan hasilnya akan ditampilkan dalam bentuk Json
 
-#### Tampilan Role
+#### 1.2 Tampilan Role
 
 [![Tampilan Get Role](../images/sop-online/integrasi-dan-pengujian/sop-role.png)](../images/sop-online/integrasi-dan-pengujian/sop-role.png)
 
@@ -49,323 +49,354 @@ Pada page ini terdapat method yang berupa tombol **GET** dan link url untuk kont
 1. *Success Response* yang ditampilkan dalam "Success 200" dan hasilnya ditampilkan dalam bentuk Json.
 2. *Error Response* yang ditampilkan dalam "Error 4xx" dan hasilnya akan ditampilkan dalam bentuk Json
 
-#### Pengujian SOP Online
+### 2. Pengujian SOP Online
 Sistem informasi saat ini semakin berkembang pesat membuat semua pekerjaan dikehidupan ini banyak yang sudah beralih dibantu oleh teknologi informasi. Teknologi yang dapat membantu lebih mudah, cepat, aman dan efektif jelas sangatlah membantu siapa saja yang memanfaatkannya, document dibuat untuk memberikan panduan penggunaan aplikasi SOP Online.
 
-Untuk memulai akses aplikasi SOP Online. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://http://sop.bantenprov.go.id/ kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser.
+Untuk memulai akses aplikasi SOP Online. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://http://sop.bantenprov.go.id/ (*dev version*) kemudian tekan Enter pada tombol keyboard atau klik tombol Go pada browser.
 
-##### Tampilan Login
+#### 2.1 Tampilan Awal
+
+##### 2.1.1 Tampilan Awal Aplikasi
 
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
-| Login    | [![tampilan login](../images/sop-online/integrasi-dan-pengujian/01-tampilan-login.png)](../images/sop-online/integrasi-dan-pengujian/01-tampilan-login.png) |      |       |
+| Front End    | [![dashboard-home-awal](../images/sop-online/pengembangan/2181029_fe_home.png)](../images/sop-online/pengembangan/2181029_fe_home.png) |      |       |
 
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan login sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan awal aplikasi sudah dapat diakses oleh *user* atau tidak dengan masuk kedalam aplikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Dashboard
+##### 2.1.2 Tampilan Pelayanan
 
 | Tampilan  | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
-| Dashboard | [![Tampilan Dashboard](../images/sop-online/integrasi-dan-pengujian/02-tampilan-dashboard.png)](../images/sop-online/integrasi-dan-pengujian/02-tampilan-dashboard.png) |      |       |
+| Pelayanan | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_fe_pelayanan.png)](../images/sop-online/pengembangan/20181029_fe_pelayanan.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan dashboard sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan pelayanan sudah dapat diakses oleh *user* atau tidak dengan mengklik menu pelayanan pada bagian atas halaman awal aplikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Opd
+##### 2.1.3 Tampilan Fitur
 
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
-| Opd      | [![Tampilan Opd](../images/sop-online/integrasi-dan-pengujian/03-tampilan-opd.png)](../images/sop-online/integrasi-dan-pengujian/03-tampilan-opd.png) |      |       |
+| Fitur      | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_fe_fitur.png)](../images/sop-online/pengembangan/20181029_fe_fitur.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan opd sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Fitur sudah dapat diakses oleh *user* atau tidak dengan cara mengklik menu fitur pada list menu halaman awal aplikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Add New Opd
+##### 2.1.4 Tampilan Quizioner
 
 | Tampilan    | URL/ Image                               | Ada  | Tidak |
 | ----------- | ---------------------------------------- | ---- | ----- |
-| Add New Opd | [![Tampilan Add New Opd](../images/sop-online/integrasi-dan-pengujian/16-tampilan-tambah-opd.png)](../images/sop-online/integrasi-dan-pengujian/16-tampilan-tambah-opd.png) |      |       |
+| Quizioner | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_fe-quiz.png)](../images/sop-online/pengembangan/20181029_fe-quiz.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new opd sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Quizioner sudah dapat diakses oleh *user* atau tidak dengan cara mengklik menu Quizioner pada list menu halaman awal aplikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Add New Child
+##### 2.1.5 Tampilan Login
 
 | Tampilan      | URL/ Image                               | Ada  | Tidak |
 | ------------- | ---------------------------------------- | ---- | ----- |
-| Add New Child | [![Tampilan Add New Child](../images/sop-online/integrasi-dan-pengujian/17-tampilan-tambah-child.png)](../images/sop-online/integrasi-dan-pengujian/17-tampilan-tambah-child.png) |      |       |
+| Login | [![tampilan-login-admin](../images/sop-online/pengembangan/20181029_fe_login.png)](../images/sop-online/pengembangan/20181029_fe_login.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new child sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Login sudah dapat diakses oleh *user* atau tidak dengan cara mengklik menu Login pada list menu halaman awal aplikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Sop Online
+#### 2.2 Tampilan Superadmin
+
+##### 2.2.1 Tampilan Dashboard Superadmin
 
 | Konten     | URL/ Image                               | Ada  | Tidak |
 | ---------- | ---------------------------------------- | ---- | ----- |
-| Sop Online | [![Tampilan Sop Online](../images/sop-online/integrasi-dan-pengujian/04-tampilan-sop-online.png)](../images/sop-online/integrasi-dan-pengujian/04-tampilan-sop-online.png) |      |       |
+| Dashboard Superadmin | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_dashboard.png)](../images/sop-online/pengembangan/20181029_sa_dashboard.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan sop online sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Dashboard sudah dapat diakses oleh *user* atau tidak dengan login menggunakan id Superadmin apakah dashboard muncul atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 
-##### Tampilan Add Sop Online
+##### 2.2.2 Tampilan User Management
+
+###### 2.2.2.1 Users
 
 | Tampilan       | URL/ Image                               | Ada  | Tidak |
 | -------------- | ---------------------------------------- | ---- | ----- |
-| Add Sop Online | [![Tampilan Add Sop Online](../images/sop-online/integrasi-dan-pengujian/18-tampilan-add-sop-online.png)](../images/sop-online/integrasi-dan-pengujian/18-tampilan-add-sop-online.png) |      |       |
+| Users | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_users.png)](../images/sop-online/pengembangan/20181029_sa_um_users.png) |      |       |
 
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add sop online sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Users sudah dapat diakses oleh *user* atau tidak dengan cara mengklik modul User Management lalu memilih submodul Users. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan View Sop Online
+* Tampilan Tambah Users
 
 | Subkonten       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| View Sop Online | [![Tampilan View Sop Online](../images/sop-online/integrasi-dan-pengujian/19-tampilan-view-sop-online.png)]((../images/sop-online/integrasi-dan-pengujian/19-tampilan-view-sop-online.png) |      |       |
+| Form Create User | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_user-create.png)](../images/sop-online/pengembangan/20181029_sa_um_user-create.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan view sop online sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah form Create User sudah dapat diakses oleh *user* atau tidak dengan cara mnegklik tombol Tambah Data pada bagian atas tabel Users. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Edit Sop Online
+* Tampilan Edit Users
 
 | Tampilan        | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| Edit Sop Online | [![Tampilan Edit Sop Online](../images/sop-online/integrasi-dan-pengujian/20-tampilan-edit-sop-online.png)](../images/sop-online/integrasi-dan-pengujian/20-tampilan-edit-sop-online.png) |      |       |
+| Form edit Users | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_user-edit.png)](../images/sop-online/pengembangan/20181029_sa_um_user-edit.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit sop online sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit user sudah dapat diakses oleh *user* atau tidak dengan cara mengkli nama user pada kolom Name di tabel Users akan memunculkan Form Edit User atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 
-##### Tampilan Workflows
+###### 2.2.2.2 Tampilan Roles
 
 | Subkonten | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
-| Workflows | [![Tampilan Workflows](../images/sop-online/integrasi-dan-pengujian/05-tampilan-workflows.png)](../images/sop-online/integrasi-dan-pengujian/05-tampilan-workflows.png) |      |       |
+| Roles | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_roles.png)](../images/sop-online/pengembangan/20181029_sa_um_roles.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan workflows sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Roles sudah dapat diakses oleh *user* atau tidak dengan cara mengklik submodul Roles pada modul User Management. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Add New Workflows
+* Tampilan Tambah data
 
 | Tampilan         | URL/ Image                               | Ada  | Tidak |
 | ---------------- | ---------------------------------------- | ---- | ----- |
-| Add New Workflow | [![Tampilan Add New Workflow](../images/sop-online/integrasi-dan-pengujian/21-tampilan-add-workflows.png)](../images/sop-online/integrasi-dan-pengujian/21-tampilan-add-workflows.png) |      |       |
+| Form Create Roles | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role-create.png)](../images/sop-online/pengembangan/20181029_sa_um_role-create.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new workflow sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Form Create Roles sudah dapat diakses oleh *user* atau tidak dengan mengklik Tambah Data pada bagian atas tabel role. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Edit Workflow
-
-| Tampilan      | URL/ Image                               | Ada  | Tidak |
-| ------------- | ---------------------------------------- | ---- | ----- |
-| Edit Workflow | [![Tampilan Edit Workflow](../images/sop-online/integrasi-dan-pengujian/23-tampilan-edit-workflows.png)](../images/sop-online/integrasi-dan-pengujian/23-tampilan-edit-workflows.png) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit workflow sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan State List
-
-| Tampilan   | URL/ Image                               | Ada  | Tidak |
-| ---------- | ---------------------------------------- | ---- | ----- |
-| State List | [![Tampilan State List](../images/sop-online/integrasi-dan-pengujian/06-tampilan-statelist.png)](../images/sop-online/integrasi-dan-pengujian/06-tampilan-statelist.png) |      |       |
-
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan state list sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan Add new State
+* Tampilan Set Permission
 
 | Tampilan      | URL/ Image                               | Ada  | Tidak |
 | ------------- | ---------------------------------------- | ---- | ----- |
-| Add New State | [![Tampilan Add New State](../images/sop-online/integrasi-dan-pengujian/24-tampilan-add-state.png)](../images/sop-online/integrasi-dan-pengujian/24-tampilan-add-state.png) |      |       |
+| Set Permission | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role_set-1.png)](../images/sop-online/pengembangan/20181029_sa_um_role_set-1.png) 
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role_set-2.png)](../images/sop-online/pengembangan/20181029_sa_um_role_set-2.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new state sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Set Permission sudah dapat diakses oleh *user* atau tidak dengan mengklik set permission pada kolom set permission di tabel role. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Edit State
+* Tampilan edit Role
 
 | Tampilan   | URL/ Image                               | Ada  | Tidak |
 | ---------- | ---------------------------------------- | ---- | ----- |
-| Edit State | [![Tampilan Edit State](../images/sop-online/integrasi-dan-pengujian/25-tampilan-edit-state.png)](../images/sop-online/integrasi-dan-pengujian/25-tampilan-edit-state.png) |      |       |
+| Edit Role | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_role-edit.png)](../images/sop-online/pengembangan/20181029_sa_um_role-edit.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit state sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Transition List
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Edit Role sudah dapat diakses oleh *user* atau tidak dengan mengklik nama role pada kolom name. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+###### 2.2.2.3 Tampilan Permissions
+
+| Tampilan      | URL/ Image                               | Ada  | Tidak |
+| ------------- | ---------------------------------------- | ---- | ----- |
+| Permissions | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_perm.png)](../images/sop-online/pengembangan/20181029_sa_um_perm.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Permissions sudah dapat diakses oleh *user* atau tidak dengan cara mengklik submodul Permissions pada modul Users Managament. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+* Tampilan Tambah Permission
+
+| Tampilan   | URL/ Image                               | Ada  | Tidak |
+| ---------- | ---------------------------------------- | ---- | ----- |
+| Form Create Permissions | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_perm-create.png)](../images/sop-online/pengembangan/20181029_sa_um_perm-create.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Create Permission sudah dapat diakses oleh *user* atau tidak dengan mengklik Tambah Data pada bagian atas tabel permission. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+* Tampilan Edit Permission
 
 | Tampilan        | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| Transition List | [![Tampilan Transition List](../images/sop-online/integrasi-dan-pengujian/07-tampilan-transition.png)](../images/sop-online/integrasi-dan-pengujian/07-tampilan-transition.png) |      |       |
+| Edit Permissions | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_perm-edit.png)](../images/sop-online/pengembangan/20181029_sa_um_perm-edit.png)|      |       |
 
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan transition sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Edit Permissions sudah dapat diakses oleh *user* atau tidak dengan mengklik nama permission pada kolom name pada tabel permissions. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Add New Transition
+##### 2.2.3 Master
+
+###### 2.2.3.1 OPD
 
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
-| Add New Transition | [![Tampilan Add New Transition](../images/sop-online/integrasi-dan-pengujian/26-tampilan-add-transition.png)](../images/sop-online/integrasi-dan-pengujian/26-tampilan-add-transition.png) |      |       |
+| OPD | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_master_opd.png)](../images/sop-online/pengembangan/20181029_sa_master_opd.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new transition sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan OPD sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul OPD pada modul Master. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Edit Transition
+* Tampilan Detail OPD
 
 | Tampilan        | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| Edit Transition | [![Tampilan Edit Transition](../images/sop-online/integrasi-dan-pengujian/27-tampilan-edit-transition.png)](../images/sop-online/integrasi-dan-pengujian/27-tampilan-edit-transition.png) |      |       |
+| Detail OPD | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_master_opd-detail.png)](../images/sop-online/pengembangan/20181029_sa_master_opd-detail.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit transition sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail OPD sudah dapat diakses oleh *user* atau tidak dengan mengklik tombol action pada kolom action pada tabel OPD. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Workflow Guard
-##### Tampilan Add New Guard
+##### 2.2.4 Tampilan SOP Apps
+
+###### 2.2.4.1 SOP
 
 
 | Tampilan      | URL/ Image                               | Ada  | Tidak |
 | ------------- | ---------------------------------------- | ---- | ----- |
-| Add New Guard | [![Tampilan Add New Guard](../images/sop-online/integrasi-dan-pengujian/28-tampilan-add-guard.png)](../images/sop-online/integrasi-dan-pengujian/28-tampilan-add-guard.png) |      |       |
+| SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_master_opd-detail.png)](../images/sop-online/pengembangan/20181029_sa_master_opd-detail.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new guard sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul SOP pada modul SOP Apps. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Edit Guard
+* Tampilan Tambah Data
 
 | Konten     | URL/ Image                               | Ada  | Tidak |
 | ---------- | ---------------------------------------- | ---- | ----- |
-| Edit Guard | [![Tampilan Edit Guard](../images/sop-online/integrasi-dan-pengujian/29-tampilan-edit-guard.png)](../images/sop-online/integrasi-dan-pengujian/29-tampilan-edit-guard.png) |      |       |
+| Form Create SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_create-detail.png)](../images/sop-online/pengembangan/20181029_sa_sopa_create-detail.png)
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit guard sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_create_wf.png)](../images/sop-online/pengembangan/20181029_sa_sopa_create_wf.png)
 
-##### Tampilan Workflow Attachment
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_create_doc.png)](../images/sop-online/pengembangan/20181029_sa_sopa_create_doc.png)|      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Create SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik tombol Tambah Data pada bagian atas tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+* Tampilan Edit SOP
 
 | Tampilan            | URL/ Image                               | Ada  | Tidak |
 | ------------------- | ---------------------------------------- | ---- | ----- |
-| Workflow Attachment | [![Tampilan Workflow Attachment](../images/sop-online/integrasi-dan-pengujian/09-tampilan-workflow-attachment.png)](../images/sop-online/integrasi-dan-pengujian/09-tampilan-workflow-attachment.png) |      |       |
+| Edit SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-detail.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-detail.png)
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan workflow attachment sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-wf.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-wf.png)
 
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-doc.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-doc.png)
 
-##### Tampilan Add New Attachment
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_sopa_edit-tl.png)](../images/sop-online/pengembangan/20181029_sa_sopa_edit-tl.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Edit SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik edit pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+##### 2.2.5 Tampilan Review & Approve
+
+###### 2.2.5.1 Tampilan KASI
 
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
-| Add New Attachment | [![Tampilan Add New Attachment](../images/sop-online/integrasi-dan-pengujian/30-tampilan-add-attachment.png)](../images/sop-online/integrasi-dan-pengujian/30-tampilan-add-attachment.png) |      |       |
+| KASI | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi.png)](../images/sop-online/pengembangan/20181030_rna_kasi.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new attachment sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan KASI sudah dapat diakses oleh *user* atau tidak submodul KASI pada modul Review & Approve. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Edit Attachment
+* Tampilan Detail SOP
 
-| Subkonten         | URL/ Image                               | Ada  | Tidak |
-| ----------------- | ---------------------------------------- | ---- | ----- |
-| Edit Attachment | [![Tampilan Edit Attachment](../images/sop-online/integrasi-dan-pengujian/31-tampilan-edit-attachment.png)](../images/sop-online/integrasi-dan-pengujian/31-tampilan-edit-attachment.png) |      |       |
+| Subkonten       | URL/ Image                               | Ada  | Tidak |
+| --------------- | ---------------------------------------- | ---- | ----- |
+| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_detail-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_detail-2.png)
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Edit attachment sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_wf-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi-wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi-wf-2.png)
 
-##### Tampilan Workflow Content
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_doc-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_doc-2.png)
+
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_kasi_tl-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kasi_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_kasi_tl-2.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+###### 2.2.5.2 Tampilan KABID
 
 
 | Tampilan         | URL/ Image                               | Ada  | Tidak |
 | ---------------- | ---------------------------------------- | ---- | ----- |
-| Workflow Content | [![Tampilan Workflow Content](../images/sop-online/integrasi-dan-pengujian/10-tampilan-workflow-content.png)](../images/sop-online/integrasi-dan-pengujian/10-tampilan-workflow-content.png) |      |       |
+| KABID | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid.png)](../images/sop-online/pengembangan/20181030_rna_kabid.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan workflow content sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan KABID sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul KABID pada modul Review & Approve. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Add New Content
-
-##### Konten Transition List
+* Tampilan Detail SOP
 
 | Konten          | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| Add New Content | [![Tampilan Add New Content](../images/sop-online/integrasi-dan-pengujian/32-tampilan-add-content.png)](../images/sop-online/integrasi-dan-pengujian/32-tampilan-add-content.png) |      |       |
+| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_detail-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_detail-2.png)
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new content sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_wf-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_wf-2.png)
 
-##### Tampilan Workflow History
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_doc-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_doc-2.png)
+
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kabid_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-2.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+###### 2.2.5.3 Tampilan KADIS
 
 | Tampilan         | URL/ Image                               | Ada  | Tidak |
 | ---------------- | ---------------------------------------- | ---- | ----- |
-| Workflow History | [![Tampilan Workflow History](../images/sop-online/integrasi-dan-pengujian/11-tampilan-workflow-history.png)](../images/sop-online/integrasi-dan-pengujian/11-tampilan-workflow-history.png) |      |       |
+| KADIS | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis.png)](../images/sop-online/pengembangan/20181030_rna_kadis.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan workflow history sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan KADIS sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul KADIS pada modul Review & Approve. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan User
-
-| Tampilan | URL/ Image                               | Ada  | Tidak |
-| -------- | ---------------------------------------- | ---- | ----- |
-| User     | [![Tampilan User](../images/sop-online/integrasi-dan-pengujian/12-tampilan-user.png)](../images/sop-online/integrasi-dan-pengujian/12-tampilan-user.png) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan user sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan Add User
+* Tampilan Detail SOP
 
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
-| Add User | [![Tampilan Add User](../images/sop-online/integrasi-dan-pengujian/34-tampilan-add-user.png)](../images/sop-online/integrasi-dan-pengujian/34-tampilan-add-user.png) |      |       |
+| Detail SOP     | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add user sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_kadis_wf-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)
 
-##### Tampilan Edit User
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_kadis_doc-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)
+
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_kabid_tl-2.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+###### 2.2.5.4 Tampilan Gubernur
+
+| Tampilan | URL/ Image                               | Ada  | Tidak |
+| -------- | ---------------------------------------- | ---- | ----- |
+| Gubernur | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub.png)](../images/sop-online/pengembangan/20181030_rna_gub.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Gubernur sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul Gubernur pada modul Review & Approve. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+* Tampilan Detail SOP
 
 | Tampilan  | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
-| Edit User | [![Tampilan Edit User](../images/sop-online/integrasi-dan-pengujian/35-tampilan-edit-user.png)](../images/sop-online/integrasi-dan-pengujian/35-tampilan-edit-user.png) |      |       |
+| Detail SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_detail-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_detail-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_detail-2.png)
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit user sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_wf-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_wf-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_wf-2.png)
 
-##### Tampilan Permission
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_doc-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_doc-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)](../images/sop-online/pengembangan/20181030_rna_kadis_doc-2.png)
+
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_tl-1.png)](../images/sop-online/pengembangan/20181030_rna_gub_tl-1.png)
+[![dashboard-home-awal](../images/sop-online/pengembangan/20181030_rna_gub_tl-2.png)](../images/sop-online/pengembangan/20181030_rna_gub_tl-2.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Detail SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik menu detail pada kolom action tabel SOP. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+##### 2.2.6 Publikasi
+
+###### 2.2.6.1 Dashboard
 
 | Tampilan   | URL/ Image                               | Ada  | Tidak |
 | ---------- | ---------------------------------------- | ---- | ----- |
-| Permission | [![Tampilan Permission](../images/sop-online/integrasi-dan-pengujian/13-tampilan-permission.png)](../images/sop-online/integrasi-dan-pengujian/13-tampilan-permission.png) |      |       |
+| Dashboard | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_pub_das.png)](../images/sop-online/pengembangan/20181030_pub_das.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan permission sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Dashboard sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul Dashboard pada modul Publikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Add New Permission
+###### 2.2.6.2 Tampilan SOP (Semua OPD)
 
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
-| Add New Permission | [![Tampilan Add New Permission](../images/sop-online/integrasi-dan-pengujian/36-tampilan-add-permission.png)](../images/sop-online/integrasi-dan-pengujian/36-tampilan-add-permission.png) |      |       |
+| SOP (Semua OPD) | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_pub_sop.png)](../images/sop-online/pengembangan/20181030_pub_sop.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan add new permission sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan SOP (Semua OPD) sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul SOP (Semua OPD) pada modul Publikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan View Permission
-
-| Tampilan        | URL/ Image                               | Ada  | Tidak |
-| --------------- | ---------------------------------------- | ---- | ----- |
-| View Permission | [![Tampilan View Permission](../images/sop-online/integrasi-dan-pengujian/37-tampilan-view-permission.png)](../images/sop-online/integrasi-dan-pengujian/37-tampilan-view-permission.png) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan view permission sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan Edit Permission
+###### 2.2.6.3 Tampilan Info Grafis
 
 | Tampilan        | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
-| Edit Permission | [![Tampilan Edit Permission](../images/sop-online/integrasi-dan-pengujian/38-tampilan-edit-permission.png)](../images/sop-online/integrasi-dan-pengujian/38-tampilan-edit-permission.png) |      |       |
+| Info Grafis | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_pub_graf.png)](../images/sop-online/pengembangan/20181030_pub_graf.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit permission sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Info Grafis sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul Info Grafis pada modul Publikasi. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
-##### Tampilan Role
+##### 2.2.7 Laporan
+
+###### 2.2.7.1 Tampilan Laporan SOP
+
+| Tampilan        | URL/ Image                               | Ada  | Tidak |
+| --------------- | ---------------------------------------- | ---- | ----- |
+| Laporan SOP | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_lap_lap-sop.png)](../images/sop-online/pengembangan/20181030_lap_lap-sop.png) |      |       |
+
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Laporan SOP sudah dapat diakses oleh *user* atau tidak dengan mengklik submodul Laporan SOP pada modul Laporan. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+
+* Tampilan hasil Cetak
 
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
-| Role     | [![Tampilan Role](../images/sop-online/integrasi-dan-pengujian/14-tampilan-role.png)](../images/sop-online/integrasi-dan-pengujian/14-tampilan-role.png) |      |       |
+| Hasil Cetak     | [![dashboard-home-awal](../images/sop-online/pengembangan/20181030_hasil-cetak.png)](../images/sop-online/pengembangan/20181030_hasil-cetak.png) |      |       |
 
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan role sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan New Role
-
-| Tampilan | URL/ Image                               | Ada  | Tidak |
-| -------- | ---------------------------------------- | ---- | ----- |
-| New Role | [![Tampilan New Role](../images/sop-online/integrasi-dan-pengujian/39-tampilan-new-role.png)](../images/sop-online/integrasi-dan-pengujian/39-tampilan-new-role.png) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan new role sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan View Role
-
-| Tampilan  | URL/ Image                               | Ada  | Tidak |
-| --------- | ---------------------------------------- | ---- | ----- |
-| View Role | [![Tampilan View Role](../images/sop-online/integrasi-dan-pengujian/40-tampilan-view-role.png)](../images/sop-online/integrasi-dan-pengujian/40-tampilan-view-role.png) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan view role sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan Edit Role
-
-| Tampilan  | URL/ Image                               | Ada  | Tidak |
-| --------- | ---------------------------------------- | ---- | ----- |
-| Edit Role | [![Tampilan Edit Role](../images/sop-online/integrasi-dan-pengujian/41-tampilan-edit-role.png)](../images/sop-online/integrasi-dan-pengujian/41-tampilan-edit-role.png) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan edit role sudah dapat diakses oleh *user* atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
-
-##### Tampilan Laporan Workflow
-
-| Tampilan         | URL/ Image                               | Ada  | Tidak |
-| ---------------- | ---------------------------------------- | ---- | ----- |
-| Laporan Workflow | [![Tampilan Laporan](../images/sop-online/integrasi-dan-pengujian/15-tampilan-laporan.png)](../images/sop-online/integrasi-dan-pengujian/15-tampilan-laporan.png) |      |       |
-
-Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan laporan workflow sudah dapat diakses oleh *user* atau tidak. jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan Cetak Laporan sudah dapat diakses oleh *user* atau tidak dengan mengklik tombol cetak apakah akan menampilkan Cetak Laporan atau tidak. Jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
