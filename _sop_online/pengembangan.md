@@ -105,7 +105,7 @@ Pada halaman ini user dapat mengedit user dengan mengganti data user sesuai deng
 
 [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_roles.png)](../images/sop-online/pengembangan/20181029_sa_um_roles.png)
 
-Pada halaman Roles ini user dapat melihat tabel yang berisikan data role-role yang telah terinput kedalam aplikasi, pada submodul ini user dapat melakukan pencarian data role pada kolom pencarian yang berada diatas tabel role, menambahkan data role denga mengklik Tambah Data pada bagian atas tabel role, memberikan permission kepada role yang diinginkan dengan mengklik set permission pada kolom set permission di tabel role dan merubah data role dengan mengklik nama role pada kolom name.
+Pada halaman Roles ini user dapat melihat tabel yang berisikan data role-role yang telah terinput kedalam aplikasi, pada submodul ini user dapat melakukan pencarian data role pada kolom pencarian yang berada diatas tabel role, menambahkan data role dengan mengklik Tambah Data pada bagian atas tabel role, memberikan permission kepada role yang diinginkan dengan mengklik set permission pada kolom set permission di tabel role dan merubah data role dengan mengklik nama role pada kolom name.
 
 ###### 2.2.2.1 Tambah Data
 
@@ -130,7 +130,7 @@ Pada halaman ini user dapat mengedit role dengan mengganti data role sesuai deng
 
 [![dashboard-home-awal](../images/sop-online/pengembangan/20181029_sa_um_perm.png)](../images/sop-online/pengembangan/20181029_sa_um_perm.png)
 
-Pada halaman Permissions ini user dapat melihat data-data permission yang telah terinput kedalam aplikasi dalam bentuk tabel, pada submodul ini user juga dapat melakukan pencarian data permission dengan mengetik permission yang akan dicari, menambah data dengan mengklik Tambah Data pada baian atas tabel permission dan meribah data permission dengan mengklik nama permission pada kolom name pada tabel permissions.
+Pada halaman Permissions ini user dapat melihat data-data permission yang telah terinput kedalam aplikasi dalam bentuk tabel, pada submodul ini user juga dapat melakukan pencarian data permission dengan mengetik permission yang akan dicari, menambah data dengan mengklik Tambah Data pada bagian atas tabel permission dan merubah data permission dengan mengklik nama permission pada kolom name pada tabel permissions.
 
 ###### 2.2.3.1 Tambah Data
 
