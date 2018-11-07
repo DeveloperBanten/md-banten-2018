@@ -1,4 +1,45 @@
-website,
+---
+layout: item
+title: "Desain dan Perancangan"
+date: 2018-05-16 16:25:06 +0700
+toc: true
+comments: true
+cat: Dashboard Pimpinan
+---
+
+## ABSTRAK
+
+Sistem Dashboard merupakan suatu sistem berbasis komputer yang dapat membantu suatu pemerintahan untuk meningkatkan kinerja dalam pengambilan keputusan dan memecahkan masalah yang umumnya berada di dalam wilayah dengan dimensi yang beragam. Sistem informasi sekarang sudah banyak tersedia di berbagai pemerintahan bertujuan untuk mewujudkan visi dan misi pemerintahan. Dewasa ini perkembangan teknologi komputer sangatlah pesat. Dengan menggunakan aplikasi komputer akan didapat informasi mengenai suatu tampilan objek yang ditampilkan lebih hidup dan menarik. Adanya kemajuan teknologi ini memungkinkan Sistem aplikasi Dashboard dapat memberikan jalan yang terbaik dan lebih menarik untuk masyarakat. dengan adanya Sistem aplikasi Dashboard Pemerintahan Provinsi Banten Berbasis Web mampu memberikan keputusan terbaik dalam melakukan pemantauan dalam laporan.
+
+## DAFTAR ISI
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
+## 1. PENDAHULUAN
+
+### 1.1 Latar Belakang
+Pembangunan Sistem informasi / aplikasi / website saat ini yang berlangsung di lingkungan Pemerintah Provinsi Banten seakan – akan berjalan sendiri – sendiri.
+Meskipun sudah ada Peraturan Gubernur No. 35 Tahun 2008 dan Peraturan Gubernur No. 80, belum menjadikan panduan dalam mengembangkan sistem informasi / aplikasi tersebut.
+Agar unsur pimpinan pada tiap tiap tingkatan dapat mengetahui aktifitas kegiatan di lingkungan masing – masing, maka diperlukan adanya suatu fasilitas yang dapat memberikan informasi secara cepat sesuai dengan sistem informasi / aplikasi yang digunakan.
+Mengingat banyaknya sistem informasi / aplikasi yang dipergunakan di lingkungan Pemerintah Provinsi Banten, maka dipandang perlu adanya yang mengumpulkan data / informasi untuk pimpinan tersebut pada suatu sistem informasi terpusat agar unsur
+pimpinan tidak perlu berpindah – pindah aplikasi.
+Perkembangan dunia komputer yang semakin kompleks mendorong setiap individu atau kelompok mau tidak mau harus menerapkannya dalam segala aktivitas. Disadari atau tidak setiap sistem yang ada seakan kurang lengkap ketika masih menggunakan model ataupun pengelolaan secara manual, disamping sangat banyak energi dan sumber daya yang akan terbuang, baik dari segi finansial yang tentunya menjadikan biaya lebih tinggi, maupun dari segi waktu yang akan memakan waktu lebih banyak.
+Dengan demikian, ukuran perkembangan Pemerintahan banyak diukur dari penerapan teknologi informasi yang digunakan dan bukan dari skala ukuran lain seperti besarnya gedung Pemerintahan yang dimiliki. Kebutuhan akan teknologi informasi sangat berhubungan dengan peran Pemerintahan sebagai kekuatan untuk kemajuan suatu daerahnya.
+Sistem informasi diatas terbatas pada unsur pimpinan yang mana hanya dapat diakses dengan identifikasi / otentikasi.
+
+### 1.2 Maksud dan Tujuan
+#### a) Maksud
+Maksud dari kegiatan ini adalah untuk melakukan kegiatan pengembangan Sistem Informasi Dashboard Pimpinan.
+#### b) Tujuan
+Tujuan dari kegiatan ini adalah agar tersedianya Sistem Informasi Dashboard Pimpinan dan untuk mempermudah pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah).
+### 1.3 Ruang Lingkup Pekerjaan
+Ruang lingkup pekerjaan ini adalah pengembangan sistem informasi ini dilakukan di Dinas Komunikasi Informasi Statistika dan Persandian Provinsi Banten, adapun hasil dari kegiatan ini untuk dapat digunakan pada instansi dilingkungan Pemerintah Provinsi Banten.
+### 1.4 Ruang Lingkup Sistem Informasi / Aplikasi
+a) Menyediakan situs bagi seluruh Organisasi Perangkat Daerah yang ada dilingkungan Pemerintah Provinsi Banten untuk menyimpan Prosedur Operasional Baku yang berlaku dilingkungannya secara digital,
+b) Menyediakan proses pengaduan pengadaan / pengembangan sistem informasi / aplikasi / website secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemeeritah Provinsi Banten.
+### 1.5 Keluaran yang diinginkan
+a) Tersedianya sistem informasi dashboard bagi sistem informasi / aplikasi / website,
+b) Tersedianya situs Portal Pemerintah Provinsi Banten bagi sistem informasi / aplikasi / website,
 c) Tersedianya dokumen API yang digunakan.
 ### 1.6 Waktu dan Jadwal Pelaksanaan dan Lokasi Kegiatan
 a) Waktu pelaksanaan kegiatan : 3 bulan sejak dikeluarkan SPK sampai dengan pemakaian,
