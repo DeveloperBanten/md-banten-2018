@@ -14,11 +14,17 @@ cat: Dashboard Pimpinan
 ## Implementasi Dashboard Pimpinan
 Implementasi aplikasi Dashboard Pimpinan merupakan hasil perancangan dan desain dari apliksi Dashboard Pimpinan yang telah dibuat. Didalam implementasi aplikasi ini nantinya akan dijelaskan langkah-langkah penggunaan dari tipa-tiap menu yang ada pada aplikasi Dashboard Pimpinan yang sudah terintegrasi tersebut.
 
-Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard-01.dev.bantenprov.go.id kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman depan Dashboard Pimpinan seperti gambar dibawah ini.
+Untuk memulai akses terhadap web aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard-01.dev.bantenprov.go.id kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman depan Dashboard Pimpinan seperti gambar dibawah ini.
 
 ### 1. Halaman Depan Dashboard Pimpinan
 [![tampilan-Halaman-depan](../images/dashboard-pimpinan/implementasi/halaman-awal-0.png)](../images/dashboard-pimpinan/implementasi/halaman-awal-0.png)
 Gambar 1. Halaman Depan Dashboard Pimpinan
+
+Sedangkan untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Dapat mendowlonad dan install aplikasi Android Jawara Dashboard di Google Playstore https://play.google.com/store/apps/details?id=com.banten.pimpinan. Setelah itu muncul tampilan halaman depan Dashboard Pimpinan seperti gambar dibawah ini.
+
+[![tampilan_awal_android](../images/dashboard-pimpinan/implementasi/tampilan_awal_android.jpg)](../images/dashboard-pimpinan/implementasi/tampilan_awal_android.jpg)
+
+Gambar 2. Halaman Depan Aplikasi Android Dashboard Pimpinan
 
 ### 2. Tampilan Login
 Untuk masuk kedalam aplikasi maka admin perlu untuk  login kedalam aplikasi Dashboard Pimpinan dengan mengklik LOGIN seperti gambar dibawah ini:
@@ -26,266 +32,235 @@ Untuk masuk kedalam aplikasi maka admin perlu untuk  login kedalam aplikasi Dash
 
 Sehingga akan menampilkan tampilan seperti dibawah ini:
 [![tampilan-login-admin](../images/dashboard-pimpinan/implementasi/tampilan-login-admin-1.png)](../images/dashboard-pimpinan/implementasi/tampilan-login-admin-1.png)
-Gambar 2. Tampilan Login
+Gambar 3. Tampilan Login di Web
 
-Masukkan User Id dan Password, Setelah di isi lengkap dan benar, klik button **LOGIN** atau tekan tombol **Enter** pada keyboard. Sehingga akan menampilkan halaman utama sebagai berikut.
+[![tampilan-login-admin-android](../images/dashboard-pimpinan/implementasi/tampilan-login-admin-android.jpg)](../images/dashboard-pimpinan/implementasi/tampilan-login-admin-android.jpg)
 
-### 3. Tampilan Awal
+Gambar 4. Tampilan Login di Android
+
+Masukkan Email dan Password, Setelah di isi lengkap dan benar, klik button **Masuk** atau tekan tombol **Enter** pada keyboard. Sehingga akan menampilkan halaman utama sebagai berikut.
+
+### 3. Tampilan Awal (Menu Dashboard)
 [![dashboard-home-awal](../images/dashboard-pimpinan/implementasi/dashboard-home-awal.png)](../images/dashboard-pimpinan/implementasi/dashboard-home-awal.png)
-Gambar 3. Tampilan Awal
+Gambar 5. Tampilan Awal Web
 
-###  4. Menu Home
-Halaman muka (home) Dashboard Pimpinan Menampilkan 4 grafik:
+[![dashboard-home-awal_android](../images/dashboard-pimpinan/implementasi/dashboard-home-awal_android.jpg)](../images/dashboard-pimpinan/implementasi/dashboard-home-awal_android.jpg)
 
-- *Dashboard Kepegawaian*
-- *Dashboard Kependudukan*
-- *Dashboard Kesehatan*
-- *Dashboard Kependidikan*
-- *Dashboard Epormas*
+Gambar 6. Tampilan Awal Aplikasi Android
 
-Seperti ditunjukan pada gambar berikut ini:
 
-### 5. Tampilam Halaman Utama (Home)
-[![dashboard-home-awal](../images/dashboard-pimpinan/implementasi/dashboard-home-awal.png)](../images/dashboard-pimpinan/implementasi/dashboard-home-awal.png)
-Gambar 4. Tampilan Halaman Utama
 
-### 6. Dashboard
+### 4. Menu Dashboard
 Konten Dashboard untuk melihat dashboard apa saja yang sudah terintegrasi dengan Dashboard Pimpinan, Berikut ini adalah Dashboard-Dashboard yang sudah terintegrasi dengan Dashboard Pimpinan :
 
-#### 6.1 Dashboard kepegawaian
-Didalam menu dashboard ada beberapa cakupan diantaranya *Kepegawaian* (yang didalamnya mencakup Jumlah Pegawai, Kenaikan Pangkat Pegawai Otomatis, Pegawai yang Akan Pensiun, Usia ASN, Pegawai Esselon dan Pangkat Pegawai), Kesehatan, .dengan mengklik tombol kepegawaian sistem aplikasi akan menampilkan seperti ditujukan pada gambar dibawah ini:
+#### 4.1 Data Kepegawaian
+Didalam menu dashboard ada beberapa cakupan diantaranya *Data Kepegawaian* (yang didalamnya mencakup Total Pegawai, Pegawai Aktif, Pegawai Pensiun, Pindah/Keluar, Dan Pegawai Meninggal Dunia). Seperti yang ditunjukan pada gambar dibawah ini:
 
-##### 6.1.1 Prosentase dan Grafik Jumlah Pegawai
-[![view-more-detail-jumlah-pegawai](../images/dashboard-pimpinan/implementasi/view-more-detail-jumlah-pegawai.png)](../images/dashboard-pimpinan/implementasi/view-more-detail-jumlah-pegawai.png)
-Gambar 5. Tampilan Prosentase dan Grafik Jumlah pegawai
+##### 4.1.1 Prosentase dan Grafik Data Kepegawaian
+[![data-jumlah-kepegawaian](../images/dashboard-pimpinan/implementasi/data-jumlah-kepegawaian.png)](../images/dashboard-pimpinan/implementasi/data-jumlah-kepegawaian.png)
+Gambar 7. Tampilan Prosentase dan Grafik Data Kepegawaian di Web
 
-Pada *page* ini *user* dapat melihat data Jumlah Pegawai dalam bentuk prosentase dan grafik
+[![data-jumlah-kepegawaian-android](../images/dashboard-pimpinan/implementasi/data-jumlah-kepegawaian-android.jpg)](../images/dashboard-pimpinan/implementasi/data-jumlah-kepegawaian-android.jpg)
 
-##### 6.1.2 Prosentase dan Grafik Kenaikan Pangkat Pegawai Otomatis
-[![view-more-detail-kenaikan-pangkat-pegawai-otomatis](../images/dashboard-pimpinan/implementasi/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)](../images/dashboard-pimpinan/implementasi/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)
-Gambar 6. Tampilan Prosentase dan Grafik  Kenaikan Pangkat Pegawai Otomatis
+Gambar 8. Tampilan Prosentase dan Grafik Data Kepegawaian di Android
 
-Pada *page* ini *user* dapat melihat data Kenaikan Pangkat Pegawai Otomatis dalam bentuk prosentase dan grafik
+Pada *page* ini *user* dapat melihat data Total Pegawai, Pegawai Aktif, Pegawai Pensiun, Pindah/Keluar, dan Meninggal Dunia dalam bentuk prosentase dan grafik
 
-##### 6.1.3 Prosentase dan Grafik Pensiun Pegawai
-[![view-more-detail-pensiun-pegawai](../images/dashboard-pimpinan/implementasi/view-more-detail-pensiun-pegawai.png)](../images/dashboard-pimpinan/implementasi/view-more-detail-pensiun-pegawai.png)
-Gambar 7. Tampilan Prosentase dan Grafik Pensin Pegawai
+#### 4.2 Fasilitas Kesehatan
 
-Pada *page* ini *user* dapat melihat data Pegawai yang Akan Pensiun dalam bentuk prosentase dan grafik
+##### 4.2.1 Prosentase dan Grafik Jumlah Fasilitas Kesehatan
+[![data-jumlah-faskes](../images/dashboard-pimpinan/implementasi/data-jumlah-faskes.png)](../images/dashboard-pimpinan/implementasi/data-jumlah-faskes.png)
+Gambar 9. Tampilan Prosentase dan Grafik Jumlah Fasilitas Kesehatan di Web
 
-##### 6.1.4 Prosentase dan Grafik Usia ASN
-[![Usia aparatur sipil negara](../images/dashboard-pimpinan/implementasi/uat-kepegawaian-usia-asn.png)](../images/dashboard-pimpinan/implementasi/uat-kepegawaian-usia-asn.png)
-Gambar 8. Tampilan Prosentase dan Grafik Usia ASN
 
-Pada *page* ini *user* dapat melihat data Usia Aparatur Sipil Negara (ASN) dalam bentuk prosentase dan grafik
 
-##### 6.1.5 Prosentase dan Grafik Jumlah Pegawai Esselon
-[![jumlah pegawai esselon](../images/dashboard-pimpinan/implementasi/uat-kepegawaian-pegawai-esselon.png)](../images/dashboard-pimpinan/implementasi/uat-kepegawaian-pegawai-esselon.png)
-Gambar 9. Tampilan Prosentase dan Grafik Jumlah Pegawai Esselon
+[![data-jumlah-faskes-android](../images/dashboard-pimpinan/implementasi/data-jumlah-faskes-android.jpg)](../images/dashboard-pimpinan/implementasi/data-jumlah-faskes-android.jpg)
 
-Pada *page* ini *user* dapat melihat data Jumlah Pegawai Esselon dalam bentuk prosentase dan grafik
+Gambar 10. Tampilan Prosentase dan Grafik Jumlah Fasilitas Kesehatan di Android
 
-##### 6.1.6 Prosentase dan Grafik Pangkat Pegawai
-[![jumlah pangkat pegawai](../images/dashboard-pimpinan/implementasi/uat-kepegawaian-pangkat-pegawai.png)](../images/dashboard-pimpinan/implementasi/uat-kepegawaian-pangkat-pegawai.png)
-Gambar 10. Tampilan Prosentase dan Grafik Pangkat Pegawai
+Pada *page* ini *user* dapat melihat data Jumlah Fasilitas Kesehatan dalam bentuk prosentase dan grafik
 
-Pada *page* ini *user* dapat melihat data Pangkat Pegawai dalam bentuk prosentase dan grafik
+### 5.  Menu OPD
+Menu OPD adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. 
 
-#### 6.2  Dashboard Kependudukan
+#### 5.1. List OPD
+[![list-data-opd](../images/dashboard-pimpinan/implementasi/list-data-opd.png)](../images/dashboard-pimpinan/implementasi/list-data-opd.png)
+Gambar 11. Tampilan List OPD
 
-##### 6.2.1 Prosentase dan Grafik Jumlah Penduduk
-[![Jumlah penduduk](../images/dashboard-pimpinan/implementasi/uat-kependudukan-penduduk.png)](../images/dashboard-pimpinan/implementasi/uat-kependudukan-penduduk.png)
-Gambar 11 . Tampilan Prosentase dan Grafik Jumlah Penduduk
+Didalam *page* terdapat *list OPD* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *OPD* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini.
 
-Pada *page* ini *user* dapat melihat data Jumlah Penduduk dalam bentuk prosentase dan grafik
+##### 5.1.1. Form Tabel Tambah Data OPD
+[![add-data-opd](../images/dashboard-pimpinan/implementasi/add-data-opd.png)](../images/dashboard-pimpinan/implementasi/add-data-opd.png)
+Gambar 12. Tampilan Form Tabel Tambah Data OPD
 
-#### 6.3 Dashboard Kesehatan
+Didalam *page* ini terdapat *form Tambah Data OPD* yang berisi *field* untuk menambahkan *Data OPD* pada aplikasi. Jika sudah mengisi *field* admin dapat memilih tombol "submit" untuk menambahkan *OPD*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *user*.
 
-##### 6.3.1 Prosentase dan Grafik Jumlah Tim Medis
-[![Jumlah tim medis](../images/dashboard-pimpinan/implementasi/uat-kesehatan-tim-medis.png)](../images/dashboard-pimpinan/implementasi/uat-kesehatan-tim-medis.png)
-Gambar 12. Tampilan Prosentase dan Grafik Jumlah Tim Medis
+### 6. Menu User
 
-Pada *page* ini *user* dapat melihat data Jumlah Tim Medis dalam bentuk prosentase dan grafik
+Menu User adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data.
 
-#### 6.4 Dashboard Kependidikan
+#### 6.1 Users List
 
-##### 6.4.1 Prosentase dan Grafik Jumlah Tenaga Pendidik
-[![Jumlah pendidik](../images/dashboard-pimpinan/implementasi/uat-kependidikan-pendidik.png)](../images/dashboard-pimpinan/implementasi/uat-kependidikan-pendidik.png)
-Gambar 13. Tampilan Prosentase dan Grafik Jumlah Tenaga Pendidik
-
-Pada *page* ini *user* dapat melihat data Jumlah Tenaga Pendidik dalam bentuk prosentase dan grafik
-
-#### 6.5 Dashboard Epormas
-
-#### 6.5.1 Prosentase dan Grafik Jumlah Laporan
-[![Jumlah laporan](../images/dashboard-pimpinan/implementasi/uat-epormas-jumlah-laporan.png)](../images/dashboard-pimpinan/implementasi/uat-epormas-jumlah-laporan.png)
-Gambar 14. Tampilan Prosentase dan Grafik Jumlah Laporan
-
-Pada *page* ini *user* dapat melihat data Jumlah Laporan dalam bentuk prosentase dan grafik
-
-### 7. Data Kepegawaian
-Menu Data Kepegawaian adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kepegawaian ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
-
-#### 7.1 List Pegawai
-[![dashboard-list-tabel-pegawai](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-pegawai.png)](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-pegawai.png)
-Gambar 15. tampilan List Pegawai
-
-Didalam *page* terdapat *list Pegawai* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Pegawai* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 7.1.1 Form Tabel Tambah Jumlah Pegawai
-[![form-tabel-tambah-pegawai-admin](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-pegawai-admin.png)](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-pegawai-admin.png)
-Gambar 16. Tampilan Form Tabel Tambah Jumlah Pegawai
-
-Didalam *page* ini terdapat *form input pegawai* yang berisi beberapa *field* untuk menambahkan *pegawai* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *pegawai*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *pegawai*.
-
-#### 7.2 List Pegawai KPO
-[![dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png)](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png)
-Gambar 17. Tampilan List Pegawai KPO
-
-Didalam *page* terdapat *list Pegawai KPO* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Pegawai KPO* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 7.2.1 Form Tabel Tambah Pegawai KPO (Kenaikan Pangkat Otomatis)
-[![form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin.png)](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin.png)
-Gambar 18. Tampilan Form Tabel Tambah Pegawai KPO
-
-Didalam *page* ini terdapat *form input pegawai KPO* yang berisi beberapa *field* untuk menambahkan *pegawai KPO* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *pegawai KPO*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *pegawai KPO*.
-
-#### 7.3 List Pegawai Esselon
-[![dashboard-list-tabel-jumlah-pegawai-esselon](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-jumlah-pegawai-esselon.png)](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-jumlah-pegawai-esselon.png)
-Gambar 19. Tampilan List Pegawai Esselon
-
-Didalam *page* terdapat *list Pegawai Esselon* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Pegawai Esselon* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 7.3.1 Form Tabel Tambah Jumlah Pegawai Esselon
-[![form-tabel-tambah-jumlah-pegawai-esselon-admin](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-jumlah-pegawai-esselon-admin.png)](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-jumlah-pegawai-esselon-admin.png)
-Gambar 20. Tampilan Form Tabel Tambah Jumlah Pegawai Esselon
-
-Didalam *page* ini terdapat *form input pegawai esselon* yang berisi beberapa *field* untuk menambahkan *pegawai esselon* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *pegawai esselon*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *pegawai esselon*.
-
-#### 7.4 List Usia ASN (Aparatur Sipil Negara)
-[![dashboard-list-tabel-jumlah-usia-asn](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-jumlah-usia-asn.png)](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-jumlah-usia-asn.png)
-Gambar 21. Tampilan List usia ASN
-
-Didalam *page* terdapat *list usia ASN* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *usia ASN* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 7.4.1 Form Tabel Tambah Usia ASN (Aparatur Sipil Negara)
-[![form-tabel-tambah-Jumlah-usia-asn-admin](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-Jumlah-usia-asn-admin.png)](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-Jumlah-usia-asn-admin.png)
-Gambar 22. Tampilan Form Tabel Tambah Usia ASN
-
-Didalam *page* ini terdapat *form input usia ASN* yang berisi beberapa *field* untuk menambahkan *usia ASN* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *usia ASN*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *usia ASN*.
-
-#### 7.5 List Pegawai Yang Akan Pensiun
-[![dashboard-list-tabel-pegawai-yang-akan-pensiun](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-pegawai-yang-akan-pensiun.png)](../images/dashboard-pimpinan/implementasi/dashboard-list-tabel-pegawai-yang-akan-pensiun.png)
-Gambar 23. Tampilan List Pegawai yang akan Pensiun
-
-Didalam *page* terdapat *list pegawai yang akan pensiun* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *pegawai yang akan pensiun* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 7.5.1 Form Tabel Tambah Jumlah Pegawai Yang Akan Pensiun
-[![form-tabel-tambah-pegawai-yang-akan-pensiun-admin](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png)](../images/dashboard-pimpinan/implementasi/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png)
-Gambar 24. Tampilan Form Tabel Tambah Jumlah Pegawai yang akan Pensiun
-
-Didalam *page* ini terdapat *form input pegawai yang akan pensiun* yang berisi beberapa *field* untuk menambahkan *pegawai yang akan pensiun* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *pegawai yang akn pensiun*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *pegawai yang akan pensiun*.
-
-### 8. Data Kependudukan
-Menu Data Kependudukan adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kependudukan ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
-
-#### 8.1 List Penduduk
-[![list Penduduk](../images/dashboard-pimpinan/implementasi/list-penduduk.png)](../images/dashboard-pimpinan/implementasi/list-penduduk.png)
-Gambar 25. Tampilan List Penduduk
-
-Didalam *page* terdapat *list penduduk* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *penduduk* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 8.1.1 Form Tabel Tambah Penduduk
-[![Tambah Penduduk](../images/dashboard-pimpinan/implementasi/tambah-penduduk.png)](../images/dashboard-pimpinan/implementasi/tambah-penduduk.png)
-Gambar 26. Tampilan Form Tabel Tambah Penduduk
-
-Didalam *page* ini terdapat *form input penduduk* yang berisi beberapa *field* untuk menambahkan *penduduk* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *penduduk*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *penduduk*.
-
-### 9. Data Kesehatan
-Menu Data Kesehatan adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kependudukan ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
-
-#### 9.1 List Tim Medis
-[![List Tim Medis](../images/dashboard-pimpinan/implementasi/list-tim-medis.png)](../images/dashboard-pimpinan/implementasi/list-tim-medis.png)
-Gambar 27. Tampilan List Tim Medis
-
-Didalam *page* terdapat *list tim medis* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *tim medis* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 9.1.1 Form Tabel Tambah Tim Medis
-[![Tambah Tim Medis](../images/dashboard-pimpinan/implementasi/tambah-penduduk.png)](../images/dashboard-pimpinan/implementasi/tambah-penduduk.png)
-Gambar 28. Tampilan Form Tabel Tambah Tim Medis
-
-Didalam *page* ini terdapat *form input tim medis* yang berisi beberapa *field* untuk menambahkan *tim medis* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *tim medis*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *tim medis*.
-
-### 10. Data Kependidikan
-Menu Data Kependidikan adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kependudukan ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
-
-#### 10.1 List Pendidik
-[![List Pendidik](../images/dashboard-pimpinan/implementasi/list-pendidik.png)](../images/dashboard-pimpinan/implementasi/list-pendidik.png)
-Gambar 29. Tampilan List Pendidik
-
-Didalam *page* terdapat *list pendidik* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *pendidik* dengan cara mengklik tombol "Create", *user* juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 10.1.1 Form Tabel Tambah Pendidik
-[![Tambah Pendidik](../images/dashboard-pimpinan/implementasi/tambah-pendidik.png)](../images/dashboard-pimpinan/implementasi/tambah-pendidik.png)
-Gambar 30. Tampilan List Form Tabel Tambah Pendidik
-
-Didalam *page* ini terdapat *form input pendidik* yang berisi beberapa *field* untuk menambahkan *pendidik* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *pendidik*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *pendidik*.
-
-### 11. Data Epormas
-Menu Data Epormas adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kependudukan ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
-
-#### 11.1 List Laporan
-[![List Laporan](../images/dashboard-pimpinan/implementasi/list-laporan.png)](../images/dashboard-pimpinan/implementasi/list-laporan.png)
-Gambar 31. Tampilan List Laporan
-
-Didalam *page* terdapat *list laporan* masyarakat yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *laporan* dengan cara mengklik tombol "Create", admin juga dapat mengedit dan mendelete data pada *page* ini.
-
-##### 11.1.1 Form Tabel Tambah Laporan
-[![Tambah Laporan](../images/dashboard-pimpinan/implementasi/tambah-laporan.png)](../images/dashboard-pimpinan/implementasi/tambah-laporan.png)
-Gambar 32. Tampilan Form Tabel Tambah Laporan
-
-Didalam *page* ini terdapat *form laporan* yang berisi beberapa *field* untuk menambahkan *laporan* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *pendidik*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *laporan*.
-
-### 12.  Menu Users
-Menu Users adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Didalam menu users ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
-
-#### 12.1. Users List
 [![users-list-tabel-admin](../images/dashboard-pimpinan/implementasi/users-list-tabel-admin.png)](../images/dashboard-pimpinan/implementasi/users-list-tabel-admin.png)
-Gambar 33. Tampilan User List
 
-Didalam *page* terdapat *list user* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *role user* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini.
+Gambar 13. Tampilan Users List
 
-##### 12.1.1. Form Tabel Add New User
+Didalam *page* terdapat *Users List* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *user* baru dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 6.1.1 Form Tabel Tambah Data Users
+
 [![add-user-admin](../images/dashboard-pimpinan/implementasi/add-user-admin.png)](../images/dashboard-pimpinan/implementasi/add-user-admin.png)
-Gambar 34. Tampilan Form Tabel Add New User
 
-Didalam *page* ini terdapat *form input new user* yang berisi beberapa *field* untuk menambahkan *New User* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *user*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *user*.
+Gambar 14. Tampilan Form Tabel Tambah Data Users
 
-#### 12.2. List Role User
+Didalam *page* ini terdapat *form tambah data users* yang berisi beberapa *field* untuk menambahkan *User* Baru pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *user*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *user*.
+
+### 7. Menu Settings
+
+Menu Settings adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Didalam menu settings ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
+
+#### 7.1 Roles
+
 [![role-users-list-admin](../images/dashboard-pimpinan/implementasi/role-users-list-admin.png)](../images/dashboard-pimpinan/implementasi/role-users-list-admin.png)
-Gambar 35. Tampilan List Role User
 
-Didalam *page* terdapat *list role user* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *role user* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini.
+Gambar 15. Tampilan Form List Data Role User
 
-##### 12.2.1.  Form Tabel Add Role User
-[![form-tabel-add-role-user-admin](../images/dashboard-pimpinan/implementasi/form-tabel-add-role-user-admin.png)](../images/dashboard-pimpinan/implementasi/form-tabel-add-role-user-admin.png)
-Gambar 36. Tampilan Form Tabel Add Role User
+Didalam *page* terdapat *roles* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *role user* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
 
-Didalam *page* ini terdapat *form input role user* yang berisi beberapa *field* untuk menambahkan *New Role User* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *role user*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *role user*.
+##### 7.1.1 Form Tabel Tambah Data Roles
 
-#### 12.3. List Permissions
-[![permissions-list-admin](../images/dashboard-pimpinan/implementasi/permissions-list-admin.png)](../images/dashboard-pimpinan/implementasi/permissions-list-admin.png)
-Gambar 37. Tampilan List Permissions
+[![add-role-user-admin](../images/dashboard-pimpinan/implementasi/add-role-user-admin.png)](../images/dashboard-pimpinan/implementasi/add-role-user-admin.png)
 
-Didalam *page* terdapat *list permissions* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *permissions* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilakan gambar di bawah ini.
+Gambar 16. Tampilan Form Tabel Tambah Data Roles User
 
-##### 12.3.1 Form Tabel Add Permissions
-[![form-tabel-add-permission-admin](../images/dashboard-pimpinan/implementasi/form-tabel-add-permission-admin.png)](../images/dashboard-pimpinan/implementasi/form-tabel-add-permission-admin.png)
-Gambar 38. Tampilan Form Tabel Add Permissions
+Didalam *page* ini terdapat *form Tambah Data Roles* yang berisi beberapa *field* untuk menambahkan *Role User* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Role*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *role*.
 
-Didalam *page* ini terdapat *form input new permissions* yang berisi beberapa *field* untuk menambahkan *New Permissions* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *permissions*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *permissions*.
+#### 7.2 Permission
 
-#### 12.4  Profile User
-[![user-profile-admin-edit](../images/dashboard-pimpinan/implementasi/user-profile-admin-edit.jpeg)](../images/dashboard-pimpinan/implementasi/user-profile-admin-edit.jpeg)
-Gambar 39. Tampilan Profile User
-Didalam *page* ini admin dapat melihat *list user* yang terdaftar diaplikasi Dashboard Pimpinan.
+[![list-data-permissions](../images/dashboard-pimpinan/implementasi/list-data-permissions.png)](../images/dashboard-pimpinan/implementasi/list-data-permissions.png)
+
+Gambar 17. Tampilan Form List Data Permissions
+
+Didalam *page* terdapat *permissions* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *permission* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 7.2.1 Form Tabel Tambah Data Permissions
+
+[![add-data-permissions](../images/dashboard-pimpinan/implementasi/add-data-permissions.png)](../images/dashboard-pimpinan/implementasi/add-data-permissions.png)
+
+Gambar 18. Tampilan Form Tabel Tambah Data Permissions
+
+Didalam *page* ini terdapat *form Tambah Permissions* yang berisi beberapa *field* untuk menambahkan *Permissions* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Permissions*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *permissions*.
+
+#### 7.3 Menu Permission
+
+[![list-data-menu-permissions](../images/dashboard-pimpinan/implementasi/list-data-menu-permissions.png)](../images/dashboard-pimpinan/implementasi/list-data-menu-permissions.png)
+
+Gambar 19. Tampilan Form List Data Menu Permissions
+
+Didalam *page* terdapat *menu permissions* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *menu permission* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 7.3.1 Form Tabel Tambah Menu Permission
+
+[![add-menu-permission](../images/dashboard-pimpinan/implementasi/add-menu-permission.png)](../images/dashboard-pimpinan/implementasi/add-menu-permission.png)
+
+Gambar 20. Tampilan Form Tabel Tambah Menu Permission
+
+Didalam *page* ini terdapat *form Tambah Menu Permission* yang berisi beberapa *field* untuk menambahkan *Menu Permission* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Menu Permission*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *menu permission*.
+
+### 8. Menu Api Manager
+
+Menu Api Manager adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Didalam menu settings ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
+
+#### 8.1 Host Keys
+
+[![list_host_keys](../images/dashboard-pimpinan/implementasi/list_host_keys.png)](../images/dashboard-pimpinan/implementasi/list_host_keys.png)
+
+Gambar 21. Tampilan Form List Host Keys
+
+Didalam *page* terdapat *table Host Keys* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Host Keys* dengan cara mengklik tombol "Request", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 8.1.1 Form Tabel Request Host Keys
+
+[![add_host_keys](../images/dashboard-pimpinan/implementasi/add_host_keys.png)](../images/dashboard-pimpinan/implementasi/add_host_keys.png)
+
+Gambar 22. Tampilan Form Tabel Tambah Request Host Keys
+
+Didalam *page* ini terdapat *form Tambah Menu Permission* yang berisi beberapa *field* untuk menambahkan *Host Keys* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Host Keys*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *host keys*.
+
+#### 8.2 Client Keys
+
+[![list_client_keys](../images/dashboard-pimpinan/implementasi/list_client_keys.png)](../images/dashboard-pimpinan/implementasi/list_client_keys.png)
+
+Gambar 23. Tampilan Form Tabel List Api Client
+
+Didalam *page* terdapat *table List Client Keys* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Client Keys* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 8.1.1 Form Tabel Tambah Api Client
+
+[![add_client_keys](../images/dashboard-pimpinan/implementasi/add_client_keys.png)](../images/dashboard-pimpinan/implementasi/add_client_keys.png)
+
+Gambar 24. Tampilan Form Tabel Tambah Api Client
+
+Didalam *page* ini terdapat *form Tambah Api Client* yang berisi beberapa *field* untuk menambahkan *Client Keys* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Client Keys*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *client keys*.
+
+### 9. Data Workflow
+
+Menu Data Workflow adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, Mengaktifkan/Non aktif Workflow, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Didalam menu settings ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
+
+#### 9.1 Workflow
+
+[![list_workflow](../images/dashboard-pimpinan/implementasi/list_workflow.png)](../images/dashboard-pimpinan/implementasi/list_workflow.png)
+
+Gambar 25. Tampilan Form List Workflow
+
+Didalam *page* terdapat *table Workflow* yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Workflow* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 9.1.1 Form Tabel Tambah Workflow
+
+[![add_workflow](../images/dashboard-pimpinan/implementasi/add_workflow.png)](../images/dashboard-pimpinan/implementasi/add_workflow.png)
+
+
+
+Gambar 26. Tampilan Form Tabel Tambah Workflow
+
+Didalam *page* ini terdapat *form Tambah Workflow* yang berisi beberapa *field* untuk menambahkan *Workflow* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Workflow*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *workflow*.
+
+#### 9.2 Workflow State
+
+[![list_workflow_state](../images/dashboard-pimpinan/implementasi/list_workflow_state.png)](../images/dashboard-pimpinan/implementasi/list_workflow_state.png)
+
+Gambar 27. Tampilan Form List Workflow State
+
+Didalam *page* terdapat *table Workflow State*  yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Workflow State* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 9.2.1 Form Tabel Tambah Workflow State
+
+[![add_workflow_state](../images/dashboard-pimpinan/implementasi/add_workflow_state.png)](../images/dashboard-pimpinan/implementasi/add_workflow_state.png)
+
+Gambar 28. Tampilan Form Tabel Tambah Workflow State
+
+Didalam *page* ini terdapat *form Tambah Workflow State* yang berisi beberapa *field* untuk menambahkan *Workflow State* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Workflow State*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *workflow state*.
+
+#### 9.3 Workflow Transition
+
+[![list_workflow_transition](../images/dashboard-pimpinan/implementasi/list_workflow_transition.png)](../images/dashboard-pimpinan/implementasi/list_workflow_transition.png)
+
+Gambar 29. Tampilan Form List Workflow Transition
+
+Didalam *page* terdapat *table Workflow Transition*  yang terdapat pada aplikasi Dashboard Pimpinan. Didalam *page* ini admin dapat menambahkan *Workflow Transition* dengan cara mengklik tombol "Create", dan sistem aplikasi akan menampilkan gambar di bawah ini:
+
+##### 9.3.1 Form Tabel Tambah Workflow Transition
+
+[![add_workflow_transition](../images/dashboard-pimpinan/implementasi/add_workflow_transition.png)](../images/dashboard-pimpinan/implementasi/add_workflow_transition.png)
+
+Gambar 30. Form Tabel Tambah Workflow Transition
+
+Didalam *page* ini terdapat *form Tambah Workflow Transition* yang berisi beberapa *field* untuk menambahkan *Workflow Transition* pada aplikasi. Jika sudah mengisi semua *field* admin dapat memilih tombol "submit" untuk menambahkan *Workflow Transition*, tombol "reset" untuk membersihkan *field* menjadi kosong lagi atau tombol "back" untuk membatalkan menambahkan *workflow transition*.
+
+#### 9.2 Workflow History
+
+[![list_workflow_history](../images/dashboard-pimpinan/implementasi/list_workflow_history.png)](../images/dashboard-pimpinan/implementasi/list_workflow_history.png)
+
+Gambar 31. Tampilan Form List Workflow History
+
+Didalam *page* terdapat *table Workflow History*  yang terdapat pada aplikasi Dashboard Pimpinan. 
