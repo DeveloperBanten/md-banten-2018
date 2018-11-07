@@ -7,12 +7,11 @@ toc: true
 cat: Dashboard Pimpinan
 ---
 
-[![cover-manual-book-dashboard-pimpinan](../images/dashboard-pimpinan/pengembangan/cover-manual-book-dashboard-pimpinan.jpeg)](../images/dashboard-pimpinan/pengembangan/cover-manual-book-dashboard-pimpinan.jpeg)
-
-Document manual book ini dibuat untuk memberikan panduan penggunaan aplikasi **Dashboard Pimpinan**, dimana Aplikasi Dashboar Pimpinan adalah aplikasi antar muka untuk monitoring dan mempermudah Pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah). Perangkat lunak yang di butuhkan untuk pengujian aplikasi adalah Ubuntu 17 sebagai Operasi System. Sumber daya manusia untuk menggunakan aplikasi ini terutama dari Pimpinan dinas Provinsi Banten, penggunaan aplikasi ini terlebih dahulu diberikan pengenalan dan pelatihan yang cukup untuk menggunakan aplikasi *Dashboard Pimpinan*.
+Document pengembangan ini dibuat untuk memberikan panduan mengenai pengimplemntasian dari desain dan perancangan aplikasi hingga pembentukan aplikasi yang masih berada didalam local host/server developer. Dokumen ini dapat dijadikan bahan pertimbangan untuk melakukan perbaikan baik dari segi sistem maupun tampilan sesuai dengan yang diinginkan oleh pihak SKPD terkait.
 
 ### 1. Struktur Menu
 Adapun struktur menu pada aplikasi Dashboard Pimpinan adalah sebagai berikut:
+
 #### 1.1 Menu Dashboard
 - **Data Pegawai**
 - **Fasilitas Kesehatan**
