@@ -13,26 +13,34 @@ Document manual book ini dibuat untuk memberikan panduan penggunaan aplikasi **D
 
 ### 1. Struktur Menu
 Adapun struktur menu pada aplikasi Dashboard Pimpinan adalah sebagai berikut:
-#### 1.1 Menu Home
+#### 1.1 Menu Dashboard
+- **Data Pegawai**
+- **Fasilitas Kesehatan**
 
-#### 1.2 Menu Dashboard
-- **Kepegawaian**
+#### 1.2 Menu Data OPD
+- **Data OPD**
 
-#### 1.3 Menu Data Kepegawaian
-- **List Pegawai**
-- **List Pegawai KPO**
-- **List Pegawai Esselon**
-- **List Usia ASN**
-- **List Pegawai Yang Akan Pensiun**
+#### 1.3 **Menu User**
 
-#### 1.4 **Menu Users**
-- **Users List**
-- **Role User**
-- **User Profile**
-- **Permissions**
-- **Add new user**
+#### **1.4 Menu Settings**
 
-Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard.bangunbanten.com kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.
+- **Roles**
+- **Permission**
+- **Menu Permission**
+
+#### **1.5 Menu Api Manager**
+
+- **Host Keys**
+- **Client Keys**
+
+#### **1.6 Menu Data Workflow**
+
+- **Workflow**
+- **Workflow State**
+- **Workflow Transition**
+- **Workflow History**
+
+Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozilla Firefox atau yang lainnya) dengan menulis alamat url http://103.83.198.5/#/login (***Dev Version***) kemudian tekan Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.
 
 [![tampilan-login-admin](../images/dashboard-pimpinan/pengembangan/tampilan-login-admin.png)](../images/dashboard-pimpinan/pengembangan/tampilan-login-admin.png)
 
@@ -43,117 +51,137 @@ Masukkan User Id dan Password, Setelah di isi lengkap dan benar, klik button **S
 [![dashboard-home-awal](../images/dashboard-pimpinan/pengembangan/dashboard-home-awal.png)](../images/dashboard-pimpinan/pengembangan/dashboard-home-awal.png)
 **Gambar 2. Tampilan Awal**
 
-#### 2. Menu Home
-Halaman muka (home) Dashboard Pimpinan Menampilkan 4 grafik:
+#### 2. Menu Dashboard
+Halaman muka Dashboard Pimpinan Menampilkan 2 grafik:
 
 - *Dashboard Kepegawaian*
-- *Dashboard Kependudukan*
-- *Dashboard Kesehatan*
-- *Dashboard Kependidikan*
+- *Dashboard Fasilitas Kesehatan*
 
 Seperti ditunjukan pada gambar berikut ini:
 
 [![dashboard-home-awal](../images/dashboard-pimpinan/pengembangan/dashboard-home-awal.png)](../images/dashboard-pimpinan/pengembangan/dashboard-home-awal.png)
 **Gambar 3. Halaman Utama (Home)**
 
-Untuk menampilkan detail dashboard Kepegawaian dengan mengklik tombol **view more**.
-maka akan ditampilkan detail grafik Jumlah pegawai, Kenaikan pangkat pegawai otomatis, Pegawai yang akan pensiun.Seperti ditunjukan pada gambar berikut ini:
+Untuk menampilkan detail dashboard Data Pegawai dengan mengklik tombol **Data Pegawai**.
+maka akan ditampilkan jumlah Pegawai Aktif, Pegawai Pensiun, Pindah/Keluar, dan Meninggal Dunia. Seperti ditunjukan pada gambar berikut ini:
 
-[![dashboard-view-more-detail-jumlah-pegawai](../images/dashboard-pimpinan/pengembangan/view-more-detail-jumlah-pegawai.png)](../images/dashboard-pimpinan/pengembangan/view-more-detail-jumlah-pegawai.png)
-**Gambar 4. Detail Prosentase dan Grafik Jumlah Pegawai**
+[![grafik-data-kepegawaian](../images/dashboard-pimpinan/pengembangan/grafik-data-kepegawaian.png)](../images/dashboard-pimpinan/pengembangan/grafik-data-kepegawaian.png)
+**Gambar 4. Detail Prosentase dan Grafik Data Kepegawaian**
 
-[![dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis](../images/dashboard-pimpinan/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)](../images/dashboard-pimpinan/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)
-**Gambar 5. Detail Prosentase dan Grafik Kenaikan Pangkat Pegawai Otomatis**
+Untuk menampilkan detail dashboard Fasilitas Kesehatan dengan mengklik tombol **Fasilitas Kesehatan**. maka akan ditampilkan data Jumlah Rumah Sakit, Dokter, Bed Rawat Inap, dan Ambulance. Seperti ditunjukan pada gambar berikut ini:
 
-[![dashboard-view-more-detail-pensiun-pegawai](../images/dashboard-pimpinan/pengembangan/view-more-detail-pensiun-pegawai.png)](../images/dashboard-pimpinan/pengembangan/view-more-detail-pensiun-pegawai.png)
-**Gambar 6. Detail Prosentase dan Grafik Pensiun Pegawai**
+[![grafik-fasilitas-kesehatan](../images/dashboard-pimpinan/pengembangan/grafik-fasilitas-kesehatan.png)](../images/dashboard-pimpinan/pengembangan/grafik-fasilitas-kesehatan.png)
 
-#### 3. Menu Dashboard
-Didalam menu dashboard ada beberapa cakupan diantaranya *Kepegawaian* (yang didalamnya mencakup jumlah pegawai, kenaikan pangkat pegawai otomatis, pegawai yang akan pensiun).dengan mengklik tombol kepegawaian sistem aplikasi akan menampilkan seperti ditujukan pada gambar dibawah ini:
+**Gambar 5. Detail Prosentase dan Grafik Fasilitas Kesehatan**
 
-[![view-more-detail-jumlah-pegawai](../images/dashboard-pimpinan/pengembangan/view-more-detail-jumlah-pegawai.png)](../images/dashboard-pimpinan/pengembangan/view-more-detail-jumlah-pegawai.png)
-**Gambar 7.Prosentase dan Grafik Jumlah Pegawai**
+#### 3. Menu OPD
+Menu OPD adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data OPD yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Seperti yang ditunjukan pada gambar berikut ini:
 
-[![view-more-detail-kenaikan-pangkat-pegawai-otomatis](../images/dashboard-pimpinan/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)](../images/dashboard-pimpinan/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)
-**Gambar 8. Prosentase dan Grafik Kenaikan Pangkat Pegawai Otomatis**
+**Data OPD**
+[![data-opd-list](../images/dashboard-pimpinan/pengembangan/data-opd-list.png)](../images/dashboard-pimpinan/pengembangan/data-opd-list.png)
+**Gambar 6. List Data OPD**
 
-[![view-more-detail-pensiun-pegawai](../images/dashboard-pimpinan/pengembangan/view-more-detail-pensiun-pegawai.png)](../images/dashboard-pimpinan/pengembangan/view-more-detail-pensiun-pegawai.png)
-**Gambar 9. Prosentase dan Grafik Pensiun Pegawai**
+Klik tombol Create sistem aplikasi akan menampilakan gambar di bawah ini
 
-#### 4. Menu Data Kepegawaian
-Menu Data Kepegawaian adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kepegawaian ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
+[![add-data-opd](../images/dashboard-pimpinan/pengembangan/add-data-opd.png)](../images/dashboard-pimpinan/pengembangan/add-data-opd.png)
+**Gambar 7. Form Tabel Tambah Data OPD**
 
-**List Pegawai**
-[![dashboard-list-tabel-pegawai](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-pegawai.png)](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-pegawai.png)
-**Gambar 10. Data Jumlah Pegawai**
+#### **4. Menu User**
 
-[![form-tabel-tambah-pegawai-admin](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-pegawai-admin.png)](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-pegawai-admin.png)
-**Gambar 11. Form Tabel Tambah Jumlah Pegawai**
+Menu User adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Seperti pada gambar dibawah ini:
 
-**List Pegawai KPO**
-[![dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png)](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png)
-**Gambar 12. List Data Pegawai KPO**
+**User List**
 
-[![form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin.png)](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin)
-**Gambar 13. Form Tabel Tambah Pegawai KPO**
-
-**List Pegawai Esselon**
-[![dashboard-list-tabel-jumlah-pegawai-esselon](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-jumlah-pegawai-esselon.png)](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-jumlah-pegawai-esselon.png)
-**Gambar 14. List Data Jumlah Pegawai Esselon**
-
-[![form-tabel-tambah-jumlah-pegawai-esselon-admin](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-jumlah-pegawai-esselon-admin.png)](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-jumlah-pegawai-esselon-admin.png)
-**Gambar 15. Form Tabel Tambah Jumlah Pegawai Esselon**
-
-**List Usia ASN**
-[![dashboard-list-tabel-jumlah-usia-asn](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-jumlah-usia-asn.png)](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-jumlah-usia-asn.png)
-**Gambar 16. List Data Jumlah Usia ASN**
-
-[![form-tabel-tambah-Jumlah-usia-asn-admin](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-Jumlah-usia-asn-admin.png)](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-Jumlah-usia-asn-admin.png)
-**Gambar 17. Form Tabel Tambah Jumlah Usia ASN**
-
-**List Pegawai Yang Akan Pensiun**
-[![dashboard-list-tabel-pegawai-yang-akan-pensiun](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-pegawai-yang-akan-pensiun.png)](../images/dashboard-pimpinan/pengembangan/dashboard-list-tabel-pegawai-yang-akan-pensiun.png)
-**Gambar 18. List Data Jumlah Pegawai Yang Akan Pensiun**
-
-[![form-tabel-tambah-pegawai-yang-akan-pensiun-admin](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png)](../images/dashboard-pimpinan/pengembangan/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png)
-**Gambar 19. Form Tabel Tambah Jumlah Pegawai Yang Akan Pensiun**
-
-#### 5. Menu Users
-Menu Users adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Didalam menu users ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
-
-**Users List**
 [![users-list-tabel-admin](../images/dashboard-pimpinan/pengembangan/users-list-tabel-admin.png)](../images/dashboard-pimpinan/pengembangan/users-list-tabel-admin.png)
-**Gambar 20. List Tabel Admin**
+
+**Gambar 8. List Tabel Users**
 
 Klik tombol Create sistem aplikasi akan menampilakan gambar di bawah ini
 
 [![add-user-admin](../images/dashboard-pimpinan/pengembangan/add-user-admin.png)](../images/dashboard-pimpinan/pengembangan/add-user-admin.png)
-**Gambar 21. Form Tabel Add New User**
 
-**Role User**
+**Gambar 9. Form Tabel Add User**
+
+#### **5. Menu Settings**
+
+Menu Settings adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Didalam menu settings ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
+
+**Roles**
+
 [![role-users-list-admin](../images/dashboard-pimpinan/pengembangan/role-users-list-admin.png)](../images/dashboard-pimpinan/pengembangan/role-users-list-admin.png)
-**Gambar 22. List Lore User**
 
-Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini.
+**Gambar 10. List Role User**
 
-[![form-tabel-add-role-user-admin](../images/dashboard-pimpinan/pengembangan/form-tabel-add-role-user-admin.png)](../images/dashboard-pimpinan/pengembangan/form-tabel-add-role-user-admin.png)
-**Gambar 23. Form Tabel Add Role User**
+#### **6. Menu Api Manager**
 
-**Permissions**
-[![permissions-list-admin](../images/dashboard-pimpinan/pengembangan/permissions-list-admin.png)](../images/dashboard-pimpinan/pengembangan/permissions-list-admin.png)
-**Gambar 24. List Permissions**
+Menu Api Manager adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin untuk mengelola *request* API. Didalam menu Api Manager ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
 
-Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini.
+**Host Keys**
 
-[![form-tabel-add-permission-admin](../images/dashboard-pimpinan/pengembangan/form-tabel-add-permission-admin.png)](../images/dashboard-pimpinan/pengembangan/form-tabel-add-permission-admin.png)
-**Gambar 25. Form Tabel Add Permissions**
+[![list_host_keys](../images/dashboard-pimpinan/pengembangan/list_host_keys.png)](../images/dashboard-pimpinan/pengembangan/list_host_keys.png)
 
-**User Profile**
-[![user-profile-admin-edit](../images/dashboard-pimpinan/pengembangan/user-profile-admin-edit.jpeg)](../images/dashboard-pimpinan/pengembangan/user-profile-admin-edit.jpeg)
+**Gambar 11. List Host Keys**
 
-**Gambar 26. Profile User**
+Klik tombol Request, sistem aplikasi akan menampilkan gambar di bawah ini
 
-**Add New User**
-[![add-user-admin](../images/dashboard-pimpinan/pengembangan/add-user-admin.png)](../images/dashboard-pimpinan/pengembangan/add-user-admin.png)
-**Gambar 27. Form Tabel Add New User**
+[![add_host_keys](../images/dashboard-pimpinan/pengembangan/add_host_keys.png)](../images/dashboard-pimpinan/pengembangan/add_host_keys.png)
 
+**Gambar 12. Form Tabel Tambah Host Keys**
+
+**Client Keys**
+
+[![list_client_keys](../images/dashboard-pimpinan/pengembangan/list_client_keys.png)](../images/dashboard-pimpinan/pengembangan/list_client_keys.png)
+
+**Gambar 13. List Data Api Clients**
+
+Klik tombol Create, sistem aplikasi akan menampilkan gambar di bawah ini
+
+[![add_client_keys](../images/dashboard-pimpinan/pengembangan/add_client_keys.png)](../images/dashboard-pimpinan/pengembangan/add_client_keys.png)
+
+**Gambar 14. Form Tabel Tambah Api Client**
+
+#### **7. Menu Data Workflow**
+
+Menu Data Workflow adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin untuk melihat alur status API Request. Didalam menu Data Workflow terdapat beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
+
+**Workflow**
+
+[![list_data_workflow](../images/dashboard-pimpinan/pengembangan/list_data_workflow.png)](../images/dashboard-pimpinan/pengembangan/list_data_workflow.png)
+
+**Gambar 15. List Tabel Data Workflow**
+
+Klik tombol Create sistem aplikasi akan menampilakan gambar di bawah ini
+
+[![add_data_workflow](../images/dashboard-pimpinan/pengembangan/add_data_workflow.png)](../images/dashboard-pimpinan/pengembangan/add_data_workflow.png)
+
+**Gambar 16. Form Tabel  Tambah Workflow**
+
+**Workflow State**
+
+[![list_workflow_state](../images/dashboard-pimpinan/pengembangan/list_workflow_state.png)](../images/dashboard-pimpinan/pengembangan/list_workflow_state.png)
+
+**Gambar 17. List Tabel Data Workflow State**
+
+Klik tombol Create sistem aplikasi akan menampilakan gambar di bawah ini
+
+[![add_workflow_state](../images/dashboard-pimpinan/pengembangan/add_workflow_state.png)](../images/dashboard-pimpinan/pengembangan/add_workflow_state.png)
+
+**Gambar 18. Form Tabel Tambah Workflow State**
+
+**Workflow Transition**
+
+[![list_workflow_transition](../images/dashboard-pimpinan/pengembangan/list_workflow_transition.png)](../images/dashboard-pimpinan/pengembangan/list_workflow_transition.png)
+
+**Gambar 19. List Tabel Data Workflow Transition**
+
+Klik tombol Create sistem aplikasi akan menampilakan gambar di bawah ini
+
+[![add_workflow_transition](../images/dashboard-pimpinan/pengembangan/add_workflow_transition.png)](../images/dashboard-pimpinan/pengembangan/add_workflow_transition.png)
+
+**Gambar 20. Form Tabel Tambah Workflow Transition**
+
+**Workflow History**
+
+[![list_workflow_history](../images/dashboard-pimpinan/pengembangan/list_workflow_history.png)](../images/dashboard-pimpinan/pengembangan/list_workflow_history.png)
+
+**Gambar 21. List Tabel Data Workflow History**
